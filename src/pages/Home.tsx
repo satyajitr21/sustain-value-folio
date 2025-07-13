@@ -28,7 +28,7 @@ export default function Home() {
               
               <p className="text-xl text-academic-body mb-8 leading-relaxed">
                 Researching socially and environmentally sustainable value chains at IIM Bangalore. 
-                Bridging academic rigor with industry insights to drive meaningful change.
+                Hoping to contribute to — and occasionally nudge — the conversation between research and practice.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">

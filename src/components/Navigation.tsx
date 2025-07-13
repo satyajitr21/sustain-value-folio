@@ -5,7 +5,7 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu, X } from 'lucide-react';
 
 const navigationItems = [
-  { name: 'Home', href: '/' },
+  { name: 'About Satyajit', href: '/' },
   { name: 'Education', href: '/education' },
   { name: 'Research', href: '/research' },
   { name: 'Teaching', href: '/teaching' },
