@@ -162,15 +162,18 @@ export default function Home() {
               </h3>
               <div className="space-y-4">
                 <div className="border-l-4 border-primary pl-4">
-                  <h4 className="font-medium text-academic-subheading">Working Paper</h4>
+                  <h4 className="font-medium text-academic-subheading">Working Papers</h4>
                   <p className="text-academic-body text-sm mt-1">
-                    "Sustainable Value Chain Design: A Multi-Objective Optimization Approach"
+                    "Electric vs Flex-Fuel Vehicles –The Impact of Government Policies on Automaker's Choice Between Green Technologies"
+                  </p>
+                  <p className="text-academic-body text-sm mt-2">
+                    "Coordination Under Constraints to Match Scarce Supply with Demand in a Pro-social Supply Chain – The case of Deceased-donation Program in India"
                   </p>
                 </div>
                 <div className="border-l-4 border-accent pl-4">
                   <h4 className="font-medium text-academic-subheading">In Progress</h4>
                   <p className="text-academic-body text-sm mt-1">
-                    "Environmental Impact Assessment in Automotive Supply Chains"
+                    "Selling vs Leasing Commercial EVs: Managing Battery Uncertainty and Customer Behaviour"
                   </p>
                 </div>
               </div>
