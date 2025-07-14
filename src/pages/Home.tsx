@@ -78,7 +78,7 @@ export default function Home() {
                 </div>
                 <h3 className="font-semibold text-academic-heading mb-2">Research Focus</h3>
                 <p className="text-academic-body text-sm leading-relaxed">
-                  Sustainable value chains and operations management
+                  Socially and environmentally sustainable value chains
                 </p>
               </CardContent>
             </Card>
@@ -102,7 +102,7 @@ export default function Home() {
                 </div>
                 <h3 className="font-semibold text-academic-heading mb-2">Industry Experience</h3>
                 <p className="text-academic-body text-sm leading-relaxed">
-                  Daimler, Maruti Suzuki, Everest Group
+                  Everest Group, Maruti Suzuki, Daimler India
                 </p>
               </CardContent>
             </Card>
@@ -114,7 +114,7 @@ export default function Home() {
                 </div>
                 <h3 className="font-semibold text-academic-heading mb-2">Education</h3>
                 <p className="text-academic-body text-sm leading-relaxed">
-                  MBA (IIM Kozhikode), BTech (NIT Durgapur)
+                  MBA (IIM Kozhikode, 2020), B.Tech (NIT Durgapur, 2015)
                 </p>
               </CardContent>
             </Card>
