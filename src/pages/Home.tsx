@@ -66,8 +66,7 @@ export default function Home() {
               Academic Overview
             </h2>
             <p className="text-lg text-academic-body max-w-3xl mx-auto">
-              Combining rigorous academic research with practical industry experience 
-              to advance sustainable operations management.
+              Drawing from both academic training and industry exposure to address real-world challenges in sustainable operations.
             </p>
           </div>
 
