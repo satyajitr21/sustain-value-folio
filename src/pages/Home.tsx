@@ -131,23 +131,20 @@ export default function Home() {
                 Research Impact
               </h2>
               <p className="text-lg text-academic-body mb-6 leading-relaxed">
-                My research focuses on developing frameworks for sustainable value chains 
-                that balance environmental responsibility, social impact, and economic viability. 
-                Through rigorous academic inquiry and industry collaboration, I aim to contribute 
-                to both theoretical knowledge and practical solutions.
+                I explore how value chains can be reimagined to promote sustainability across environmental, social, and economic dimensions. By combining analytical modeling with field-based insights, my work seeks to inform both academic discourse and real-world decision-making in operations management.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                  <p className="text-academic-body">Sustainable supply chain design and optimization</p>
+                  <p className="text-academic-body">Designing and optimizing sustainable supply chains</p>
                 </div>
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                  <p className="text-academic-body">Environmental impact assessment in operations</p>
+                  <p className="text-academic-body">Assessing environmental consequences of operational decisions</p>
                 </div>
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                  <p className="text-academic-body">Social responsibility in value chain management</p>
+                  <p className="text-academic-body">Embedding social responsibility in value chain governance</p>
                 </div>
               </div>
               <div className="mt-8">

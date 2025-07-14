@@ -83,7 +83,8 @@ export default function Research() {
                   <div className="flex justify-between items-start">
                     <div className="flex-1">
                       <CardTitle className="text-xl font-serif text-academic-heading mb-2">
-                        Sustainable Value Chain Design: A Multi-Objective Optimization Approach
+                        Electric vs Flex-Fuel Vehicles –The Impact of Government Policies on Automaker's Choice
+                        Between Green Technologies
                       </CardTitle>
                       <div className="flex items-center gap-2 mb-3">
                         <Badge variant="default">Working Paper</Badge>
@@ -93,32 +94,15 @@ export default function Research() {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-academic-body leading-relaxed mb-4">
-                    This paper proposes a novel multi-objective optimization framework for designing 
-                    sustainable value chains that simultaneously consider environmental impact, social 
-                    responsibility, and economic performance. Using a case study from the automotive 
-                    industry, we demonstrate how organizations can achieve superior sustainability 
-                    outcomes without compromising profitability.
-                  </p>
-                  <div className="space-y-3">
-                    <div>
-                      <h4 className="font-semibold text-academic-subheading mb-2">Key Contributions</h4>
-                      <ul className="text-academic-body text-sm space-y-1 ml-4">
-                        <li>• Novel mathematical formulation for multi-objective value chain optimization</li>
-                        <li>• Empirical validation using real-world automotive supply chain data</li>
-                        <li>• Framework for balancing sustainability and profitability trade-offs</li>
-                      </ul>
-                    </div>
-                    <div className="flex gap-3 pt-3">
-                      <Button size="sm" variant="outline">
-                        <Download className="h-4 w-4 mr-2" />
-                        Download Draft
-                      </Button>
-                      <Button size="sm" variant="ghost">
-                        <ExternalLink className="h-4 w-4 mr-2" />
-                        View Abstract
-                      </Button>
-                    </div>
+                  <div className="flex gap-3 pt-3">
+                    <Button size="sm" variant="outline">
+                      <Download className="h-4 w-4 mr-2" />
+                      Download Draft
+                    </Button>
+                    <Button size="sm" variant="ghost">
+                      <ExternalLink className="h-4 w-4 mr-2" />
+                      View Abstract
+                    </Button>
                   </div>
                 </CardContent>
               </Card>
@@ -128,7 +112,8 @@ export default function Research() {
                   <div className="flex justify-between items-start">
                     <div className="flex-1">
                       <CardTitle className="text-xl font-serif text-academic-heading mb-2">
-                        Social Impact Assessment in Supply Chain Networks: A Stakeholder-Centric Approach
+                        Coordination Under Constraints to Match Scarce Supply with Demand in a Pro-social Supply
+                        Chain – The case of Deceased-donation Program in India
                       </CardTitle>
                       <div className="flex items-center gap-2 mb-3">
                         <Badge variant="default">Working Paper</Badge>
@@ -138,26 +123,11 @@ export default function Research() {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-academic-body leading-relaxed mb-4">
-                    Developing a comprehensive framework for assessing and optimizing social impact 
-                    across complex supply chain networks. This research introduces novel metrics 
-                    for measuring stakeholder welfare and proposes actionable strategies for 
-                    improving social outcomes in operations.
-                  </p>
-                  <div className="space-y-3">
-                    <div>
-                      <h4 className="font-semibold text-academic-subheading mb-2">Methodology</h4>
-                      <p className="text-academic-body text-sm">
-                        Mixed-methods approach combining stakeholder analysis, network theory, 
-                        and optimization modeling with field data from manufacturing supply chains.
-                      </p>
-                    </div>
-                    <div className="flex gap-3 pt-3">
-                      <Button size="sm" variant="outline">
-                        <Download className="h-4 w-4 mr-2" />
-                        Download Draft
-                      </Button>
-                    </div>
+                  <div className="flex gap-3 pt-3">
+                    <Button size="sm" variant="outline">
+                      <Download className="h-4 w-4 mr-2" />
+                      Download Draft
+                    </Button>
                   </div>
                 </CardContent>
               </Card>
@@ -167,7 +137,7 @@ export default function Research() {
               <Card className="shadow-academic-card">
                 <CardHeader>
                   <CardTitle className="text-xl font-serif text-academic-heading mb-2">
-                    Environmental Impact Assessment in Automotive Supply Chains
+                    Selling vs Leasing Commercial EVs: Managing Battery Uncertainty and Customer Behaviour
                   </CardTitle>
                   <div className="flex items-center gap-2 mb-3">
                     <Badge variant="secondary">
@@ -178,38 +148,8 @@ export default function Research() {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-academic-body leading-relaxed mb-4">
-                    Comprehensive analysis of environmental impacts across automotive supply chains, 
-                    developing new methodologies for life-cycle assessment and carbon footprint 
-                    optimization. Collaboration with industry partners provides real-world validation.
-                  </p>
                   <div className="text-academic-body text-sm">
                     <strong>Expected Completion:</strong> Q2 2024
-                  </div>
-                </CardContent>
-              </Card>
-
-              <Card className="shadow-academic-card">
-                <CardHeader>
-                  <CardTitle className="text-xl font-serif text-academic-heading mb-2">
-                    Circular Economy Models in Manufacturing Operations
-                  </CardTitle>
-                  <div className="flex items-center gap-2 mb-3">
-                    <Badge variant="secondary">
-                      <Clock className="h-3 w-3 mr-1" />
-                      In Progress
-                    </Badge>
-                    <Badge variant="outline">Literature Review</Badge>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-academic-body leading-relaxed mb-4">
-                    Exploring the implementation of circular economy principles in manufacturing 
-                    operations, with focus on waste reduction, resource efficiency, and closed-loop 
-                    supply chain design.
-                  </p>
-                  <div className="text-academic-body text-sm">
-                    <strong>Expected Completion:</strong> Q4 2024
                   </div>
                 </CardContent>
               </Card>
