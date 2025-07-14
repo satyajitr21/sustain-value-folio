@@ -46,17 +46,12 @@ export default function Home() {
             </div>
             
             <div className="flex justify-center lg:justify-end">
-              <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-2xl bg-gradient-primary shadow-academic-elegant overflow-hidden">
-                {/* Placeholder for professional photo - you can replace this */}
-                <div className="w-full h-full bg-gradient-to-br from-primary/20 to-primary/40 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-32 h-32 bg-primary/30 rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <Users className="h-16 w-16 text-primary" />
-                    </div>
-                    <p className="text-primary font-medium">Professional Photo</p>
-                    <p className="text-primary/80 text-sm mt-1">Upload your image here</p>
-                  </div>
-                </div>
+              <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-2xl shadow-academic-elegant overflow-hidden">
+                <img 
+                  src="/lovable-uploads/5e4eaac0-0486-4177-bd7c-054e4f3f368d.png" 
+                  alt="Satyajit - Doctoral Student" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
