@@ -18,13 +18,25 @@ export default function CV() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="font-medium">
-              <Download className="mr-2 h-5 w-5" />
-              Download Full CV (PDF)
+            <Button size="lg" className="font-medium" asChild>
+              <a 
+                href="https://drive.google.com/file/d/1TiXhA_Hr-py2zNY-zhvSCqVpsTpdaaoa/view?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Download className="mr-2 h-5 w-5" />
+                Download Full CV (PDF)
+              </a>
             </Button>
-            <Button variant="outline" size="lg">
-              <ExternalLink className="mr-2 h-5 w-5" />
-              View on Google Scholar
+            <Button variant="outline" size="lg" asChild>
+              <a 
+                href="https://scholar.google.com/citations?user=pZbuMNYAAAAJ&hl=en" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <ExternalLink className="mr-2 h-5 w-5" />
+                View on Google Scholar
+              </a>
             </Button>
           </div>
         </div>
@@ -313,9 +325,15 @@ export default function CV() {
             and complete work history, download my full CV.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg">
-              <Download className="mr-2 h-5 w-5" />
-              Download Full CV (PDF)
+            <Button size="lg" asChild>
+              <a 
+                href="https://drive.google.com/file/d/1TiXhA_Hr-py2zNY-zhvSCqVpsTpdaaoa/view?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Download className="mr-2 h-5 w-5" />
+                Download Full CV (PDF)
+              </a>
             </Button>
             <Button variant="outline" size="lg">
               <Calendar className="mr-2 h-5 w-5" />
