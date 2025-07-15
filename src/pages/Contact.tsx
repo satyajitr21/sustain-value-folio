@@ -45,7 +45,12 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-academic-subheading mb-1">Academic Email</h3>
-                    <p className="text-academic-body mb-2">your.email@iimb.ac.in</p>
+                    <a 
+                      href="mailto:satyajit.roy21@iimb.ac.in" 
+                      className="text-academic-body hover:text-primary transition-academic mb-2 block"
+                    >
+                      satyajit.roy21@iimb.ac.in
+                    </a>
                     <Badge variant="secondary">Primary Contact</Badge>
                   </div>
                 </div>
@@ -90,7 +95,7 @@ export default function Contact() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <a 
-                  href="https://linkedin.com/in/yourprofile" 
+                  href="https://www.linkedin.com/in/satyajit-roy/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center justify-between p-4 border border-border rounded-lg hover:bg-muted/30 transition-academic"
@@ -106,7 +111,7 @@ export default function Contact() {
                 </a>
 
                 <a 
-                  href="https://scholar.google.com/citations?user=yourprofile" 
+                  href="https://scholar.google.com/citations?user=pZbuMNYAAAAJ&hl=en" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center justify-between p-4 border border-border rounded-lg hover:bg-muted/30 transition-academic"

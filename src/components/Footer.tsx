@@ -65,14 +65,14 @@ export function Footer() {
             </h3>
             <div className="flex flex-col space-y-3">
               <a 
-                href="mailto:your.email@iimb.ac.in" 
+                href="mailto:satyajit.roy21@iimb.ac.in" 
                 className="flex items-center text-academic-body hover:text-primary transition-academic text-sm"
               >
                 <Mail className="h-4 w-4 mr-2" />
-                Academic Email
+                satyajit.roy21@iimb.ac.in
               </a>
               <a 
-                href="https://linkedin.com/in/yourprofile" 
+                href="https://www.linkedin.com/in/satyajit-roy/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center text-academic-body hover:text-primary transition-academic text-sm"
@@ -81,7 +81,7 @@ export function Footer() {
                 LinkedIn Profile
               </a>
               <a 
-                href="https://scholar.google.com/citations?user=yourprofile" 
+                href="https://scholar.google.com/citations?user=pZbuMNYAAAAJ&hl=en" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center text-academic-body hover:text-primary transition-academic text-sm"
