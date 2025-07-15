@@ -51,7 +51,7 @@ export default function Education() {
                     </div>
                     <div className="flex items-center">
                       <Calendar className="h-4 w-4 mr-2" />
-                      <span>2021 - Expected 2025</span>
+                      <span>2021 - Expected 2026</span>
                     </div>
                   </div>
                   
@@ -59,19 +59,26 @@ export default function Education() {
                     <div>
                       <h4 className="font-semibold text-academic-subheading mb-2">Research Focus</h4>
                       <p className="text-academic-body leading-relaxed">
-                        Socially and environmentally sustainable value chains with emphasis on 
-                        multi-objective optimization, supply chain design, and environmental impact assessment.
+                        Essays on socially and environmentally responsible value chains in developing economies – A policy perspective for India. 
+                        Research focus: Sustainable mobility, Healthcare operations, Cadaveric organ supply chain, Environmentally and socially responsible supply chain.
                       </p>
                     </div>
                     
                     <div>
                       <h4 className="font-semibold text-academic-subheading mb-2">Key Coursework</h4>
                       <div className="flex flex-wrap gap-2">
-                        <Badge variant="secondary">Advanced Operations Research</Badge>
-                        <Badge variant="secondary">Supply Chain Management</Badge>
-                        <Badge variant="secondary">Sustainability in Business</Badge>
-                        <Badge variant="secondary">Research Methodology</Badge>
-                        <Badge variant="secondary">Statistical Analysis</Badge>
+                        <Badge variant="secondary">Advanced Supply Chain Management</Badge>
+                        <Badge variant="secondary">Operations Management</Badge>
+                        <Badge variant="secondary">Inventory Control</Badge>
+                        <Badge variant="secondary">Empirical Research in Operations Management</Badge>
+                        <Badge variant="secondary">Revenue Management</Badge>
+                        <Badge variant="secondary">Linear Programming</Badge>
+                        <Badge variant="secondary">Non-linear Optimization</Badge>
+                        <Badge variant="secondary">Dynamic Programming</Badge>
+                        <Badge variant="secondary">Game Theory</Badge>
+                        <Badge variant="secondary">Stochastic Processes</Badge>
+                        <Badge variant="secondary">Statistical Inference</Badge>
+                        <Badge variant="secondary">Econometrics</Badge>
                       </div>
                     </div>
                   </div>
@@ -112,7 +119,7 @@ export default function Education() {
                     </div>
                     <div className="flex items-center">
                       <Calendar className="h-4 w-4 mr-2" />
-                      <span>2015 - 2017</span>
+                      <span>2018 - 2020</span>
                     </div>
                   </div>
                   
@@ -156,7 +163,7 @@ export default function Education() {
                         Bachelor of Technology (BTech)
                       </h2>
                       <h3 className="text-xl text-academic-subheading font-semibold mt-1">
-                        Engineering
+                        Mechanical Engineering
                       </h3>
                     </div>
                     <Badge variant="outline" className="self-start sm:self-center mt-2 sm:mt-0">
@@ -218,10 +225,10 @@ export default function Education() {
             <div>
               <h3 className="font-semibold text-academic-subheading mb-3">Academic Honors</h3>
               <ul className="text-academic-body space-y-2">
-                <li>• Research Excellence Fellowship, IIM Bangalore</li>
-                <li>• Academic Merit Scholarship, IIM Kozhikode</li>
-                <li>• National Merit Scholarship, NIT Durgapur</li>
-                <li>• Best Student Paper Award (Conference)</li>
+                <li>• Institute Gold Medal for highest CGPA, NIT Durgapur (2015)</li>
+                <li>• IIM Bangalore Doctoral Fellowship (2021-2026)</li>
+                <li>• Herbalife Sustainability PhD Fellowship Award (2024-25)</li>
+                <li>• IIM Kozhikode Merit Scholarship, Top 5% (2018-20)</li>
               </ul>
             </div>
           </div>

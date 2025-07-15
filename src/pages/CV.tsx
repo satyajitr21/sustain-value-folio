@@ -58,16 +58,19 @@ export default function CV() {
                     Doctoral Student, Production and Operations Management
                   </p>
                   <p className="text-academic-body">
-                    Indian Institute of Management Bangalore | 2021 - Present
+                    Indian Institute of Management Bangalore | 2021 - 2026 (Expected)
                   </p>
                 </div>
               </div>
               
               <div className="bg-muted/30 rounded-lg p-4">
-                <h3 className="font-semibold text-academic-subheading mb-2">Research Focus</h3>
+                <h3 className="font-semibold text-academic-subheading mb-2">Dissertation</h3>
+                <p className="text-academic-body leading-relaxed mb-4">
+                  Essays on socially and environmentally responsible value chains in developing economies – A policy perspective for India
+                </p>
+                <h4 className="font-semibold text-academic-subheading mb-2">Research Interests</h4>
                 <p className="text-academic-body leading-relaxed">
-                  Socially and environmentally sustainable value chains with emphasis on 
-                  multi-objective optimization, supply chain design, and environmental impact assessment.
+                  Sustainable mobility, Healthcare operations, Cadaveric organ supply chain, Environmentally and socially responsible supply chain
                 </p>
               </div>
             </CardContent>
@@ -93,9 +96,10 @@ export default function CV() {
                     <h3 className="font-semibold text-academic-subheading">
                       PhD, Production and Operations Management
                     </h3>
-                    <Badge variant="default">2021-2025</Badge>
+                    <Badge variant="default">2021-2026</Badge>
                   </div>
                   <p className="text-academic-body">Indian Institute of Management Bangalore</p>
+                  <p className="text-academic-body text-sm mt-1">GPA: 3.6/4 | Expected completion: 2026</p>
                 </div>
                 
                 <div className="border-l-4 border-accent pl-4">
@@ -103,19 +107,21 @@ export default function CV() {
                     <h3 className="font-semibold text-academic-subheading">
                       MBA, Operations and Supply Chain Management
                     </h3>
-                    <Badge variant="outline">2015-2017</Badge>
+                    <Badge variant="outline">2018-2020</Badge>
                   </div>
                   <p className="text-academic-body">Indian Institute of Management Kozhikode</p>
+                  <p className="text-academic-body text-sm mt-1">GPA: 3.75/4.33 | Rank: Top 10</p>
                 </div>
                 
                 <div className="border-l-4 border-secondary pl-4">
                   <div className="flex justify-between items-start mb-1">
                     <h3 className="font-semibold text-academic-subheading">
-                      BTech, Engineering
+                      BTech, Mechanical Engineering
                     </h3>
                     <Badge variant="outline">2011-2015</Badge>
                   </div>
                   <p className="text-academic-body">National Institute of Technology Durgapur</p>
+                  <p className="text-academic-body text-sm mt-1">GPA: 9.31/10 | Rank: 1 (Institute Gold Medal)</p>
                 </div>
               </div>
             </CardContent>
@@ -137,14 +143,29 @@ export default function CV() {
               
               <div className="space-y-6">
                 <div>
+                  <h3 className="font-semibold text-academic-subheading mb-3">Journal Articles</h3>
+                  <div className="bg-muted/30 rounded-lg p-4 mb-4">
+                    <h4 className="font-medium text-academic-heading mb-1">
+                      "Charting a sustainable future: Transformative policies for India's energy, agriculture, and transport sectors"
+                    </h4>
+                    <p className="text-academic-body text-sm mb-2">
+                      <em>IIMB Management Review</em> (2024), with Haritha Saranga & Sayan Chowdhury
+                    </p>
+                    <div className="flex gap-2">
+                      <Badge variant="default">Published</Badge>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
                   <h3 className="font-semibold text-academic-subheading mb-3">Working Papers</h3>
                   <div className="space-y-3">
                     <div className="bg-muted/30 rounded-lg p-4">
                       <h4 className="font-medium text-academic-heading mb-1">
-                        "Sustainable Value Chain Design: A Multi-Objective Optimization Approach"
+                        "Electric vs Flex-Fuel Vehicles –The Impact of Government Policies on Automaker's Choice Between Green Technologies"
                       </h4>
                       <p className="text-academic-body text-sm mb-2">
-                        Under review at <em>Journal of Operations Management</em>
+                        Manuscript under review
                       </p>
                       <div className="flex gap-2">
                         <Badge variant="secondary">Working Paper</Badge>
@@ -154,31 +175,68 @@ export default function CV() {
                     
                     <div className="bg-muted/30 rounded-lg p-4">
                       <h4 className="font-medium text-academic-heading mb-1">
-                        "Social Impact Assessment in Supply Chain Networks"
+                        "Coordination Under Constraints to Match Scarce Supply with Demand in a Pro-social Supply Chain"
                       </h4>
                       <p className="text-academic-body text-sm mb-2">
-                        In revision for <em>Production and Operations Management</em>
+                        The case of Deceased-donation Program in India (Manuscript preparation)
                       </p>
                       <div className="flex gap-2">
                         <Badge variant="secondary">Working Paper</Badge>
-                        <Badge variant="outline">Revision Stage</Badge>
+                        <Badge variant="outline">In Preparation</Badge>
                       </div>
+                    </div>
+
+                    <div className="bg-muted/30 rounded-lg p-4">
+                      <h4 className="font-medium text-academic-heading mb-1">
+                        "Population Control for Sustainable Development – Navigating Operational Challenges in India's Family Planning Program Through ASHAs"
+                      </h4>
+                      <p className="text-academic-body text-sm mb-2">
+                        Under review
+                      </p>
+                      <div className="flex gap-2">
+                        <Badge variant="secondary">Working Paper</Badge>
+                        <Badge variant="outline">Under Review</Badge>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-academic-subheading mb-3">Teaching Case Studies</h3>
+                  <div className="space-y-3">
+                    <div className="bg-muted/30 rounded-lg p-4">
+                      <h4 className="font-medium text-academic-heading mb-1">
+                        "The evolving semiconductor industry: Post-COVID challenges for automakers"
+                      </h4>
+                      <p className="text-academic-body text-sm mb-2">
+                        Harvard Business Publication, with Haritha Saranga and Jishnu Hazra
+                      </p>
+                      <Badge variant="default">Published</Badge>
+                    </div>
+                    
+                    <div className="bg-muted/30 rounded-lg p-4">
+                      <h4 className="font-medium text-academic-heading mb-1">
+                        "Saahas Zero Waste: Breaking the spell of fast fashion with circularity"
+                      </h4>
+                      <p className="text-academic-body text-sm mb-2">
+                        Harvard Business Publication, with Haritha Saranga
+                      </p>
+                      <Badge variant="default">Published</Badge>
                     </div>
                   </div>
                 </div>
                 
                 <div>
-                  <h3 className="font-semibold text-academic-subheading mb-3">Conference Publications</h3>
+                  <h3 className="font-semibold text-academic-subheading mb-3">Conference Proceedings</h3>
                   <div className="bg-muted/30 rounded-lg p-4">
                     <h4 className="font-medium text-academic-heading mb-1">
-                      "Sustainability Metrics in Operations Management: A Systematic Review"
+                      "Coordination under constraints in a pro-social supply chain – India's deceased-donation program"
                     </h4>
                     <p className="text-academic-body text-sm mb-2">
-                      <em>Proceedings of International Conference on Operations Management and Sustainability</em>, 2023
+                      <em>AOM Annual Meeting Proceedings</em> (2025)
                     </p>
                     <div className="flex gap-2">
                       <Badge variant="default">Published</Badge>
-                      <Badge variant="outline">Best Paper Award</Badge>
                     </div>
                   </div>
                 </div>
@@ -196,26 +254,38 @@ export default function CV() {
               <div className="space-y-4">
                 <div className="flex justify-between items-start">
                   <div>
-                    <h3 className="font-semibold text-academic-subheading">Senior Operations Analyst</h3>
-                    <p className="text-academic-body">Daimler India Commercial Vehicles</p>
-                  </div>
-                  <Badge variant="outline">2019-2021</Badge>
-                </div>
-                
-                <div className="flex justify-between items-start">
-                  <div>
-                    <h3 className="font-semibold text-academic-subheading">Operations Management Trainee</h3>
-                    <p className="text-academic-body">Maruti Suzuki India Limited</p>
-                  </div>
-                  <Badge variant="outline">2017-2019</Badge>
-                </div>
-                
-                <div className="flex justify-between items-start">
-                  <div>
-                    <h3 className="font-semibold text-academic-subheading">Research Analyst</h3>
+                    <h3 className="font-semibold text-academic-subheading">Senior Analyst, Information Technology Services</h3>
                     <p className="text-academic-body">Everest Group</p>
+                    <p className="text-academic-body text-sm text-academic-caption">
+                      • Provided research-based advisory for IT service providers and enterprises in BFSI sector<br/>
+                      • Prepared market analysis, industry reports, and white papers in BFSI IT services
+                    </p>
                   </div>
-                  <Badge variant="outline">2015-2017</Badge>
+                  <Badge variant="outline">May 2020 - Jun 2021</Badge>
+                </div>
+                
+                <div className="flex justify-between items-start">
+                  <div>
+                    <h3 className="font-semibold text-academic-subheading">Assistant Manager, Quality Assurance</h3>
+                    <p className="text-academic-body">Maruti Suzuki India Limited</p>
+                    <p className="text-academic-body text-sm text-academic-caption">
+                      • Resolved quality concerns at vehicle assembly lines and ensured smooth production<br/>
+                      • Audited manufacturing processes at suppliers' end and stabilized part quality for new models
+                    </p>
+                  </div>
+                  <Badge variant="outline">Sep 2017 - Jun 2018</Badge>
+                </div>
+                
+                <div className="flex justify-between items-start">
+                  <div>
+                    <h3 className="font-semibold text-academic-subheading">Manager, Quality Management</h3>
+                    <p className="text-academic-body">Daimler India Commercial Vehicle</p>
+                    <p className="text-academic-body text-sm text-academic-caption">
+                      • Conducted biannual warranty rate planning alongside monthly warranty cost analysis<br/>
+                      • Performed internal audits at manufacturing plant for IATF 16949, and OHSAS 18001 standards
+                    </p>
+                  </div>
+                  <Badge variant="outline">Jun 2015 - Sep 2017</Badge>
                 </div>
               </div>
             </CardContent>
@@ -242,10 +312,12 @@ export default function CV() {
                 <div>
                   <h3 className="font-semibold text-academic-subheading mb-3">Technical Skills</h3>
                   <div className="flex flex-wrap gap-2">
+                    <Badge variant="secondary">Mathematica</Badge>
                     <Badge variant="secondary">R Programming</Badge>
                     <Badge variant="secondary">Python</Badge>
-                    <Badge variant="secondary">MATLAB</Badge>
-                    <Badge variant="secondary">SQL</Badge>
+                    <Badge variant="secondary">ATLAS.ti</Badge>
+                    <Badge variant="secondary">LATEX</Badge>
+                    <Badge variant="secondary">MS Excel</Badge>
                   </div>
                 </div>
                 
@@ -282,31 +354,61 @@ export default function CV() {
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
                   <div>
-                    <h3 className="font-semibold text-academic-subheading">Research Excellence Fellowship</h3>
+                    <h3 className="font-semibold text-academic-subheading">Institute Gold Medal for highest CGPA</h3>
+                    <p className="text-academic-body">NIT Durgapur, Mechanical Engineering</p>
+                  </div>
+                  <div className="text-right">
+                    <Badge variant="default">2015</Badge>
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-between">
+                  <div>
+                    <h3 className="font-semibold text-academic-subheading">IIM Bangalore Doctoral Fellowship</h3>
                     <p className="text-academic-body">IIM Bangalore</p>
                   </div>
                   <div className="text-right">
-                    <Badge variant="default">2023</Badge>
+                    <Badge variant="default">2021-2026</Badge>
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-between">
+                  <div>
+                    <h3 className="font-semibold text-academic-subheading">Herbalife Sustainability PhD Fellowship Award</h3>
+                    <p className="text-academic-body">IIM Bangalore</p>
+                  </div>
+                  <div className="text-right">
+                    <Badge variant="default">2024-25</Badge>
                   </div>
                 </div>
                 
                 <div className="flex items-center justify-between">
                   <div>
-                    <h3 className="font-semibold text-academic-subheading">Best Student Paper Award</h3>
-                    <p className="text-academic-body">ICOMS Conference</p>
-                  </div>
-                  <div className="text-right">
-                    <Badge variant="default">2023</Badge>
-                  </div>
-                </div>
-                
-                <div className="flex items-center justify-between">
-                  <div>
-                    <h3 className="font-semibold text-academic-subheading">Outstanding Teaching Assistant Award</h3>
+                    <h3 className="font-semibold text-academic-subheading">IIM Bangalore Doctoral Student Research Paper Award</h3>
                     <p className="text-academic-body">IIM Bangalore</p>
                   </div>
                   <div className="text-right">
-                    <Badge variant="default">2023</Badge>
+                    <Badge variant="default">2024</Badge>
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-between">
+                  <div>
+                    <h3 className="font-semibold text-academic-subheading">Second-best Doctoral Paper Award</h3>
+                    <p className="text-academic-body">POMS India International Conference</p>
+                  </div>
+                  <div className="text-right">
+                    <Badge variant="default">2024</Badge>
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-between">
+                  <div>
+                    <h3 className="font-semibold text-academic-subheading">IIM Kozhikode Merit Scholarship</h3>
+                    <p className="text-academic-body">Top 5% of batch (2018-19 and 2019-20)</p>
+                  </div>
+                  <div className="text-right">
+                    <Badge variant="default">2018-20</Badge>
                   </div>
                 </div>
               </div>
