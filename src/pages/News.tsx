@@ -84,11 +84,10 @@ export default function News() {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl lg:text-5xl font-serif font-bold text-academic-heading mb-6">
-            News & Updates
+            What I'm Up To
           </h1>
           <p className="text-lg text-academic-body max-w-3xl mx-auto leading-relaxed">
-            Recent milestones, achievements, and updates from my academic journey. 
-            Stay informed about my latest research, publications, awards, and academic activities.
+            A glimpse into recent milestones and activities from my academic and professional journey — including research progress, publications, conference presentations, collaborations, ad-hoc services, awards, and other professional highlights.
           </p>
         </div>
 

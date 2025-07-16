@@ -12,7 +12,7 @@ const navigationItems = [
   { name: 'Industry Experience', href: '/industry' },
   { name: 'CV', href: '/cv' },
   { name: 'Blog', href: '/blog' },
-  { name: 'News', href: '/news' },
+  { name: 'Updates', href: '/news' },
   { name: 'Contact', href: '/contact' },
 ];
 
