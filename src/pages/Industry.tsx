@@ -21,13 +21,13 @@ export default function Industry() {
 
         {/* Experience Timeline */}
         <div className="space-y-8">
-          {/* Daimler India */}
+          {/* Everest Group */}
           <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic">
             <CardContent className="p-8">
               <div className="flex flex-col lg:flex-row lg:items-start gap-6">
                 <div className="flex-shrink-0">
                   <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center">
-                    <Building className="h-8 w-8 text-primary" />
+                    <Users2 className="h-8 w-8 text-primary" />
                   </div>
                 </div>
                 
@@ -35,56 +35,51 @@ export default function Industry() {
                   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                     <div>
                       <h2 className="text-2xl font-serif font-bold text-academic-heading">
-                        Senior Operations Analyst
+                        Senior Analyst, Research & Advisory
                       </h2>
                       <h3 className="text-xl text-primary font-semibold mt-1">
-                        Daimler India Commercial Vehicles
+                        Everest Group
                       </h3>
                     </div>
                     <Badge variant="default" className="self-start sm:self-center mt-2 sm:mt-0">
-                      2019 - 2021
+                      May 2020 - Jun 2021
                     </Badge>
                   </div>
                   
                   <div className="flex flex-wrap items-center gap-4 mb-6 text-academic-body">
                     <div className="flex items-center">
-                      <MapPin className="h-4 w-4 mr-2" />
-                      <span>Chennai, India</span>
-                    </div>
-                    <div className="flex items-center">
                       <Briefcase className="h-4 w-4 mr-2" />
-                      <span>Supply Chain & Operations</span>
+                      <span>Research & Advisory Consulting</span>
                     </div>
                   </div>
                   
                   <div className="space-y-4">
                     <div>
-                      <h4 className="font-semibold text-academic-subheading mb-2">Key Responsibilities</h4>
+                      <h4 className="font-semibold text-academic-subheading mb-2">Customized Research Based Advisory</h4>
                       <ul className="text-academic-body space-y-1 ml-4">
-                        <li>• Led supply chain optimization initiatives resulting in 15% cost reduction</li>
-                        <li>• Implemented lean manufacturing principles across production lines</li>
-                        <li>• Developed predictive analytics models for demand forecasting</li>
-                        <li>• Managed vendor relationships and supplier performance evaluation</li>
-                        <li>• Spearheaded sustainability initiatives in procurement processes</li>
+                        <li>• Developed growth strategy around core banking & wealth management platform for a growing IT firm</li>
+                        <li>• Identified and prioritized suitable acquisition targets in China for a leading IT and consulting firm</li>
+                        <li>• Built prioritization framework and recommended suitable service partners for Indian unicorn</li>
+                        <li>• Identified opportunities for large deals and built account level attacker strategy for a leading IT firm</li>
+                        <li>• Handled end-to-end workflow for a flagship PEAK Matrix report, featuring 25+ IT service providers</li>
                       </ul>
                     </div>
                     
                     <div>
                       <h4 className="font-semibold text-academic-subheading mb-2">Research Connections</h4>
                       <p className="text-academic-body leading-relaxed">
-                        This experience with automotive supply chains directly informs my current 
-                        research on sustainable value chains. Working with real supplier networks 
-                        and environmental compliance requirements provided practical insights into 
-                        the challenges and opportunities in sustainable operations management.
+                        This strategic consulting experience directly enhances my academic research by providing exposure to 
+                        market dynamics, competitive strategies, and business model innovations. The analytical frameworks 
+                        developed here inform my approach to operations research and strategic decision-making models.
                       </p>
                     </div>
 
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="secondary">Supply Chain Optimization</Badge>
-                      <Badge variant="secondary">Lean Manufacturing</Badge>
-                      <Badge variant="secondary">Vendor Management</Badge>
-                      <Badge variant="secondary">Sustainability Initiatives</Badge>
-                      <Badge variant="secondary">Data Analytics</Badge>
+                      <Badge variant="secondary">Strategic Consulting</Badge>
+                      <Badge variant="secondary">Market Research</Badge>
+                      <Badge variant="secondary">Growth Strategy</Badge>
+                      <Badge variant="secondary">Acquisition Analysis</Badge>
+                      <Badge variant="secondary">IT Services</Badge>
                     </div>
                   </div>
                 </div>
@@ -106,56 +101,57 @@ export default function Industry() {
                   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                     <div>
                       <h2 className="text-2xl font-serif font-bold text-academic-heading">
-                        Operations Management Trainee
+                        Assistant Manager, Quality Assurance
                       </h2>
                       <h3 className="text-xl text-academic-subheading font-semibold mt-1">
                         Maruti Suzuki India Limited
                       </h3>
                     </div>
                     <Badge variant="outline" className="self-start sm:self-center mt-2 sm:mt-0">
-                      2017 - 2019
+                      Sep 2017 - Jun 2018
                     </Badge>
                   </div>
                   
                   <div className="flex flex-wrap items-center gap-4 mb-6 text-academic-body">
                     <div className="flex items-center">
-                      <MapPin className="h-4 w-4 mr-2" />
-                      <span>Gurugram, India</span>
-                    </div>
-                    <div className="flex items-center">
                       <Briefcase className="h-4 w-4 mr-2" />
-                      <span>Production & Quality Management</span>
+                      <span>Parts/Supplier Quality Assurance</span>
                     </div>
                   </div>
                   
                   <div className="space-y-4">
                     <div>
-                      <h4 className="font-semibold text-academic-subheading mb-2">Key Achievements</h4>
+                      <h4 className="font-semibold text-academic-subheading mb-2">Key Responsibilities</h4>
                       <ul className="text-academic-body space-y-1 ml-4">
-                        <li>• Rotated through production, quality, and supply chain departments</li>
-                        <li>• Contributed to process improvement projects using Six Sigma methodologies</li>
-                        <li>• Analyzed production efficiency metrics and implemented corrective measures</li>
-                        <li>• Collaborated with cross-functional teams on cost optimization initiatives</li>
-                        <li>• Participated in supplier quality audits and vendor development programs</li>
+                        <li>• Resolved assembly line quality concerns going up to 90-100 per month for fuel & exhaust system parts</li>
+                        <li>• Conducted manufacturing process audit at suppliers' end and stabilized part quality for new models</li>
+                        <li>• Trained 10+ new recruits for drawing study and usage of quality core tools like MSA, SPC, PFMEA</li>
+                      </ul>
+                    </div>
+                    
+                    <div>
+                      <h4 className="font-semibold text-academic-subheading mb-2">Achievements</h4>
+                      <ul className="text-academic-body space-y-1 ml-4">
+                        <li>• Reduced overall defect for CNG cylinder by 40% in 3 running models by ensuring countermeasures</li>
+                        <li>• Recognized for excellent commitment towards assembly line support & defect reduction in Q4, 2017-18</li>
                       </ul>
                     </div>
                     
                     <div>
                       <h4 className="font-semibold text-academic-subheading mb-2">Learning Impact</h4>
                       <p className="text-academic-body leading-relaxed">
-                        Exposure to world-class manufacturing operations and quality systems 
-                        provided foundational understanding of operational excellence. This 
-                        experience shapes my research approach to balance theoretical rigor 
-                        with practical implementability.
+                        Hands-on experience with quality management systems and supplier relationships provides practical 
+                        insights into quality optimization and continuous improvement methodologies that inform my research 
+                        on operations excellence and supply chain quality management.
                       </p>
                     </div>
 
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="secondary">Six Sigma</Badge>
-                      <Badge variant="secondary">Quality Management</Badge>
-                      <Badge variant="secondary">Process Improvement</Badge>
-                      <Badge variant="secondary">Production Planning</Badge>
-                      <Badge variant="secondary">Cross-functional Teams</Badge>
+                      <Badge variant="secondary">Quality Assurance</Badge>
+                      <Badge variant="secondary">Supplier Management</Badge>
+                      <Badge variant="secondary">Process Audit</Badge>
+                      <Badge variant="secondary">Statistical Process Control</Badge>
+                      <Badge variant="secondary">Defect Reduction</Badge>
                     </div>
                   </div>
                 </div>
@@ -163,13 +159,13 @@ export default function Industry() {
             </CardContent>
           </Card>
 
-          {/* Everest Group */}
+          {/* Daimler India */}
           <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic">
             <CardContent className="p-8">
               <div className="flex flex-col lg:flex-row lg:items-start gap-6">
                 <div className="flex-shrink-0">
                   <div className="w-16 h-16 bg-secondary/50 rounded-xl flex items-center justify-center">
-                    <Users2 className="h-8 w-8 text-secondary-foreground" />
+                    <Building className="h-8 w-8 text-secondary-foreground" />
                   </div>
                 </div>
                 
@@ -177,25 +173,21 @@ export default function Industry() {
                   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                     <div>
                       <h2 className="text-2xl font-serif font-bold text-academic-heading">
-                        Research Analyst
+                        Manager, Quality Management
                       </h2>
                       <h3 className="text-xl text-academic-subheading font-semibold mt-1">
-                        Everest Group (Management Consulting)
+                        Daimler India Commercial Vehicles
                       </h3>
                     </div>
                     <Badge variant="outline" className="self-start sm:self-center mt-2 sm:mt-0">
-                      2015 - 2017
+                      Jun 2015 - Sep 2017
                     </Badge>
                   </div>
                   
                   <div className="flex flex-wrap items-center gap-4 mb-6 text-academic-body">
                     <div className="flex items-center">
-                      <MapPin className="h-4 w-4 mr-2" />
-                      <span>Mumbai, India</span>
-                    </div>
-                    <div className="flex items-center">
                       <Briefcase className="h-4 w-4 mr-2" />
-                      <span>Strategy & Operations Consulting</span>
+                      <span>Quality Management & Internal Audit</span>
                     </div>
                   </div>
                   
@@ -203,30 +195,45 @@ export default function Industry() {
                     <div>
                       <h4 className="font-semibold text-academic-subheading mb-2">Core Responsibilities</h4>
                       <ul className="text-academic-body space-y-1 ml-4">
-                        <li>• Conducted market research and competitive analysis for Fortune 500 clients</li>
-                        <li>• Developed strategic recommendations for operational transformation</li>
-                        <li>• Created financial models and business case analyses</li>
-                        <li>• Prepared client presentations and research reports</li>
-                        <li>• Supported senior consultants in project management and client delivery</li>
+                        <li>• Conducted biannual warranty rate planning for 16 models in domestic and 6 in export segment</li>
+                        <li>• Analyzed monthly warranty cost and key quality issues in each major category and ensured actions</li>
+                        <li>• Performed more than 20 internal audits for ISO/TS 16949, IATF 16949, and OHSAS 18001 standard</li>
+                        <li>• Provided awareness sessions to more than 1000 operators regarding Occupational Health and Safety</li>
+                        <li>• Streamlined a total of 11 department level KPIs; monitored & presented to management every month</li>
                       </ul>
                     </div>
                     
                     <div>
-                      <h4 className="font-semibold text-academic-subheading mb-2">Skills Development</h4>
+                      <h4 className="font-semibold text-academic-subheading mb-2">Key Achievements</h4>
+                      <ul className="text-academic-body space-y-1 ml-4">
+                        <li>• Awarded Achiever of the month in QM department by the leadership team in December 2016</li>
+                        <li>• Chosen as lead from DICV for warranty analysis in Daimler Global Powertrain Integration project</li>
+                      </ul>
+                    </div>
+                    
+                    <div>
+                      <h4 className="font-semibold text-academic-subheading mb-2">Initiatives</h4>
+                      <ul className="text-academic-body space-y-1 ml-4">
+                        <li>• Developed an easily accessible internal web-based tool for warranty rate planning and budgeting</li>
+                      </ul>
+                    </div>
+                    
+                    <div>
+                      <h4 className="font-semibold text-academic-subheading mb-2">Research Impact</h4>
                       <p className="text-academic-body leading-relaxed">
-                        Consulting experience developed critical analytical thinking, 
-                        client communication skills, and ability to synthesize complex 
-                        information into actionable insights - all essential for academic 
-                        research and effective knowledge dissemination.
+                        Comprehensive experience in quality management systems, warranty analysis, and process optimization 
+                        provides foundational understanding of operational excellence that directly informs my research on 
+                        quality management, process improvement, and sustainable operations.
                       </p>
                     </div>
 
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="secondary">Market Research</Badge>
-                      <Badge variant="secondary">Strategic Analysis</Badge>
-                      <Badge variant="secondary">Financial Modeling</Badge>
-                      <Badge variant="secondary">Client Presentation</Badge>
-                      <Badge variant="secondary">Project Management</Badge>
+                      <Badge variant="secondary">Quality Management</Badge>
+                      <Badge variant="secondary">Warranty Analysis</Badge>
+                      <Badge variant="secondary">Internal Audit</Badge>
+                      <Badge variant="secondary">KPI Management</Badge>
+                      <Badge variant="secondary">Process Improvement</Badge>
+                      <Badge variant="secondary">ISO Standards</Badge>
                     </div>
                   </div>
                 </div>
