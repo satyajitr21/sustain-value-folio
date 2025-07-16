@@ -45,7 +45,7 @@ export default function Teaching() {
           </h2>
 
           <div className="space-y-6">
-            {/* Teaching Assistant */}
+            {/* Course Instructor */}
             <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic">
               <CardContent className="p-8">
                 <div className="flex flex-col lg:flex-row lg:items-start gap-6">
@@ -59,7 +59,7 @@ export default function Teaching() {
                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                       <div>
                         <h3 className="text-xl font-serif font-bold text-academic-heading">
-                          Teaching Assistant - Operations Management
+                          Course Instructor
                         </h3>
                         <p className="text-lg text-primary font-medium mt-1">
                           IIM Bangalore
@@ -67,32 +67,35 @@ export default function Teaching() {
                       </div>
                       <div className="flex items-center text-academic-body mt-2 sm:mt-0">
                         <Calendar className="h-4 w-4 mr-2" />
-                        <span>2022 - Present</span>
+                        <span>2024 - 2025</span>
                       </div>
                     </div>
                     
                     <div className="space-y-4">
                       <p className="text-academic-body leading-relaxed">
-                        Support undergraduate and postgraduate courses in operations management, 
-                        supply chain management, and business analytics. Conduct tutorial sessions, 
-                        grade assignments, and provide academic guidance to students.
+                        Conducted full 90-minute course sessions across multiple programs including PGPBA preparatory courses, 
+                        PhD preparatory courses, and undergraduate foundations programs with consistently high student ratings.
                       </p>
                       
                       <div>
-                        <h4 className="font-semibold text-academic-subheading mb-2">Key Responsibilities</h4>
-                        <ul className="text-academic-body space-y-1 ml-4">
-                          <li>• Conduct weekly tutorial sessions for 150+ students</li>
-                          <li>• Design and evaluate case study assignments</li>
-                          <li>• Provide individual academic mentoring and career guidance</li>
-                          <li>• Assist in curriculum development and assessment design</li>
+                        <h4 className="font-semibold text-academic-subheading mb-2">Courses Taught</h4>
+                        <ul className="text-academic-body space-y-2 ml-4">
+                          <li>• <strong>Data Analysis using MS Excel</strong> (PGPBA preparatory, 2025)
+                            <br />8 sessions | 79 participants | 4.67/5 rating (47 respondents)</li>
+                          <li>• <strong>Linear Algebra and Optimization</strong> (PhD and PreDoc preparatory, 2025)
+                            <br />2 sessions | 41 participants | 4.54/5 rating (19 respondents)</li>
+                          <li>• <strong>Introduction to Operations Management</strong> (Foundations for undergraduates, 2025)
+                            <br />1 session | 74 participants | 4.5/5 rating (54 respondents)</li>
+                          <li>• <strong>Essentials of Mathematics</strong> (PGPBA preparatory, 2024)
+                            <br />13 sessions | 71 participants | 4.22/5 rating (40 respondents)</li>
                         </ul>
                       </div>
 
                       <div className="flex flex-wrap gap-2">
+                        <Badge variant="secondary">Data Analysis</Badge>
+                        <Badge variant="secondary">Linear Algebra</Badge>
                         <Badge variant="secondary">Operations Management</Badge>
-                        <Badge variant="secondary">Supply Chain Analytics</Badge>
-                        <Badge variant="secondary">Business Statistics</Badge>
-                        <Badge variant="secondary">Case Study Method</Badge>
+                        <Badge variant="secondary">Mathematics</Badge>
                       </div>
                     </div>
                   </div>
@@ -100,7 +103,7 @@ export default function Teaching() {
               </CardContent>
             </Card>
 
-            {/* Guest Lectures */}
+            {/* Teaching Assistant */}
             <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic">
               <CardContent className="p-8">
                 <div className="flex flex-col lg:flex-row lg:items-start gap-6">
@@ -114,10 +117,10 @@ export default function Teaching() {
                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                       <div>
                         <h3 className="text-xl font-serif font-bold text-academic-heading">
-                          Guest Lecturer - Sustainable Operations
+                          Teaching Assistant
                         </h3>
                         <p className="text-lg text-academic-subheading font-medium mt-1">
-                          Various Business Schools
+                          IIM Bangalore
                         </p>
                       </div>
                       <div className="flex items-center text-academic-body mt-2 sm:mt-0">
@@ -128,25 +131,32 @@ export default function Teaching() {
                     
                     <div className="space-y-4">
                       <p className="text-academic-body leading-relaxed">
-                        Delivered guest lectures on sustainable operations, environmental 
-                        management, and circular economy principles across multiple business 
-                        schools and executive education programs.
+                        Provided teaching assistance for core and elective courses across multiple programs,
+                        receiving "Excellent" grades for all teaching assignments.
                       </p>
                       
                       <div>
-                        <h4 className="font-semibold text-academic-subheading mb-2">Recent Lectures</h4>
+                        <h4 className="font-semibold text-academic-subheading mb-2">Courses Assisted</h4>
                         <ul className="text-academic-body space-y-1 ml-4">
-                          <li>• "Circular Economy in Manufacturing" - Executive MBA Program, IIM Kozhikode</li>
-                          <li>• "Sustainable Supply Chain Design" - PGDM Program, XLRI Jamshedpur</li>
-                          <li>• "Green Operations Strategy" - MDI Gurgaon Management Development Program</li>
+                          <li>• <strong>Supply Chain Management</strong> (Elective by Prof. Amar Sapra) - 2 times | Grade: Excellent</li>
+                          <li>• <strong>Operations Management</strong> (Core by Prof. Jishnu Hazra) | Grade: Excellent</li>
+                          <li>• <strong>Operations Management</strong> (Core by Prof. Shalique MS) - 2 times | Grade: Excellent</li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        <h4 className="font-semibold text-academic-subheading mb-2">Tutorial Sessions</h4>
+                        <ul className="text-academic-body space-y-1 ml-4">
+                          <li>• 16 sessions for Supply Chain Management elective (PGP, EPGP, and PGPEM students)</li>
+                          <li>• 10 sessions for Operations Management core course (PGP and PGPEM students)</li>
                         </ul>
                       </div>
 
                       <div className="flex flex-wrap gap-2">
-                        <Badge variant="secondary">Sustainability</Badge>
-                        <Badge variant="secondary">Circular Economy</Badge>
-                        <Badge variant="secondary">Green Operations</Badge>
-                        <Badge variant="secondary">Executive Education</Badge>
+                        <Badge variant="secondary">Supply Chain Management</Badge>
+                        <Badge variant="secondary">Operations Management</Badge>
+                        <Badge variant="secondary">Tutorial Sessions</Badge>
+                        <Badge variant="secondary">Grade: Excellent</Badge>
                       </div>
                     </div>
                   </div>
@@ -154,7 +164,7 @@ export default function Teaching() {
               </CardContent>
             </Card>
 
-            {/* Workshop Facilitation */}
+            {/* Additional Academic Activities */}
             <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic">
               <CardContent className="p-8">
                 <div className="flex flex-col lg:flex-row lg:items-start gap-6">
@@ -168,30 +178,37 @@ export default function Teaching() {
                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                       <div>
                         <h3 className="text-xl font-serif font-bold text-academic-heading">
-                          Workshop Facilitator - Research Methods
+                          Additional Academic Activities
                         </h3>
                         <p className="text-lg text-academic-subheading font-medium mt-1">
-                          Doctoral Programs & Faculty Development
+                          IIM Bangalore & Others
                         </p>
                       </div>
                       <div className="flex items-center text-academic-body mt-2 sm:mt-0">
                         <Calendar className="h-4 w-4 mr-2" />
-                        <span>2022 - Present</span>
+                        <span>2021 - Present</span>
                       </div>
                     </div>
                     
                     <div className="space-y-4">
                       <p className="text-academic-body leading-relaxed">
-                        Conduct workshops on quantitative research methods, data analysis 
-                        techniques, and academic writing for doctoral students and faculty 
-                        members across various institutions.
+                        Engaged in various academic activities including invited sessions, research assistance,
+                        and specialized presentations for international participants.
                       </p>
                       
+                      <div>
+                        <h4 className="font-semibold text-academic-subheading mb-2">Key Activities</h4>
+                        <ul className="text-academic-body space-y-1 ml-4">
+                          <li>• <strong>Invited Session:</strong> India's cadaveric organ donation program for GNAM participants at IIMB</li>
+                          <li>• <strong>Research Assistant:</strong> Production & Operations Management area, IIMB (2021-23)</li>
+                        </ul>
+                      </div>
+
                       <div className="flex flex-wrap gap-2">
-                        <Badge variant="secondary">Research Methodology</Badge>
-                        <Badge variant="secondary">Statistical Analysis</Badge>
-                        <Badge variant="secondary">Academic Writing</Badge>
-                        <Badge variant="secondary">Data Visualization</Badge>
+                        <Badge variant="secondary">Guest Sessions</Badge>
+                        <Badge variant="secondary">Research Assistance</Badge>
+                        <Badge variant="secondary">Healthcare Operations</Badge>
+                        <Badge variant="secondary">International Programs</Badge>
                       </div>
                     </div>
                   </div>
@@ -207,78 +224,102 @@ export default function Teaching() {
             Teaching Interests
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic text-center">
-              <CardContent className="p-6">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg mx-auto mb-4 flex items-center justify-center">
-                  <BookOpen className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="font-semibold text-academic-heading mb-3">Operations Management</h3>
-                <p className="text-academic-body text-sm leading-relaxed">
-                  Core principles, process design, capacity planning, and quality management
-                </p>
-              </CardContent>
-            </Card>
+          <div className="mb-8">
+            <h3 className="text-xl font-serif font-semibold text-academic-heading mb-4 text-center">
+              Core Courses
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic text-center">
+                <CardContent className="p-6">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg mx-auto mb-4 flex items-center justify-center">
+                    <BookOpen className="h-6 w-6 text-primary" />
+                  </div>
+                  <h4 className="font-semibold text-academic-heading mb-3">Operations Management</h4>
+                  <p className="text-academic-body text-sm leading-relaxed">
+                    Core principles, process design, capacity planning, and quality management
+                  </p>
+                </CardContent>
+              </Card>
 
-            <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic text-center">
-              <CardContent className="p-6">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg mx-auto mb-4 flex items-center justify-center">
-                  <Users className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="font-semibold text-academic-heading mb-3">Supply Chain Management</h3>
-                <p className="text-academic-body text-sm leading-relaxed">
-                  Network design, logistics, procurement, and supply chain coordination
-                </p>
-              </CardContent>
-            </Card>
+              <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic text-center">
+                <CardContent className="p-6">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg mx-auto mb-4 flex items-center justify-center">
+                    <Users className="h-6 w-6 text-primary" />
+                  </div>
+                  <h4 className="font-semibold text-academic-heading mb-3">Quantitative Techniques</h4>
+                  <p className="text-academic-body text-sm leading-relaxed">
+                    Statistics, Operations Research, optimization methods and data analysis
+                  </p>
+                </CardContent>
+              </Card>
 
-            <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic text-center">
-              <CardContent className="p-6">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg mx-auto mb-4 flex items-center justify-center">
-                  <Award className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="font-semibold text-academic-heading mb-3">Sustainable Operations</h3>
-                <p className="text-academic-body text-sm leading-relaxed">
-                  Environmental management, circular economy, and sustainable business practices
-                </p>
-              </CardContent>
-            </Card>
+              <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic text-center">
+                <CardContent className="p-6">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg mx-auto mb-4 flex items-center justify-center">
+                    <Award className="h-6 w-6 text-primary" />
+                  </div>
+                  <h4 className="font-semibold text-academic-heading mb-3">Supply Chain Management</h4>
+                  <p className="text-academic-body text-sm leading-relaxed">
+                    Network design, logistics, procurement, and supply chain coordination
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
 
-            <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic text-center">
-              <CardContent className="p-6">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg mx-auto mb-4 flex items-center justify-center">
-                  <BookOpen className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="font-semibold text-academic-heading mb-3">Business Analytics</h3>
-                <p className="text-academic-body text-sm leading-relaxed">
-                  Data analysis, optimization models, and decision support systems
-                </p>
-              </CardContent>
-            </Card>
+          <div>
+            <h3 className="text-xl font-serif font-semibold text-academic-heading mb-4 text-center">
+              Elective Courses
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic text-center">
+                <CardContent className="p-6">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg mx-auto mb-4 flex items-center justify-center">
+                    <BookOpen className="h-6 w-6 text-primary" />
+                  </div>
+                  <h4 className="font-semibold text-academic-heading mb-3">Operations Interfaces</h4>
+                  <p className="text-academic-body text-sm leading-relaxed">
+                    Cross-functional operations and strategic interfaces
+                  </p>
+                </CardContent>
+              </Card>
 
-            <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic text-center">
-              <CardContent className="p-6">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg mx-auto mb-4 flex items-center justify-center">
-                  <MessageCircle className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="font-semibold text-academic-heading mb-3">Research Methods</h3>
-                <p className="text-academic-body text-sm leading-relaxed">
-                  Quantitative methods, statistical analysis, and research design
-                </p>
-              </CardContent>
-            </Card>
+              <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic text-center">
+                <CardContent className="p-6">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg mx-auto mb-4 flex items-center justify-center">
+                    <MessageCircle className="h-6 w-6 text-primary" />
+                  </div>
+                  <h4 className="font-semibold text-academic-heading mb-3">Analytics with Excel/R/Python</h4>
+                  <p className="text-academic-body text-sm leading-relaxed">
+                    Data analysis tools and programming for business analytics
+                  </p>
+                </CardContent>
+              </Card>
 
-            <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic text-center">
-              <CardContent className="p-6">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg mx-auto mb-4 flex items-center justify-center">
-                  <Award className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="font-semibold text-academic-heading mb-3">Strategy & Innovation</h3>
-                <p className="text-academic-body text-sm leading-relaxed">
-                  Strategic operations, innovation management, and organizational change
-                </p>
-              </CardContent>
-            </Card>
+              <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic text-center">
+                <CardContent className="p-6">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg mx-auto mb-4 flex items-center justify-center">
+                    <Award className="h-6 w-6 text-primary" />
+                  </div>
+                  <h4 className="font-semibold text-academic-heading mb-3">Sustainable SCM</h4>
+                  <p className="text-academic-body text-sm leading-relaxed">
+                    Environmental management, circular economy, and sustainable practices
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic text-center">
+                <CardContent className="p-6">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg mx-auto mb-4 flex items-center justify-center">
+                    <Users className="h-6 w-6 text-primary" />
+                  </div>
+                  <h4 className="font-semibold text-academic-heading mb-3">Healthcare OM</h4>
+                  <p className="text-academic-body text-sm leading-relaxed">
+                    Healthcare operations, supply chains, and service delivery
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </section>
 
