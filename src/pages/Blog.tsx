@@ -215,14 +215,14 @@ export default function Blog() {
             Topics I Write About
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="text-center">
               <div className="w-12 h-12 bg-primary/10 rounded-lg mx-auto mb-3 flex items-center justify-center">
                 <MessageCircle className="h-6 w-6 text-primary" />
               </div>
               <h3 className="font-semibold text-academic-subheading mb-2">Sustainability</h3>
               <p className="text-academic-body text-sm">
-                Environmental responsibility, circular economy, and sustainable business practices
+                Reflections on sustainable operations and value chains, with a focus on both environmental responsibility and social impact.
               </p>
             </div>
             
@@ -230,9 +230,9 @@ export default function Blog() {
               <div className="w-12 h-12 bg-primary/10 rounded-lg mx-auto mb-3 flex items-center justify-center">
                 <MessageCircle className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="font-semibold text-academic-subheading mb-2">Academia</h3>
+              <h3 className="font-semibold text-academic-subheading mb-2">Industry Viewpoints</h3>
               <p className="text-academic-body text-sm">
-                Research insights, academic life, and the journey of doctoral studies
+                Commentary on industry trends, operations practices, and lessons from my professional engagements.
               </p>
             </div>
             
@@ -240,37 +240,24 @@ export default function Blog() {
               <div className="w-12 h-12 bg-primary/10 rounded-lg mx-auto mb-3 flex items-center justify-center">
                 <MessageCircle className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="font-semibold text-academic-subheading mb-2">Teaching</h3>
+              <h3 className="font-semibold text-academic-subheading mb-2">Teaching and Academia</h3>
               <p className="text-academic-body text-sm">
-                Pedagogical approaches, student engagement, and educational innovation
+                Thoughts on genZ classroom, pedagogy, academic life, and navigating the research process.
+              </p>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-12 h-12 bg-primary/10 rounded-lg mx-auto mb-3 flex items-center justify-center">
+                <MessageCircle className="h-6 w-6 text-primary" />
+              </div>
+              <h3 className="font-semibold text-academic-subheading mb-2">Others</h3>
+              <p className="text-academic-body text-sm">
+                Occasional musings on topics beyond my core expertise — from literature to personal growth and everything in between.
               </p>
             </div>
           </div>
         </section>
 
-        {/* Newsletter Signup */}
-        <section className="mt-16 text-center">
-          <Card className="shadow-academic-card max-w-2xl mx-auto">
-            <CardContent className="p-8">
-              <h2 className="text-2xl font-serif font-bold text-academic-heading mb-4">
-                Stay Updated
-              </h2>
-              <p className="text-academic-body mb-6">
-                Subscribe to receive notifications about new blog posts and research updates.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-                <input 
-                  type="email" 
-                  placeholder="Enter your email"
-                  className="flex-1 px-4 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
-                />
-                <Button>
-                  Subscribe
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
-        </section>
       </div>
     </div>
   );
