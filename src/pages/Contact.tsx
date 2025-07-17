@@ -286,8 +286,8 @@ export default function Contact() {
             <div>
               <h3 className="font-semibold text-academic-subheading mb-4">Student Office Hours</h3>
               <div className="space-y-2 text-academic-body">
-                <p><strong>Tuesdays:</strong> 2:00 PM - 4:00 PM</p>
-                <p><strong>Thursdays:</strong> 10:00 AM - 12:00 PM</p>
+                <p><strong>Thursdays:</strong> 5:00-6:00 PM</p>
+                <p><strong>Fridays:</strong> 4:00-5:00 PM</p>
                 <p className="text-sm text-academic-caption">
                   *By appointment during exam periods and holidays
                 </p>
