@@ -22,9 +22,7 @@ export default function Contact() {
             Contact
           </h1>
           <p className="text-lg text-academic-body max-w-4xl mx-auto leading-relaxed">
-            I welcome opportunities for collaboration, academic discussions, 
-            and professional networking. Feel free to reach out for research 
-            partnerships, speaking engagements, or academic consultations.
+            I welcome opportunities for collaboration, academic discussions, and professional networking. Please feel free to reach out for research partnerships, teaching/speaking engagements, or academic consultations.
           </p>
         </div>
 
@@ -78,7 +76,8 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold text-academic-subheading mb-1">Office</h3>
                     <p className="text-academic-body">
-                      Doctoral Research Wing, Room D-201<br />
+                      Room D-110, PhD students' cubicle<br />
+                      First floor, D block<br />
                       Available for meetings by appointment
                     </p>
                   </div>
@@ -127,7 +126,7 @@ export default function Contact() {
                 </a>
 
                 <a 
-                  href="https://orcid.org/your-orcid-id" 
+                  href="https://orcid.org/0009-0008-2615-6982" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center justify-between p-4 border border-border rounded-lg hover:bg-muted/30 transition-academic"
@@ -155,7 +154,7 @@ export default function Contact() {
                 <div className="space-y-3">
                   <div className="flex items-start">
                     <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <p className="text-academic-body">Research collaborations in sustainable operations management</p>
+                    <p className="text-academic-body">Interdisciplinary collaborations to advance social and environmental sustainability</p>
                   </div>
                   <div className="flex items-start">
                     <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
@@ -168,10 +167,6 @@ export default function Contact() {
                   <div className="flex items-start">
                     <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
                     <p className="text-academic-body">Academic mentoring and PhD guidance</p>
-                  </div>
-                  <div className="flex items-start">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <p className="text-academic-body">Joint publication opportunities</p>
                   </div>
                 </div>
               </CardContent>
