@@ -147,46 +147,6 @@ export default function News() {
           </div>
         </div>
 
-        {/* Summary Stats */}
-        <section className="mt-16 bg-muted/30 rounded-2xl p-8">
-          <h2 className="text-2xl font-serif font-bold text-academic-heading mb-8 text-center">
-            Academic Milestones
-          </h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-primary/10 rounded-xl mx-auto mb-4 flex items-center justify-center">
-                <BookOpen className="h-8 w-8 text-primary" />
-              </div>
-              <div className="text-2xl font-bold text-academic-heading mb-1">3</div>
-              <p className="text-academic-body text-sm">Working Papers</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="w-16 h-16 bg-primary/10 rounded-xl mx-auto mb-4 flex items-center justify-center">
-                <Presentation className="h-8 w-8 text-primary" />
-              </div>
-              <div className="text-2xl font-bold text-academic-heading mb-1">8</div>
-              <p className="text-academic-body text-sm">Conference Presentations</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="w-16 h-16 bg-primary/10 rounded-xl mx-auto mb-4 flex items-center justify-center">
-                <Award className="h-8 w-8 text-primary" />
-              </div>
-              <div className="text-2xl font-bold text-academic-heading mb-1">5</div>
-              <p className="text-academic-body text-sm">Awards & Honors</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="w-16 h-16 bg-primary/10 rounded-xl mx-auto mb-4 flex items-center justify-center">
-                <Users className="h-8 w-8 text-primary" />
-              </div>
-              <div className="text-2xl font-bold text-academic-heading mb-1">12</div>
-              <p className="text-academic-body text-sm">Guest Lectures</p>
-            </div>
-          </div>
-        </section>
 
         {/* Upcoming Events */}
         <section className="mt-16">
@@ -241,30 +201,6 @@ export default function News() {
           </div>
         </section>
 
-        {/* Subscribe for Updates */}
-        <section className="mt-16 text-center">
-          <Card className="shadow-academic-card max-w-2xl mx-auto">
-            <CardContent className="p-8">
-              <h2 className="text-xl font-serif font-bold text-academic-heading mb-4">
-                Stay Updated
-              </h2>
-              <p className="text-academic-body mb-6">
-                Subscribe to receive notifications about new publications, 
-                conference presentations, and other academic milestones.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-                <input 
-                  type="email" 
-                  placeholder="Enter your email"
-                  className="flex-1 px-4 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
-                />
-                <button className="px-6 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors">
-                  Subscribe
-                </button>
-              </div>
-            </CardContent>
-          </Card>
-        </section>
       </div>
     </div>
   );

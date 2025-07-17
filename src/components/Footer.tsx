@@ -47,14 +47,6 @@ export function Footer() {
                   Blog Posts
                 </Link>
               </li>
-              <li>
-                <Link 
-                  to="/contact" 
-                  className="text-academic-body hover:text-primary transition-academic text-sm"
-                >
-                  Get in Touch
-                </Link>
-              </li>
             </ul>
           </div>
 
