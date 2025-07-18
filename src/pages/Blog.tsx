@@ -1,8 +1,10 @@
+
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
+import { Textarea } from '@/components/ui/textarea';
 import { Link } from 'react-router-dom';
-import { Calendar, Clock, ArrowRight, MessageCircle, Heart, Share2 } from 'lucide-react';
+import { Calendar, Clock, ArrowRight, MessageCircle, Heart, Share2, ExternalLink } from 'lucide-react';
 import { useState } from 'react';
 
 const blogPosts = [
@@ -11,8 +13,6 @@ const blogPosts = [
     title: "AI for Sustainability, but What about (Social) Sustainability in AI?",
     excerpt: "Artificial Intelligence has positioned itself as a pivotal instrument in advancing sustainability, yet it poses significant risks to social sustainability through data colonisation, biased algorithms, and worker exploitation.",
     fullContent: `
-**Introduction**
-
 Artificial Intelligence (AI) has positioned itself as a pivotal instrument in advancing the sustainability paradigm, offering new instruments to tackle global challenges. Within the environmental domain, AI optimises energy utilisation in intelligent infrastructures and enhances agroecological efficiency through precision agriculture, thereby contributing to resource conservation and the amelioration of ecological footprints. Its capacity of generating predictive models from expansive datasets empowers industries to diminish waste streams, curtail greenhouse gas emissions, and adapt proactively to the exigencies of climatic shifts. Furthermore, AI's potential extends to economic sustainability by refining operational frameworks and catalysing innovative practices. Yet, it poses risks to social sustainability – Endangering equitable access through data colonisation, threatening equity and privacy through biased algorithms and exploiting workers in its supply chain, such as those labelling traumatic data under opaque, underpaid conditions.
 
 Social sustainability, as a multifaceted construct, includes principles of equity, inclusivity, human rights, and ethical governance – Dimensions that AI has the potential to either bolster or undermine, contingent upon its deployment and oversight. For instance, could prioritising AI-driven agricultural solutions in wealthier regions exacerbate food security disparities in less-resourced communities? This question echoes concerns raised in recent scholarship, such as that of Vinuesa et al. (2020), who cautioned against unintended social trade-offs in AI's sustainability applications. Scholars such as Mittelstadt et al. (2016) have underscored that AI systems, if not judiciously managed, can exacerbate social inequities through entrenched biases embedded within algorithmic decision-making processes. For instance, adopting AI in domains such as hiring or predictive policing has been shown to perpetuate racial and socioeconomic biases when trained on historically skewed datasets, a concern rigorously documented by O'Neil (2016) in her seminal work Weapons of Math Destruction. Moreover, the erosion of privacy emerges as a salient risk, with AI-driven surveillance systems threatening individual autonomy and dignity, as Floridi et al. (2018) address in their exploration of AI's ethical implications, noting the tension between technological efficiency and human rights. Beyond algorithmic biases, the repetitive low-skilled tasks in AI's supply chain, such as data labelling, raises pressing social concerns. Workers, often in low-wage regions, endure significant mental anguish, labelling distressing images, yet are inadequately compensated and frequently uninformed about their contributions. This underscores a critical ethical gap in AI development, compromising social sustainability at the foundational level of the technology's production.
@@ -66,7 +66,7 @@ Gurumurthy, A. and Bharthur, D., Democracy and the algorithmic turn, SUR 27 (201
     readTime: "12 min read",
     category: "Social sustainability",
     featured: true,
-    likes: 45,
+    likes: 3,
     comments: 0
   },
   {
@@ -121,6 +121,10 @@ export default function Blog() {
   const [liked, setLiked] = useState(false);
   const [likeCount, setLikeCount] = useState(featuredPost?.likes || 0);
   const [showFullPost, setShowFullPost] = useState(false);
+  const [showComments, setShowComments] = useState(false);
+  const [showShare, setShowShare] = useState(false);
+  const [newComment, setNewComment] = useState('');
+  const [comments, setComments] = useState([]);
 
   const handleLike = () => {
     if (liked) {
@@ -129,6 +133,41 @@ export default function Blog() {
       setLikeCount(prev => prev + 1);
     }
     setLiked(!liked);
+  };
+
+  const handleComment = () => {
+    if (newComment.trim()) {
+      const comment = {
+        id: comments.length + 1,
+        text: newComment.trim(),
+        author: 'Anonymous',
+        date: new Date().toLocaleDateString()
+      };
+      setComments([...comments, comment]);
+      setNewComment('');
+    }
+  };
+
+  const handleShare = (platform) => {
+    const url = window.location.href;
+    const title = featuredPost?.title || '';
+    
+    switch (platform) {
+      case 'linkedin':
+        window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`, '_blank');
+        break;
+      case 'twitter':
+        window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`, '_blank');
+        break;
+      case 'reddit':
+        window.open(`https://www.reddit.com/submit?url=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}`, '_blank');
+        break;
+      case 'copy':
+        navigator.clipboard.writeText(url);
+        alert('Link copied to clipboard!');
+        break;
+    }
+    setShowShare(false);
   };
 
   return (
@@ -219,7 +258,7 @@ export default function Blog() {
                       </div>
                     </div>
 
-                    {/* Like and Comment Section */}
+                    {/* Like, Comment and Share Section */}
                     <div className="mt-12 pt-8 border-t border-border/20">
                       <div className="flex items-center gap-6">
                         <button
@@ -234,16 +273,108 @@ export default function Blog() {
                           <span className="font-medium">{likeCount}</span>
                         </button>
                         
-                        <button className="flex items-center gap-2 px-4 py-2 rounded-lg bg-muted/50 text-academic-caption hover:bg-muted transition-colors">
+                        <button 
+                          onClick={() => setShowComments(!showComments)}
+                          className="flex items-center gap-2 px-4 py-2 rounded-lg bg-muted/50 text-academic-caption hover:bg-muted transition-colors"
+                        >
                           <MessageCircle className="h-5 w-5" />
-                          <span className="font-medium">Comment</span>
+                          <span className="font-medium">Comment ({comments.length})</span>
                         </button>
                         
-                        <button className="flex items-center gap-2 px-4 py-2 rounded-lg bg-muted/50 text-academic-caption hover:bg-muted transition-colors">
-                          <Share2 className="h-5 w-5" />
-                          <span className="font-medium">Share</span>
-                        </button>
+                        <div className="relative">
+                          <button 
+                            onClick={() => setShowShare(!showShare)}
+                            className="flex items-center gap-2 px-4 py-2 rounded-lg bg-muted/50 text-academic-caption hover:bg-muted transition-colors"
+                          >
+                            <Share2 className="h-5 w-5" />
+                            <span className="font-medium">Share</span>
+                          </button>
+                          
+                          {showShare && (
+                            <div className="absolute top-full left-0 mt-2 bg-white border border-border rounded-lg shadow-lg py-2 z-10 min-w-[160px]">
+                              <button
+                                onClick={() => handleShare('linkedin')}
+                                className="w-full px-4 py-2 text-left text-sm hover:bg-muted/50 flex items-center gap-2"
+                              >
+                                <ExternalLink className="h-4 w-4" />
+                                LinkedIn
+                              </button>
+                              <button
+                                onClick={() => handleShare('twitter')}
+                                className="w-full px-4 py-2 text-left text-sm hover:bg-muted/50 flex items-center gap-2"
+                              >
+                                <ExternalLink className="h-4 w-4" />
+                                Twitter
+                              </button>
+                              <button
+                                onClick={() => handleShare('reddit')}
+                                className="w-full px-4 py-2 text-left text-sm hover:bg-muted/50 flex items-center gap-2"
+                              >
+                                <ExternalLink className="h-4 w-4" />
+                                Reddit
+                              </button>
+                              <button
+                                onClick={() => handleShare('copy')}
+                                className="w-full px-4 py-2 text-left text-sm hover:bg-muted/50 flex items-center gap-2"
+                              >
+                                <ExternalLink className="h-4 w-4" />
+                                Copy link
+                              </button>
+                            </div>
+                          )}
+                        </div>
                       </div>
+
+                      {/* Comments Section */}
+                      {showComments && (
+                        <div className="mt-6 space-y-4">
+                          <div className="bg-muted/30 rounded-lg p-4">
+                            <h4 className="font-semibold text-academic-subheading mb-3">
+                              Comments ({comments.length})
+                            </h4>
+                            
+                            {/* Comment Input */}
+                            <div className="space-y-3">
+                              <Textarea
+                                placeholder="Write a comment..."
+                                value={newComment}
+                                onChange={(e) => setNewComment(e.target.value)}
+                                className="min-h-[80px]"
+                              />
+                              <div className="flex justify-end">
+                                <Button 
+                                  onClick={handleComment}
+                                  disabled={!newComment.trim()}
+                                  size="sm"
+                                >
+                                  Post Comment
+                                </Button>
+                              </div>
+                            </div>
+
+                            {/* Comments List */}
+                            {comments.length > 0 && (
+                              <div className="mt-6 space-y-4">
+                                {comments.map((comment) => (
+                                  <div key={comment.id} className="bg-white rounded-lg p-4 border border-border/20">
+                                    <div className="flex items-center justify-between mb-2">
+                                      <span className="font-medium text-academic-subheading text-sm">
+                                        {comment.author}
+                                      </span>
+                                      <span className="text-academic-caption text-xs">
+                                        {comment.date}
+                                      </span>
+                                    </div>
+                                    <p className="text-academic-body text-sm">
+                                      {comment.text}
+                                    </p>
+                                  </div>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      )}
                     </div>
                   </div>
                 )}
