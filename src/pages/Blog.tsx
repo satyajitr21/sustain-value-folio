@@ -64,7 +64,7 @@ Vinuesa, R., Azizpour, H., Leite, I., Balaam, M., Dignum, V., Domisch, S., Fell√
 Gurumurthy, A. and Bharthur, D., Democracy and the algorithmic turn, SUR 27 (2018), accessed March 24, 2025, https://sur.conectas.org/en/democracy-and-the-algorithmic-turn.`,
     date: "2024-02-20",
     readTime: "12 min read",
-    category: "Research",
+    category: "Social sustainability",
     featured: true,
     likes: 45,
     comments: 23
