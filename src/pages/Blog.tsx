@@ -71,47 +71,14 @@ Gurumurthy, A. and Bharthur, D., Democracy and the algorithmic turn, SUR 27 (201
   },
   {
     id: 2,
-    title: "From Industry to Academia: Lessons Learned in the Transition",
-    excerpt: "Reflections on transitioning from industry roles to doctoral studies, and how professional experience enriches academic research.",
-    date: "2023-12-10",
-    readTime: "6 min read",
-    category: "Academia",
+    title: "Financing the Electric Vehicle Revolution in India",
+    excerpt: "A short reflection on my recent article in ET Auto (published on Jun 13, 2025), co-authored with Prof. Sreelata Jonnalagedda, highlighting the financing challenges and emerging solutions for commercial EV adoption in India.",
+    date: "2025-06-13",
+    readTime: "3 min read",
+    category: "EV",
     featured: false,
-    likes: 18,
-    comments: 12
-  },
-  {
-    id: 3,
-    title: "Teaching in the Digital Age: Engaging the Next Generation",
-    excerpt: "Thoughts on modern pedagogy, student engagement, and the role of technology in business education.",
-    date: "2023-11-22",
-    readTime: "5 min read",
-    category: "Teaching",
-    featured: false,
-    likes: 15,
-    comments: 6
-  },
-  {
-    id: 4,
-    title: "The Social Dimension of Operations Management",
-    excerpt: "Why social responsibility should be at the core of operations strategy, not an afterthought.",
-    date: "2023-10-08",
-    readTime: "7 min read",
-    category: "Research",
-    featured: false,
-    likes: 32,
-    comments: 14
-  },
-  {
-    id: 5,
-    title: "Conference Reflections: Key Takeaways from ICOMS 2023",
-    excerpt: "Insights from the International Conference on Operations Management and Sustainability, including emerging trends and research directions.",
-    date: "2023-09-15",
-    readTime: "4 min read",
-    category: "Conferences",
-    featured: false,
-    likes: 21,
-    comments: 9
+    likes: 3,
+    comments: 0
   }
 ];
 
@@ -397,53 +364,63 @@ export default function Blog() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {regularPosts.map((post) => (
               <Card key={post.id} className="shadow-academic-card hover:shadow-academic-elegant transition-academic group">
-                <CardHeader>
-                  <div className="flex items-center justify-between mb-3">
-                    <Badge variant="secondary">{post.category}</Badge>
-                    <div className="flex items-center text-academic-caption text-sm">
-                      <Calendar className="h-3 w-3 mr-1" />
-                      <span>{new Date(post.date).toLocaleDateString('en-US', { 
-                        month: 'short', 
-                        day: 'numeric' 
-                      })}</span>
-                    </div>
-                  </div>
-                  
-                  <CardTitle className="text-xl font-serif text-academic-heading group-hover:text-primary transition-academic">
-                    <Link to={`/blog/${post.id}`}>
-                      {post.title}
-                    </Link>
-                  </CardTitle>
-                </CardHeader>
-                
-                <CardContent>
-                  <p className="text-academic-body leading-relaxed mb-4">
-                    {post.excerpt}
-                  </p>
-                  
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-4 text-academic-caption text-sm">
-                      <div className="flex items-center">
-                        <Clock className="h-3 w-3 mr-1" />
-                        <span>{post.readTime}</span>
-                      </div>
-                      <div className="flex items-center">
-                        <Heart className="h-3 w-3 mr-1" />
-                        <span>{post.likes}</span>
-                      </div>
-                      <div className="flex items-center">
-                        <MessageCircle className="h-3 w-3 mr-1" />
-                        <span>{post.comments}</span>
-                      </div>
-                    </div>
-                    
-                    <Button variant="ghost" size="sm" asChild>
-                      <Link to={`/blog/${post.id}`}>
-                        Read More <ArrowRight className="ml-1 h-3 w-3" />
-                      </Link>
-                    </Button>
-                  </div>
-                </CardContent>
+                 <CardHeader>
+                   <div className="flex items-center justify-between mb-3">
+                     <Badge variant="secondary">{post.category}</Badge>
+                     <div className="flex items-center text-academic-caption text-sm">
+                       <Calendar className="h-3 w-3 mr-1" />
+                       <span>{new Date(post.date).toLocaleDateString('en-US', { 
+                         month: 'short', 
+                         day: 'numeric' 
+                       })}</span>
+                     </div>
+                   </div>
+                   
+                   <CardTitle className="text-xl font-serif text-academic-heading group-hover:text-primary transition-academic">
+                     {post.id === 2 ? post.title : (
+                       <Link to={`/blog/${post.id}`}>
+                         {post.title}
+                       </Link>
+                     )}
+                   </CardTitle>
+                 </CardHeader>
+                 
+                 <CardContent>
+                   <p className="text-academic-body leading-relaxed mb-4">
+                     {post.excerpt}
+                   </p>
+                   
+                   <div className="flex items-center justify-between">
+                     <div className="flex items-center gap-4 text-academic-caption text-sm">
+                       <div className="flex items-center">
+                         <Clock className="h-3 w-3 mr-1" />
+                         <span>{post.readTime}</span>
+                       </div>
+                       <div className="flex items-center">
+                         <Heart className="h-3 w-3 mr-1" />
+                         <span>{post.likes}</span>
+                       </div>
+                       <div className="flex items-center">
+                         <MessageCircle className="h-3 w-3 mr-1" />
+                         <span>{post.comments}</span>
+                       </div>
+                     </div>
+                     
+                     {post.id === 2 ? (
+                       <Button variant="ghost" size="sm" asChild>
+                         <a href="https://auto.economictimes.indiatimes.com/news/commercial-vehicle/financing-the-electric-vehicle-revolution-addressing-challenges-in-india/121815514" target="_blank" rel="noopener noreferrer">
+                           Read the full article on ET Auto <ExternalLink className="ml-1 h-3 w-3" />
+                         </a>
+                       </Button>
+                     ) : (
+                       <Button variant="ghost" size="sm" asChild>
+                         <Link to={`/blog/${post.id}`}>
+                           Read More <ArrowRight className="ml-1 h-3 w-3" />
+                         </Link>
+                       </Button>
+                     )}
+                   </div>
+                 </CardContent>
               </Card>
             ))}
           </div>
