@@ -62,12 +62,12 @@ Mittelstadt, B. D., Allo, P., Taddeo, M., Wachter, S., & Floridi, L. (2016). The
 Vinuesa, R., Azizpour, H., Leite, I., Balaam, M., Dignum, V., Domisch, S., Felländer, A., Langhans, S. D., Tegmark, M., & Fuso Nerini, F. (2020). The role of artificial intelligence in achieving the Sustainable Development Goals. Nature Communications, 11(1).
 
 Gurumurthy, A. and Bharthur, D., Democracy and the algorithmic turn, SUR 27 (2018), accessed March 24, 2025, https://sur.conectas.org/en/democracy-and-the-algorithmic-turn.`,
-    date: "2024-02-20",
+    date: "2025-07-01",
     readTime: "12 min read",
     category: "Social sustainability",
     featured: true,
     likes: 45,
-    comments: 23
+    comments: 0
   },
   {
     id: 2,
@@ -187,93 +187,66 @@ export default function Blog() {
               </CardHeader>
 
               <CardContent className="p-8">
-                <div className="prose prose-lg max-w-none">
-                  <div className="text-academic-body leading-relaxed space-y-6">
-                    {featuredPost.fullContent?.split('\n\n').map((paragraph, index) => {
-                      if (paragraph.startsWith('**') && paragraph.endsWith('**')) {
-                        const heading = paragraph.replace(/\*\*/g, '');
-                        return (
-                          <h3 key={index} className="text-xl font-serif font-bold text-academic-heading mt-8 mb-4">
-                            {heading}
-                          </h3>
-                        );
-                      }
-                      return paragraph.trim() && (
-                        <p key={index} className="text-academic-body leading-relaxed">
-                          {paragraph}
-                        </p>
-                      );
-                    })}
-                  </div>
+                <div className="text-center">
+                  <Button 
+                    onClick={() => setShowFullPost(true)}
+                    className="group"
+                  >
+                    Read more
+                    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                  </Button>
                 </div>
-
-                {/* Like and Comment Section */}
-                <div className="mt-12 pt-8 border-t border-border/20">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-6">
-                      <button
-                        onClick={handleLike}
-                        className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all ${
-                          liked 
-                            ? 'bg-red-50 text-red-600 hover:bg-red-100' 
-                            : 'bg-muted/50 text-academic-caption hover:bg-muted'
-                        }`}
-                      >
-                        <Heart className={`h-5 w-5 ${liked ? 'fill-current' : ''}`} />
-                        <span className="font-medium">{likeCount}</span>
-                      </button>
-                      
-                      <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-muted/50 text-academic-caption">
-                        <MessageCircle className="h-5 w-5" />
-                        <span className="font-medium">{featuredPost.comments}</span>
-                      </div>
-                      
-                      <button className="flex items-center gap-2 px-4 py-2 rounded-lg bg-muted/50 text-academic-caption hover:bg-muted transition-colors">
-                        <Share2 className="h-5 w-5" />
-                        <span className="font-medium">Share</span>
-                      </button>
-                    </div>
-                  </div>
-
-                  {/* Comments Section */}
+                
+                {showFullPost && (
                   <div className="mt-8">
-                    <h4 className="text-lg font-serif font-bold text-academic-heading mb-4">
-                      Comments ({featuredPost.comments})
-                    </h4>
-                    
-                    <div className="space-y-6">
-                      <div className="bg-muted/30 rounded-lg p-4">
-                        <div className="flex items-center gap-3 mb-2">
-                          <div className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center">
-                            <span className="text-sm font-medium text-primary">AS</span>
-                          </div>
-                          <div>
-                            <p className="font-medium text-academic-heading">Alex Smith</p>
-                            <p className="text-sm text-academic-caption">2 days ago</p>
-                          </div>
-                        </div>
-                        <p className="text-academic-body">
-                          This is a fascinating perspective on AI ethics. The points about data colonialism particularly resonate with my research on digital inequality.
-                        </p>
+                    <div className="prose prose-lg max-w-none">
+                      <div className="text-academic-body leading-relaxed space-y-6">
+                        {featuredPost.fullContent?.split('\n\n').map((paragraph, index) => {
+                          if (paragraph.startsWith('**') && paragraph.endsWith('**')) {
+                            const heading = paragraph.replace(/\*\*/g, '');
+                            return (
+                              <h3 key={index} className="text-xl font-serif font-bold text-academic-heading mt-8 mb-4">
+                                {heading}
+                              </h3>
+                            );
+                          }
+                          return paragraph.trim() && (
+                            <p key={index} className="text-academic-body leading-relaxed">
+                              {paragraph}
+                            </p>
+                          );
+                        })}
                       </div>
-                      
-                      <div className="bg-muted/30 rounded-lg p-4">
-                        <div className="flex items-center gap-3 mb-2">
-                          <div className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center">
-                            <span className="text-sm font-medium text-primary">MJ</span>
-                          </div>
-                          <div>
-                            <p className="font-medium text-academic-heading">Maria Johnson</p>
-                            <p className="text-sm text-academic-caption">1 day ago</p>
-                          </div>
-                        </div>
-                        <p className="text-academic-body">
-                          The invisible labor aspect is often overlooked. Thank you for highlighting the human cost behind AI development.
-                        </p>
+                    </div>
+
+                    {/* Like and Comment Section */}
+                    <div className="mt-12 pt-8 border-t border-border/20">
+                      <div className="flex items-center gap-6">
+                        <button
+                          onClick={handleLike}
+                          className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all ${
+                            liked 
+                              ? 'bg-red-50 text-red-600 hover:bg-red-100' 
+                              : 'bg-muted/50 text-academic-caption hover:bg-muted'
+                          }`}
+                        >
+                          <Heart className={`h-5 w-5 ${liked ? 'fill-current' : ''}`} />
+                          <span className="font-medium">{likeCount}</span>
+                        </button>
+                        
+                        <button className="flex items-center gap-2 px-4 py-2 rounded-lg bg-muted/50 text-academic-caption hover:bg-muted transition-colors">
+                          <MessageCircle className="h-5 w-5" />
+                          <span className="font-medium">Comment</span>
+                        </button>
+                        
+                        <button className="flex items-center gap-2 px-4 py-2 rounded-lg bg-muted/50 text-academic-caption hover:bg-muted transition-colors">
+                          <Share2 className="h-5 w-5" />
+                          <span className="font-medium">Share</span>
+                        </button>
                       </div>
                     </div>
                   </div>
-                </div>
+                )}
               </CardContent>
             </Card>
           </section>
