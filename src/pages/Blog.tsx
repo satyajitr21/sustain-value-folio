@@ -79,6 +79,17 @@ Gurumurthy, A. and Bharthur, D., Democracy and the algorithmic turn, SUR 27 (201
     featured: false,
     likes: 3,
     comments: 0
+  },
+  {
+    id: 3,
+    title: "Why Leasing Dominates India's Commercial EV Market",
+    excerpt: "In this opinion piece for Autocar Professional, co-authored with Prof. Sreelata Jonnalagedda, we explore why leasing has emerged as the dominant mode of adoption for commercial EVs in India — highlighting financing barriers, battery-related risks, and evolving business models in the electric mobility space.",
+    date: "2025-06-15",
+    readTime: "4 min read",
+    category: "EV",
+    featured: false,
+    likes: 5,
+    comments: 0
   }
 ];
 
@@ -406,19 +417,25 @@ export default function Blog() {
                        </div>
                      </div>
                      
-                     {post.id === 2 ? (
-                       <Button variant="ghost" size="sm" asChild>
-                         <a href="https://auto.economictimes.indiatimes.com/news/commercial-vehicle/financing-the-electric-vehicle-revolution-addressing-challenges-in-india/121815514" target="_blank" rel="noopener noreferrer">
-                           Read the full article on ET Auto <ExternalLink className="ml-1 h-3 w-3" />
-                         </a>
-                       </Button>
-                     ) : (
-                       <Button variant="ghost" size="sm" asChild>
-                         <Link to={`/blog/${post.id}`}>
-                           Read More <ArrowRight className="ml-1 h-3 w-3" />
-                         </Link>
-                       </Button>
-                     )}
+                      {post.id === 2 ? (
+                        <Button variant="ghost" size="sm" asChild>
+                          <a href="https://auto.economictimes.indiatimes.com/news/commercial-vehicle/financing-the-electric-vehicle-revolution-addressing-challenges-in-india/121815514" target="_blank" rel="noopener noreferrer">
+                            Read the full article on ET Auto <ExternalLink className="ml-1 h-3 w-3" />
+                          </a>
+                        </Button>
+                      ) : post.id === 3 ? (
+                        <Button variant="ghost" size="sm" asChild>
+                          <a href="https://www.autocarpro.in/opinion-blogs/why-leasing-dominates-indias-commercial-ev-market-126883" target="_blank" rel="noopener noreferrer">
+                            Read more on Autocar Professional <ExternalLink className="ml-1 h-3 w-3" />
+                          </a>
+                        </Button>
+                      ) : (
+                        <Button variant="ghost" size="sm" asChild>
+                          <Link to={`/blog/${post.id}`}>
+                            Read More <ArrowRight className="ml-1 h-3 w-3" />
+                          </Link>
+                        </Button>
+                      )}
                    </div>
                  </CardContent>
               </Card>
