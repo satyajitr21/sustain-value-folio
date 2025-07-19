@@ -84,7 +84,7 @@ Gurumurthy, A. and Bharthur, D., Democracy and the algorithmic turn, SUR 27 (201
     id: 3,
     title: "Why Leasing Dominates India's Commercial EV Market",
     excerpt: "In this opinion piece for Autocar Professional, co-authored with Prof. Sreelata Jonnalagedda, we explore why leasing has emerged as the dominant mode of adoption for commercial EVs in India — highlighting financing barriers, battery-related risks, and evolving business models in the electric mobility space.",
-    date: "2025-06-15",
+    date: "2025-06-07",
     readTime: "4 min read",
     category: "EV",
     featured: false,
