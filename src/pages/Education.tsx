@@ -216,10 +216,9 @@ export default function Education() {
             <div>
               <h3 className="font-semibold text-academic-subheading mb-3">Certifications & Courses</h3>
               <ul className="text-academic-body space-y-2">
-                <li>• Advanced Research Methods in Management</li>
-                <li>• Sustainable Supply Chain Management</li>
-                <li>• Data Analytics for Operations</li>
-                <li>• Academic Writing and Publishing</li>
+                <li>• Future of Capitalism - Shizenkan-IESE Joint Elective Course</li>
+                <li>• CITI Program course on Human Subjects Research</li>
+                <li>• Energy Literacy Training course by Energy Swaraj Foundation</li>
               </ul>
             </div>
             <div>
