@@ -5,75 +5,66 @@ import { Calendar, Award, BookOpen, Users, Presentation, GraduationCap } from 'l
 const newsItems = [
   {
     id: 1,
-    date: "2024-01-20",
+    date: "2025-06-17",
+    type: "conference",
+    title: "Paper accepted for 85th Academy of Management Annual Meeting",
+    description: "My paper got accepted for presentation at the 85th Academy of Management (AOM) Annual meeting in Copenhagen. Read the abstract: https://journals.aom.org/doi/abs/10.5465/AMPROC.2025.14082abstract",
+    icon: Presentation,
+    category: "Conference"
+  },
+  {
+    id: 2,
+    date: "2025-06-13",
     type: "research",
-    title: "Paper Accepted at Journal of Operations Management",
-    description: "My working paper on sustainable value chain design has been accepted for publication in the Journal of Operations Management, pending minor revisions.",
+    title: "Co-authored article published by ET Auto",
+    description: "My co-authored article was published by ET Auto. Read the article: https://auto.economictimes.indiatimes.com/news/commercial-vehicle/financing-the-electric-vehicle-revolution-addressing-challenges-in-india/121815514",
     icon: BookOpen,
     category: "Publication"
   },
   {
-    id: 2,
-    date: "2023-12-15",
-    type: "teaching",
-    title: "Outstanding Teaching Assistant Award",
-    description: "Received the Outstanding Teaching Assistant Award from IIM Bangalore for excellence in supporting Operations Management courses.",
-    icon: Award,
-    category: "Award"
-  },
-  {
     id: 3,
-    date: "2023-11-08",
-    type: "conference",
-    title: "Presentation at ICOMS 2023",
-    description: "Presented research on sustainability metrics at the International Conference on Operations Management and Sustainability in Mumbai.",
-    icon: Presentation,
-    category: "Conference"
+    date: "2025-06-07",
+    type: "research",
+    title: "Co-authored article published by ET Auto",
+    description: "My co-authored article was published by ET Auto. Read the article: https://www.autocarpro.in/opinion-blogs/why-leasing-dominates-indias-commercial-ev-market-126883",
+    icon: BookOpen,
+    category: "Publication"
   },
   {
     id: 4,
-    date: "2023-10-22",
-    type: "research",
-    title: "Research Excellence Fellowship Renewed",
-    description: "Received renewal of Research Excellence Fellowship from IIM Bangalore for continued outstanding research performance.",
-    icon: GraduationCap,
-    category: "Fellowship"
+    date: "2025-05-08",
+    type: "conference",
+    title: "Presented at 35th Annual POMS Conference in Atlanta",
+    description: "Presented three of my papers in 35th Annual POMS Conference in Atlanta.",
+    icon: Presentation,
+    category: "Conference"
   },
   {
     id: 5,
-    date: "2023-09-30",
-    type: "research",
-    title: "Best Student Paper Award",
-    description: "Won the Best Student Paper Award at ICOMS 2023 for the paper on sustainability metrics in operations management.",
-    icon: Award,
-    category: "Award"
+    date: "2025-04-24",
+    type: "conference",
+    title: "Served as chair at International Sustainability Conference",
+    description: "Served as a chair for two tracks at the International Sustainability Conference (jointly hosted by IIMB and WIPRO).",
+    icon: Users,
+    category: "Conference"
   },
   {
     id: 6,
-    date: "2023-08-14",
-    type: "teaching",
-    title: "Guest Lecture at XLRI Jamshedpur",
-    description: "Delivered a guest lecture on sustainable supply chain design for the Executive MBA program at XLRI Jamshedpur.",
-    icon: Users,
-    category: "Teaching"
+    date: "2025-01-01",
+    type: "research",
+    title: "Teaching case study published by Harvard Business Publishing",
+    description: "My co-authored teaching case study was published by Harvard Business Publishing. Have a look: https://hbsp.harvard.edu/product/IM053B-PDF-ENG?Ntt=Business%20Model%20Innovation%20at%20Log9",
+    icon: BookOpen,
+    category: "Publication"
   },
   {
     id: 7,
-    date: "2023-07-05",
-    type: "research",
-    title: "Research Collaboration with Industry Partner",
-    description: "Initiated research collaboration with leading automotive manufacturer for real-world validation of sustainable supply chain frameworks.",
-    icon: BookOpen,
-    category: "Collaboration"
-  },
-  {
-    id: 8,
-    date: "2023-05-20",
+    date: "2024-12-04",
     type: "conference",
-    title: "Accepted for POMS 2024 Conference",
-    description: "Abstract accepted for presentation at the Production and Operations Management Society Annual Conference in Minneapolis.",
-    icon: Presentation,
-    category: "Conference"
+    title: "Second best doctoral research paper award at POMS Indian International",
+    description: "Presented two of my research papers at POMS Indian International conference at IIM Ranchi and one of them won the second best doctoral research paper award.",
+    icon: Award,
+    category: "Award"
   }
 ];
 
