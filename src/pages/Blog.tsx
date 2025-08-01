@@ -10,6 +10,50 @@ import { useState } from 'react';
 const blogPosts = [
   {
     id: 1,
+    title: "The Shifting Sands of Sickness: Will Consumerization Reshape Indian Primary Healthcare?",
+    excerpt: "Last month, I was attending AYUSHMAT 2025, An annual healthcare summit at IIM Bangalore. In one of the panel discussions, Mr. Vaibhav Tewari emphasized an interesting trend - the consumerization of healthcare, a shift driven by evolving patient expectations and technological advancements.",
+    fullContent: `
+Last month, I was attending AYUSHMAT 2025, An annual healthcare summit at IIM Bangalore. In one of the panel discussions, Mr. Vaibhav Tewari, Co-Founder & COO, Portea, was expressing his views about Indian healthcare by 2030. He emphasized an interesting trend in the industry - the consumerization of healthcare, a shift driven by evolving patient expectations and technological advancements. This got me thinking how it will revolve the role of primary care physicians – the family doctors and general physicians.
+
+**The Enduring Pillar: Our Trusted Family Doctors**
+
+For generations, the general physician or family doctor has been the bedrock of Indian healthcare. Remember the doctor uncle from down the lane? He wasn't just a doctor; he was a confidante, a community elder, and often the first point of contact for any ailment, big or small. When little Anya developed a persistent cough, it was Dr. uncle who, with a warm smile and a reassuring hand, would listen intently to her mother's concerns, check Anya's throat, and with his years of experience, quickly diagnosed a common cold, prescribing a simple syrup and plenty of rest. He knew Anya's family history, her allergies, even the anxiety her grandmother often felt about her health. He was the one who steered families through fevers, stitches, and childhood diseases, providing continuity of care and a sense of security that went beyond mere medical treatment.
+
+**The Rise of Healthcare Consumer**
+
+The "consumerization of healthcare" signifies a fundamental power shift. Patients are no longer passive recipients of care, but active participants, much like consumers in any other industry. With readily available online information, patients research symptoms, treatments, and even compare doctors and facilities. They expect convenience, accessibility, transparency in pricing, and a personalized experience, akin to the case of e-commerce or retail shopping. High out-of-pocket costs and deductibles are making patients more conscious of the "return on investment" for their healthcare spending. The rise of urgent care clinics, telehealth platforms, and specialized centers means patients have more options than ever before and are not hesitant to switch providers.
+
+**The Urban Primary Care Physician in Transition**
+
+This consumerization trend profoundly impacts primary care physicians, especially in urban areas. The traditional model of a single, lifelong family doctor is being challenged. Urban patients are increasingly bypassing the GPs for direct access to specialists or convenient walk-in clinics for perceived urgent needs.
+
+This can lead to fragmented care, where a patient might see multiple specialists without a central coordinator, potentially leading to duplicate tests, conflicting advice, and a lack of holistic understanding of their overall health. Primary care physicians in cities are now under pressure to offer greater convenience, emphasize patient experience, and demonstrate value.
+
+**The Rise of AI Agents and the Empowered Patient**
+
+Adding another layer to this dynamic is the emergence of new AI agents. The likes of ChatGPTs are empowering patients and their families to take on a more active role in their health management, even stepping into a "primary care provider" role to some extent.
+
+Imagine a busy parent, concerned about their child's sudden fever at midnight. Instead of a frantic online search or a visit to an emergency room for a non-critical issue, they can interact with an AI-powered symptom checker that asks relevant questions, analyze the child's symptoms against vast medical databases, and provide initial guidance – perhaps suggesting home remedies, advising on when to seek professional help, or even facilitating a teleconsultation with a doctor. Similarly, AI-powered health apps can help individuals track chronic conditions, remind them about medication, and offer personalized wellness advice, enabling a degree of self-care and proactive health management.
+
+**The Future of Primary Care: A Dual Trajectory**
+
+Looking towards 2030, the role of primary care in India will likely follow a dual trajectory.
+
+In urban areas, primary care physicians will evolve into highly accessible, tech-enabled "health navigators" and "wellness coaches." Their emphasis will shift from solely reactive treatment to proactive health management, preventive care, and personalized health journeys. They will also leverage AI tools to streamline administrative tasks, analyze patient data for predictive insights, and facilitate seamless referrals to specialists when truly needed. The human element of trust and empathy will remain paramount, but it will be complemented by digital convenience and data-driven insights. Direct primary care models, where patients pay a subscription fee for unlimited access to their doctor (e.g., MediBuddy gold subscription), might gain further traction, fostering deeper patient-physician relationships.
+
+However, in rural areas and Tier-3 cities, the role of primary care physicians may not see as drastic a shift in its fundamental nature. While technology will undoubtedly play a role in improving access to information and remote consultations, the traditional "Dr. uncle" model, built on community trust, local understanding, and personal relationships, will likely retain its core importance. Here, the challenge will be more about bolstering existing infrastructure, addressing physician shortages, and leveraging basic digital tools to extend reach and provide foundational healthcare services.
+
+The consumerization of healthcare, while a significant disruptor, ultimately holds the promise of a more engaged, informed, and empowered patient. The primary care physician, whether in a bustling city clinic or a quiet village health center, will continue to be vital, adapting their role to navigate this evolving landscape and ensuring that the heart of healthcare –personalized, accessible human touch, remains beating strong.
+`,
+    date: "2025-07-02",
+    readTime: "8 min read",
+    category: "Healthcare",
+    featured: true,
+    likes: 2,
+    comments: 0
+  },
+  {
+    id: 2,
     title: "AI for Sustainability, but What about (Social) Sustainability in AI?",
     excerpt: "Artificial Intelligence has positioned itself as a pivotal instrument in advancing sustainability, yet it poses significant risks to social sustainability through data colonisation, biased algorithms, and worker exploitation.",
     fullContent: `
@@ -65,12 +109,12 @@ Gurumurthy, A. and Bharthur, D., Democracy and the algorithmic turn, SUR 27 (201
     date: "2025-07-01",
     readTime: "12 min read",
     category: "Social sustainability",
-    featured: true,
+    featured: false,
     likes: 3,
     comments: 0
   },
   {
-    id: 2,
+    id: 3,
     title: "Financing the Electric Vehicle Revolution in India",
     excerpt: "A short reflection on my recent article in ET Auto (published on Jun 13, 2025), co-authored with Prof. Sreelata Jonnalagedda, highlighting the financing challenges and emerging solutions for commercial EV adoption in India.",
     date: "2025-06-13",
@@ -81,7 +125,7 @@ Gurumurthy, A. and Bharthur, D., Democracy and the algorithmic turn, SUR 27 (201
     comments: 0
   },
   {
-    id: 3,
+    id: 4,
     title: "Why Leasing Dominates India's Commercial EV Market",
     excerpt: "In this opinion piece for Autocar Professional, co-authored with Prof. Sreelata Jonnalagedda, we explore why leasing has emerged as the dominant mode of adoption for commercial EVs in India — highlighting financing barriers, battery-related risks, and evolving business models in the electric mobility space.",
     date: "2025-06-07",
