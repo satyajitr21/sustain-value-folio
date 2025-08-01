@@ -8,7 +8,11 @@ const newsItems = [
     date: "2025-06-17",
     type: "conference",
     title: "Paper accepted for 85th Academy of Management Annual Meeting",
-    description: "My paper got accepted for presentation at the 85th Academy of Management (AOM) Annual meeting in Copenhagen. Read the abstract: https://journals.aom.org/doi/abs/10.5465/AMPROC.2025.14082abstract",
+    description: "My paper got accepted for presentation at the 85th Academy of Management (AOM) Annual meeting in Copenhagen.",
+    link: {
+      text: "Read the abstract",
+      url: "https://journals.aom.org/doi/abs/10.5465/AMPROC.2025.14082abstract"
+    },
     icon: Presentation,
     category: "Conference"
   },
@@ -17,7 +21,11 @@ const newsItems = [
     date: "2025-06-13",
     type: "research",
     title: "Co-authored article published by ET Auto",
-    description: "My co-authored article was published by ET Auto. Read the article: https://auto.economictimes.indiatimes.com/news/commercial-vehicle/financing-the-electric-vehicle-revolution-addressing-challenges-in-india/121815514",
+    description: "My co-authored article was published by ET Auto.",
+    link: {
+      text: "Read the article",
+      url: "https://auto.economictimes.indiatimes.com/news/commercial-vehicle/financing-the-electric-vehicle-revolution-addressing-challenges-in-india/121815514"
+    },
     icon: BookOpen,
     category: "Publication"
   },
@@ -26,7 +34,11 @@ const newsItems = [
     date: "2025-06-07",
     type: "research",
     title: "Co-authored article published by ET Auto",
-    description: "My co-authored article was published by ET Auto. Read the article: https://www.autocarpro.in/opinion-blogs/why-leasing-dominates-indias-commercial-ev-market-126883",
+    description: "My co-authored article was published by ET Auto.",
+    link: {
+      text: "Read the article",
+      url: "https://www.autocarpro.in/opinion-blogs/why-leasing-dominates-indias-commercial-ev-market-126883"
+    },
     icon: BookOpen,
     category: "Publication"
   },
@@ -53,7 +65,11 @@ const newsItems = [
     date: "2025-01-01",
     type: "research",
     title: "Teaching case study published by Harvard Business Publishing",
-    description: "My co-authored teaching case study was published by Harvard Business Publishing. Have a look: https://hbsp.harvard.edu/product/IM053B-PDF-ENG?Ntt=Business%20Model%20Innovation%20at%20Log9",
+    description: "My co-authored teaching case study was published by Harvard Business Publishing.",
+    link: {
+      text: "Have a look",
+      url: "https://hbsp.harvard.edu/product/IM053B-PDF-ENG?Ntt=Business%20Model%20Innovation%20at%20Log9"
+    },
     icon: BookOpen,
     category: "Publication"
   },
@@ -126,6 +142,19 @@ export default function News() {
                             
                             <p className="text-academic-body leading-relaxed">
                               {item.description}
+                              {item.link && (
+                                <>
+                                  {" "}
+                                  <a 
+                                    href={item.link.url} 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="text-primary hover:text-primary/80 underline font-medium"
+                                  >
+                                    {item.link.text}
+                                  </a>
+                                </>
+                              )}
                             </p>
                           </div>
                         </div>
