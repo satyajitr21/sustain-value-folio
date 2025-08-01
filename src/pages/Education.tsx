@@ -216,7 +216,9 @@ export default function Education() {
             <div>
               <h3 className="font-semibold text-academic-subheading mb-3">Certifications & Courses</h3>
               <ul className="text-academic-body space-y-2">
+                <li>• Doctoral teaching consortium at IIM Bangalore</li>
                 <li>• Future of Capitalism - Shizenkan-IESE Joint Elective Course</li>
+                <li>• Winter research methodology workshop at IIM Bangalore</li>
                 <li>• CITI Program course on Human Subjects Research</li>
                 <li>• Energy Literacy Training course by Energy Swaraj Foundation</li>
               </ul>
