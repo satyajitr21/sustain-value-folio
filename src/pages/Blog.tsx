@@ -95,6 +95,65 @@ Tying these strands together demands dynamic, multi-stakeholder collaboration. T
 
 **Conclusion**
 
+**Additional References**
+
+Floridi, L., Cowls, J., Beltrametti, M., Chatila, R., Chazerand, P., Dignum, V., Luetge, C., Madelin, R., Pagallo, U., Rossi, F., Schafer, B., Valcke, P., & Vayena, E. (2018). AI4People – An Ethical Framework for a Good AI Society: Opportunities, Risks, Principles, and Recommendations. Minds and Machines, 28(4), 689-707.
+
+Mittelstadt, B. D., Allo, P., Taddeo, M., Wachter, S., & Floridi, L. (2016). The ethics of algorithms: Mapping the debate. Big Data &Amp; Society, 3(2), 205395171667967.
+
+Vinuesa, R., Azizpour, H., Leite, I., Balaam, M., Dignum, V., Domisch, S., Felländer, A., Langhans, S. D., Tegmark, M., & Fuso Nerini, F. (2020). The role of artificial intelligence in achieving the Sustainable Development Goals. Nature Communications, 11(1).
+
+Gurumurthy, A. and Bharthur, D., Democracy and the algorithmic turn, SUR 27 (2018), accessed March 24, 2025, https://sur.conectas.org/en/democracy-and-the-algorithmic-turn.`,
+    date: "2025-07-01",
+    readTime: "12 min read",
+    category: "Social sustainability",
+    featured: true,
+    likes: 3,
+    comments: 0
+  },
+  {
+    id: 3,
+    title: "AI for Sustainability, but What about (Social) Sustainability in AI?",
+    excerpt: "Artificial Intelligence has positioned itself as a pivotal instrument in advancing sustainability, yet it poses significant risks to social sustainability through data colonisation, biased algorithms, and worker exploitation.",
+    fullContent: `
+Artificial Intelligence (AI) has positioned itself as a pivotal instrument in advancing the sustainability paradigm, offering new instruments to tackle global challenges. Within the environmental domain, AI optimises energy utilisation in intelligent infrastructures and enhances agroecological efficiency through precision agriculture, thereby contributing to resource conservation and the amelioration of ecological footprints. Its capacity of generating predictive models from expansive datasets empowers industries to diminish waste streams, curtail greenhouse gas emissions, and adapt proactively to the exigencies of climatic shifts. Furthermore, AI's potential extends to economic sustainability by refining operational frameworks and catalysing innovative practices. Yet, it poses risks to social sustainability – Endangering equitable access through data colonisation, threatening equity and privacy through biased algorithms and exploiting workers in its supply chain, such as those labelling traumatic data under opaque, underpaid conditions.
+
+Social sustainability, as a multifaceted construct, includes principles of equity, inclusivity, human rights, and ethical governance – Dimensions that AI has the potential to either bolster or undermine, contingent upon its deployment and oversight. For instance, could prioritising AI-driven agricultural solutions in wealthier regions exacerbate food security disparities in less-resourced communities? This question echoes concerns raised in recent scholarship, such as that of Vinuesa et al. (2020), who cautioned against unintended social trade-offs in AI's sustainability applications. Scholars such as Mittelstadt et al. (2016) have underscored that AI systems, if not judiciously managed, can exacerbate social inequities through entrenched biases embedded within algorithmic decision-making processes. For instance, adopting AI in domains such as hiring or predictive policing has been shown to perpetuate racial and socioeconomic biases when trained on historically skewed datasets, a concern rigorously documented by O'Neil (2016) in her seminal work Weapons of Math Destruction. Moreover, the erosion of privacy emerges as a salient risk, with AI-driven surveillance systems threatening individual autonomy and dignity, as Floridi et al. (2018) address in their exploration of AI's ethical implications, noting the tension between technological efficiency and human rights. Beyond algorithmic biases, the repetitive low-skilled tasks in AI's supply chain, such as data labelling, raises pressing social concerns. Workers, often in low-wage regions, endure significant mental anguish, labelling distressing images, yet are inadequately compensated and frequently uninformed about their contributions. This underscores a critical ethical gap in AI development, compromising social sustainability at the foundational level of the technology's production.
+
+This essay thus interrogates whether AI's promise for sustainability might be overshadowed by its social costs, setting the stage for a deeper exploration of its algorithmic, interpersonal, and labour-related implications.
+
+**Digital divides and data disparities**
+
+While laden with transformative potential, the integration of AI into sustainability initiatives may imperil equitable access to resources through data colocalisation and its exacerbation of systemic disparities. Data colocalisation – The concentration of data aggregation, processing, and AI deployment within privileged geographic or socioeconomic enclaves disproportionately benefits regions with advanced technological infrastructure, sidelining marginalised populations, as Gurumurthy and Bharthur (2018) argue. This dynamic is vividly illustrated by AI-driven agricultural innovations, which optimise yields predominantly in data-rich industrialised nations, while smallholder farmers in the Global South, deprived of digitised resources or connectivity, are excluded. Compounding this, Couldry and Mejias (2019), in The Costs of Connection, contend that AI promotes a form of data colonialism, colonising human life by appropriating personal data to fuel capitalist accumulation, often under the guise of sustainable progress. Such practices transform lived experiences into commodified datasets, reinforcing corporate dominance and restricting access to AI's benefits. Crawford (2021) similarly warns in Atlas of AI that the proprietary grip on AI technologies and data entrenches power asymmetries, risking the neglect of diverse contexts critical to social sustainability. These trends threaten to deepen inequities rather than foster inclusive sustainability unless data and AI systems are purposefully democratised.
+
+**Shadows of surveillance and skewed Systems**
+
+The expansive integration of AI into sustainability efforts harbours significant risks to privacy and entrenches biases through algorithmic mechanisms, jeopardising the ethical bedrock of social sustainability. AI's insatiable appetite for data, evident in applications like smart city infrastructures or environmental tracking, undermines privacy by converting routine human activities into perpetually monitored datasets, a tension Floridi et al. (2018) unpack in their analysis of AI's ethical dilemmas. For instance, AI-driven traffic cameras deployed to optimise traffic flow to reduce congestion and emissions can simultaneously function as surveillance tools, profiling individuals without their knowledge or consent. Concurrently, algorithmic biases amplify inequity when AI systems, reliant on flawed or unrepresentative training data, yield discriminatory results. Mittelstadt et al. (2016) note how such biases in hiring algorithms perpetuate historical prejudices, disproportionately favouring certain groups. A stark example emerges from Murgia (2024) in Code Dependent, where AI facial recognition, intended to curb crime, frequently misidentifies people of colour due to skewed datasets, leading to wrongful suspicions and arrests, exposing a racial bias baked into ostensibly neutral technology. O'Neil (2016) complements this in Weapons of Math Destruction, illustrating how credit-scoring AI disadvantages low-income communities, reflecting capitalist priorities over fairness. Together, these threats to privacy and equity underscore AI's potential to erode social sustainability unless governed by stringent ethical frameworks.
+
+**Invisible labour, visible scars: Factories where humans aid machines**
+
+The operational efficacy of AI, pivotal to its sustainability applications, hinges on an often-overlooked foundation: the gruelling labour of data labelling, which often exacts a severe toll on workers tasked with processing mentally destructive content. Individuals, frequently employed in low-wage regions, endure profound psychological distress while annotating images or videos of violence, abuse, or other traumatic material essential for training AI algorithms. Yet, they are rarely afforded adequate compensation or mental health support, as Murgia (2024) documented. For instance, content moderators labelling datasets for AI-driven safety systems may spend hours sifting through graphic imagery, leading to anxiety and depression, with little recourse or recognition. Compounding this exploitation, these workers are often kept in the dark about the broader purpose of their labour, unaware that their efforts enable advancements in AI for profit-driven enterprises, a disconnect Couldry and Mejias (2019) critique as part of data colonialism's opaque machinery (in The Costs of Connection). This shadowy supply chain reveals a stark irony: while AI promises sustainable futures, its reliance on underpaid, uninformed labourers enduring mental agony undermines the social sustainability it claims to uphold, demanding urgent ethical scrutiny and reform.
+
+**The bright side: Redeeming sustainability amid its shadows**
+
+Alongside the troubling dimensions of AI – Its threats to equitable access, privacy, fairness, and the hidden toll of data labelling, a contrasting perspective emerges, revealing its potential to serve as a powerful ally in advancing environmental and social sustainability. In environmental protection, AI's analytical strength shines through in applications like optimising renewable energy systems; for instance, Google's DeepMind reduced data centre cooling energy by 40% using predictive algorithms, exemplifying a scalable reduction in carbon footprints. Likewise, tools like Global Forest Watch leverage AI to monitor deforestation through satellite imagery, enabling proactive conservation efforts. On the social front, when harnessed ethically, AI can enhance equity and inclusion; IBM's AI Fairness 360 toolkit, for example, actively works to eliminate algorithmic bias, fostering just outcomes in fields like healthcare and education. Additionally, AI-powered telemedicine initiatives in rural India illustrate how technology can democratise healthcare access for marginalised communities. Positioned against its darker implications, these advancements highlight AI's redemptive promise, contingent upon a commitment to ethical design and equitable implementation, offering a hopeful counterbalance to its more troubling shadows.
+
+**Charting the course: Ethical frameworks for sustainable AI**
+
+After delineating AI's perils and illuminating its capacity for environmental and social good, the question remains: how can we steer AI toward a sustainable future that prioritises both planetary health and human dignity? To fully unlock its transformative potential for sustainability while meticulously addressing its inherent risks, it is imperative to seamlessly intertwine ethical design, robust regulation, labour justice, and equitable data access. Ethical design serves as the bedrock, emphasising transparency, accountability, and inclusivity.
+
+Imagine an AI system tasked with monitoring deforestation. Integrating diverse perspectives from Indigenous communities and climate scientists avoids skewed outputs that might favour corporate interests over ecological balance, ensuring equitable benefits across society. Regulatory oversight builds on this foundation, with frameworks like the European Union's AI Act (2023) providing a sophisticated, risk-based approach.
+
+Consider an AI optimising water distribution in drought-stricken regions. Stringent audits would ensure that it prioritises vulnerable populations fairly, safeguard privacy, and prevent resource hoarding by powerful entities.
+
+Yet, AI's promise falters if we ignore labour justice: the unseen workers annotating data for climate models, often sifting through harrowing images of environmental collapse, deserve not just fair wages but also mental health resources and transparency about their role, aligning their well-being with the sustainability mission they support.
+
+Equally critical is data democratisation, exemplified by an open-source repository of soil and weather data that empowers smallholder farmers in sub-Saharan Africa to use AI for precision agriculture, boosting yields while narrowing the digital divide that often excludes marginalised groups.
+
+Tying these strands together demands dynamic, multi-stakeholder collaboration. Think global coalitions of governments, tech innovators, and civil society, coupled with ongoing evaluation and capacity-building programs, like training rural cooperatives to wield AI tools effectively. Through this intricate tapestry of ethics, governance, justice, and inclusion, AI can transcend mere technological prowess, becoming a catalyst for a sustainable future.
+
+**Conclusion**
+
 As we traverse the multifaceted landscape of AI in sustainability, its dual nature comes sharply into focus. It can revolutionise environmental stewardship and economic efficiency yet is equally poised to unravel the threads of social equity and human dignity if left unchecked. From the outset, we recognise AI's promise: optimising smart grids to slash carbon emissions, enhancing precision agriculture to bolster food security, and leveraging vast datasets to minimise waste, as exemplified by Google's DeepMind reducing energy use by 40% and Global Forest Watch's vigilant deforestation monitoring. Yet, this optimism is tempered by darker realities. Data colocalisation and colonialism entrench resource disparities, as smallholder farmers languish while industrialised regions thrive. Privacy erosion and algorithmic biases, such as facial recognition, disproportionately target people of colour, compromising fairness. The agony of data labellers, underpaid and uninformed, sifting through traumatic content to fuel AI's growth is often ignored. In response, we better explore a path forward – Ethical design, embedding transparency and inclusivity, regulatory frameworks like the EU's AI Act ensuring accountability, labour justice uplifting exploited workers, and data democratisation levelling access. Thus, AI's potential to forge a sustainable future, where ecological resilience harmonises with social well-being, hinges not on its technological prowess alone but on our collective effort to embed ethics, equity, and justice into its design.
 
 **Additional References**
@@ -461,18 +520,18 @@ export default function Blog() {
                        </div>
                      </div>
                      
-                      {post.id === 2 ? (
-                        <Button variant="ghost" size="sm" asChild>
-                          <a href="https://auto.economictimes.indiatimes.com/news/commercial-vehicle/financing-the-electric-vehicle-revolution-addressing-challenges-in-india/121815514" target="_blank" rel="noopener noreferrer">
-                            Read the full article on ET Auto <ExternalLink className="ml-1 h-3 w-3" />
-                          </a>
-                        </Button>
-                      ) : post.id === 3 ? (
-                        <Button variant="ghost" size="sm" asChild>
-                          <a href="https://www.autocarpro.in/opinion-blogs/why-leasing-dominates-indias-commercial-ev-market-126883" target="_blank" rel="noopener noreferrer">
-                            Read more on Autocar Professional <ExternalLink className="ml-1 h-3 w-3" />
-                          </a>
-                        </Button>
+                       {post.id === 3 ? (
+                         <Button variant="ghost" size="sm" asChild>
+                           <a href="https://auto.economictimes.indiatimes.com/news/commercial-vehicle/financing-the-electric-vehicle-revolution-addressing-challenges-in-india/121815514" target="_blank" rel="noopener noreferrer">
+                             Read the full article on ET Auto <ExternalLink className="ml-1 h-3 w-3" />
+                           </a>
+                         </Button>
+                       ) : post.id === 4 ? (
+                         <Button variant="ghost" size="sm" asChild>
+                           <a href="https://www.autocarpro.in/opinion-blogs/why-leasing-dominates-indias-commercial-ev-market-126883" target="_blank" rel="noopener noreferrer">
+                             Read more on Autocar Professional <ExternalLink className="ml-1 h-3 w-3" />
+                           </a>
+                         </Button>
                       ) : (
                         <Button variant="ghost" size="sm" asChild>
                           <Link to={`/blog/${post.id}`}>
