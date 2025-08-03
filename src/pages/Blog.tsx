@@ -206,6 +206,7 @@ export default function Blog() {
   const [showShare, setShowShare] = useState(false);
   const [newComment, setNewComment] = useState('');
   const [comments, setComments] = useState([]);
+  const [expandedPost, setExpandedPost] = useState(null);
 
   const handleLike = () => {
     if (liked) {
@@ -504,42 +505,62 @@ export default function Blog() {
                      {post.excerpt}
                    </p>
                    
-                   <div className="flex items-center justify-between">
-                     <div className="flex items-center gap-4 text-academic-caption text-sm">
-                       <div className="flex items-center">
-                         <Clock className="h-3 w-3 mr-1" />
-                         <span>{post.readTime}</span>
-                       </div>
-                       <div className="flex items-center">
-                         <Heart className="h-3 w-3 mr-1" />
-                         <span>{post.likes}</span>
-                       </div>
-                       <div className="flex items-center">
-                         <MessageCircle className="h-3 w-3 mr-1" />
-                         <span>{post.comments}</span>
-                       </div>
-                     </div>
-                     
-                       {post.id === 3 ? (
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-4 text-academic-caption text-sm">
+                        <div className="flex items-center">
+                          <Clock className="h-3 w-3 mr-1" />
+                          <span>{post.readTime}</span>
+                        </div>
+                        <div className="flex items-center">
+                          <Heart className="h-3 w-3 mr-1" />
+                          <span>{post.likes}</span>
+                        </div>
+                        <div className="flex items-center">
+                          <MessageCircle className="h-3 w-3 mr-1" />
+                          <span>{post.comments}</span>
+                        </div>
+                      </div>
+                      
+                        {post.id === 2 ? (
+                          <Button 
+                            variant="ghost" 
+                            size="sm" 
+                            onClick={() => setExpandedPost(expandedPost === post.id ? null : post.id)}
+                          >
+                            {expandedPost === post.id ? 'Show Less' : 'Read More'} 
+                            <ArrowRight className="ml-1 h-3 w-3" />
+                          </Button>
+                        ) : post.id === 3 ? (
+                          <Button variant="ghost" size="sm" asChild>
+                            <a href="https://auto.economictimes.indiatimes.com/news/commercial-vehicle/financing-the-electric-vehicle-revolution-addressing-challenges-in-india/121815514" target="_blank" rel="noopener noreferrer">
+                              Read the full article on ET Auto <ExternalLink className="ml-1 h-3 w-3" />
+                            </a>
+                          </Button>
+                        ) : post.id === 4 ? (
+                          <Button variant="ghost" size="sm" asChild>
+                            <a href="https://www.autocarpro.in/opinion-blogs/why-leasing-dominates-indias-commercial-ev-market-126883" target="_blank" rel="noopener noreferrer">
+                              Read more on Autocar Professional <ExternalLink className="ml-1 h-3 w-3" />
+                            </a>
+                          </Button>
+                       ) : (
                          <Button variant="ghost" size="sm" asChild>
-                           <a href="https://auto.economictimes.indiatimes.com/news/commercial-vehicle/financing-the-electric-vehicle-revolution-addressing-challenges-in-india/121815514" target="_blank" rel="noopener noreferrer">
-                             Read the full article on ET Auto <ExternalLink className="ml-1 h-3 w-3" />
-                           </a>
+                           <Link to={`/blog/${post.id}`}>
+                             Read More <ArrowRight className="ml-1 h-3 w-3" />
+                           </Link>
                          </Button>
-                       ) : post.id === 4 ? (
-                         <Button variant="ghost" size="sm" asChild>
-                           <a href="https://www.autocarpro.in/opinion-blogs/why-leasing-dominates-indias-commercial-ev-market-126883" target="_blank" rel="noopener noreferrer">
-                             Read more on Autocar Professional <ExternalLink className="ml-1 h-3 w-3" />
-                           </a>
-                         </Button>
-                      ) : (
-                        <Button variant="ghost" size="sm" asChild>
-                          <Link to={`/blog/${post.id}`}>
-                            Read More <ArrowRight className="ml-1 h-3 w-3" />
-                          </Link>
-                        </Button>
-                      )}
-                   </div>
+                       )}
+                    </div>
+                    
+                    {/* Full content for AI Sustainability post */}
+                    {post.id === 2 && expandedPost === post.id && (
+                      <div className="mt-6 pt-6 border-t border-border">
+                        <div className="prose prose-lg max-w-none text-academic-body">
+                          <div className="whitespace-pre-wrap">
+                            {post.fullContent}
+                          </div>
+                        </div>
+                      </div>
+                    )}
                  </CardContent>
               </Card>
             ))}
