@@ -178,41 +178,19 @@ export default function News() {
             <Card className="shadow-academic-card">
               <CardContent className="p-6">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-accent/20 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Presentation className="h-6 w-6 text-accent-foreground" />
-                  </div>
-                  
-                  <div className="flex-1">
-                    <div className="flex items-center justify-between mb-1">
-                      <h3 className="font-semibold text-academic-heading">
-                        POMS Annual Conference 2024
-                      </h3>
-                      <Badge variant="outline">May 2024</Badge>
-                    </div>
-                    <p className="text-academic-body text-sm">
-                      Presenting research on environmental impact assessment in automotive supply chains
-                    </p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-            
-            <Card className="shadow-academic-card">
-              <CardContent className="p-6">
-                <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <BookOpen className="h-6 w-6 text-primary" />
+                    <Presentation className="h-6 w-6 text-primary" />
                   </div>
                   
                   <div className="flex-1">
                     <div className="flex items-center justify-between mb-1">
                       <h3 className="font-semibold text-academic-heading">
-                        Dissertation Defense
+                        POMS India Annual conference 2025
                       </h3>
-                      <Badge variant="outline">Late 2024</Badge>
+                      <Badge variant="outline">13-16 December 2025</Badge>
                     </div>
                     <p className="text-academic-body text-sm">
-                      Final dissertation defense scheduled for completion of doctoral program
+                      Will present my ongoing works at IIM Sambalpur.
                     </p>
                   </div>
                 </div>
