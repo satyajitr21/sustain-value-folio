@@ -333,19 +333,23 @@ export default function Teaching() {
             <div>
               <h3 className="font-semibold text-academic-subheading mb-4">Teaching Awards</h3>
               <ul className="text-academic-body space-y-2">
-                <li>• Outstanding Teaching Assistant Award, IIM Bangalore (2023)</li>
-                <li>• Best Tutorial Sessions Award, Student Council (2022)</li>
-                <li>• Excellence in Academic Mentoring Recognition (2023)</li>
+                {/* Empty list as requested */}
               </ul>
             </div>
             
             <div>
               <h3 className="font-semibold text-academic-subheading mb-4">Student Testimonials</h3>
               <blockquote className="text-academic-body italic bg-card rounded-lg p-4 mb-3">
-                "Exceptional ability to explain complex concepts clearly and relate them to real-world scenarios."
+                "Satyajit handled every class with an open mind towards the students, and ensured that we are all on the same page regarding what we're learning, especially those who are participating."
+              </blockquote>
+              <blockquote className="text-academic-body italic bg-card rounded-lg p-4 mb-3">
+                "Course was adept in covering the area of operations as a beginner"
+              </blockquote>
+              <blockquote className="text-academic-body italic bg-card rounded-lg p-4 mb-3">
+                "Got to learn Excel from scratch. The pace could've been little slower. But I learned a lot from the instructor."
               </blockquote>
               <blockquote className="text-academic-body italic bg-card rounded-lg p-4">
-                "Patient, knowledgeable, and always willing to help students succeed."
+                "The faculty was very attentive to everyone's queries. But the course content was too much for this period"
               </blockquote>
             </div>
           </div>
