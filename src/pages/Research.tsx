@@ -74,7 +74,7 @@ export default function Research() {
             <TabsList className="grid w-full grid-cols-3">
               <TabsTrigger value="working">Working Papers</TabsTrigger>
               <TabsTrigger value="progress">Work in Progress</TabsTrigger>
-              <TabsTrigger value="published">Conference Papers</TabsTrigger>
+              <TabsTrigger value="published">Published Papers</TabsTrigger>
             </TabsList>
 
             <TabsContent value="working" className="space-y-6 mt-8">
@@ -159,30 +159,23 @@ export default function Research() {
               <Card className="shadow-academic-card">
                 <CardHeader>
                   <CardTitle className="text-xl font-serif text-academic-heading mb-2">
-                    "Sustainability Metrics in Operations Management: A Systematic Review"
+                    Charting a sustainable future: Transformative policies for India's energy, agriculture, and transport sectors
                   </CardTitle>
                   <div className="flex items-center gap-2 mb-3">
                     <Badge variant="default">Published</Badge>
-                    <Badge variant="outline">Conference Paper</Badge>
+                    <Badge variant="outline">Journal Article</Badge>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <p className="text-academic-body leading-relaxed mb-4">
-                    Presented at the International Conference on Operations Management and Sustainability, 
-                    this paper provides a comprehensive review of sustainability metrics used in 
-                    operations management research and practice.
+                    <strong>Abstract:</strong> To fulfil its commitments towards sustainable development, India is transitioning from fossil fuels to renewables in the energy sector, trying to shift consumption and cropping practices in the agriculture sector, and promoting alternative fuel vehicles in the transport sector. In this study, we analyse the current state of energy, agriculture, and transport policies using the triple bottom line approach and provide a strategic framework that offers a mechanism and a long-term roadmap for a sustainable future by integrating the synergies between these three key sectors. Decentralised production and consumption of resources holds the key to economic, environmental, and social sustainability.
                   </p>
-                  <div className="text-academic-body text-sm mb-4">
-                    <strong>Published in:</strong> Proceedings of ICOMS 2023, Pages 145-162
-                  </div>
                   <div className="flex gap-3">
-                    <Button size="sm" variant="outline">
-                      <Download className="h-4 w-4 mr-2" />
-                      Download PDF
-                    </Button>
-                    <Button size="sm" variant="ghost">
-                      <ExternalLink className="h-4 w-4 mr-2" />
-                      View Citation
+                    <Button size="sm" variant="outline" asChild>
+                      <a href="https://www.sciencedirect.com/science/article/pii/S0970389624000053" target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="h-4 w-4 mr-2" />
+                        Full paper
+                      </a>
                     </Button>
                   </div>
                 </CardContent>
