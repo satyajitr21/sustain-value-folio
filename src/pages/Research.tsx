@@ -203,9 +203,6 @@ export default function Research() {
             <div>
               <h3 className="font-semibold text-academic-subheading mb-4">Academic Recognition</h3>
               <ul className="text-academic-body space-y-2">
-                <li>• Best Student Paper Award, ICOMS 2023</li>
-                <li>• Research Excellence Fellowship Recipient</li>
-                <li>• Peer reviewer for leading operations journals</li>
                 <li>• Second-best Doctoral Paper Award at POMS India International Conference (2024)</li>
                 <li>• IIM Bangalore Doctoral Student Research Paper Award (2024)</li>
               </ul>
