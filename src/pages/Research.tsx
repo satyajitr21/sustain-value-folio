@@ -196,6 +196,8 @@ export default function Research() {
                 <li>• Automotive manufacturers for supply chain sustainability research</li>
                 <li>• Consulting firms for real-world case study development</li>
                 <li>• NGOs for social impact assessment frameworks</li>
+                <li>• Collaboration with Kerala State Organ and Tissue Transplantation Organization to study the state of cadaveric organ donation in Kerala</li>
+                <li>• Collaboration with NIMHANS for process improvement and awareness creation for cadaveric organ donation at Neurology and Neurosurgery division</li>
               </ul>
             </div>
             <div>
@@ -204,6 +206,8 @@ export default function Research() {
                 <li>• Best Student Paper Award, ICOMS 2023</li>
                 <li>• Research Excellence Fellowship Recipient</li>
                 <li>• Peer reviewer for leading operations journals</li>
+                <li>• Second-best Doctoral Paper Award at POMS India International Conference (2024)</li>
+                <li>• IIM Bangalore Doctoral Student Research Paper Award (2024)</li>
               </ul>
             </div>
           </div>
