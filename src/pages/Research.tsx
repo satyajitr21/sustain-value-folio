@@ -193,9 +193,7 @@ export default function Research() {
             <div>
               <h3 className="font-semibold text-academic-subheading mb-4">Industry Collaboration</h3>
               <ul className="text-academic-body space-y-2">
-                <li>• Automotive manufacturers for supply chain sustainability research</li>
                 <li>• Consulting firms for real-world case study development</li>
-                <li>• NGOs for social impact assessment frameworks</li>
                 <li>• Collaboration with Kerala State Organ and Tissue Transplantation Organization to study the state of cadaveric organ donation in Kerala</li>
                 <li>• Collaboration with NIMHANS for process improvement and awareness creation for cadaveric organ donation at Neurology and Neurosurgery division</li>
               </ul>
