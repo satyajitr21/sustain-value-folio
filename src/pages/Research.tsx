@@ -149,7 +149,7 @@ export default function Research() {
                 </CardHeader>
                 <CardContent>
                   <div className="text-academic-body text-sm">
-                    <strong>Expected Completion:</strong> Q2 2024
+                    <strong>Expected Completion:</strong> Q4 2025
                   </div>
                 </CardContent>
               </Card>
