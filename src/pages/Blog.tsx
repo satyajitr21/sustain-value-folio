@@ -107,7 +107,7 @@ Gurumurthy, A. and Bharthur, D., Democracy and the algorithmic turn, SUR 27 (201
     date: "2025-07-01",
     readTime: "12 min read",
     category: "Social sustainability",
-    featured: true,
+    featured: false,
     likes: 3,
     comments: 0
   },
