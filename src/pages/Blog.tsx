@@ -45,7 +45,7 @@ However, in rural areas and Tier-3 cities, the role of primary care physicians m
 
 The consumerization of healthcare, while a significant disruptor, ultimately holds the promise of a more engaged, informed, and empowered patient. The primary care physician, whether in a bustling city clinic or a quiet village health center, will continue to be vital, adapting their role to navigate this evolving landscape and ensuring that the heart of healthcare –personalized, accessible human touch, remains beating strong.
 `,
-    date: "2025-07-02",
+    date: "2025-08-02",
     readTime: "8 min read",
     category: "Healthcare",
     featured: true,
