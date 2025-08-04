@@ -531,10 +531,13 @@ export default function Blog() {
                             <ArrowRight className="ml-1 h-3 w-3" />
                           </Button>
                         ) : post.id === 3 ? (
-                          <Button variant="ghost" size="sm" asChild>
-                            <a href="https://auto.economictimes.indiatimes.com/news/commercial-vehicle/financing-the-electric-vehicle-revolution-addressing-challenges-in-india/121815514" target="_blank" rel="noopener noreferrer">
-                              Read the full article on ET Auto <ExternalLink className="ml-1 h-3 w-3" />
-                            </a>
+                          <Button 
+                            variant="ghost" 
+                            size="sm" 
+                            onClick={() => setExpandedPost(expandedPost === post.id ? null : post.id)}
+                          >
+                            {expandedPost === post.id ? 'Show Less' : 'Read More'} 
+                            <ArrowRight className="ml-1 h-3 w-3" />
                           </Button>
                         ) : post.id === 4 ? (
                           <Button variant="ghost" size="sm" asChild>
