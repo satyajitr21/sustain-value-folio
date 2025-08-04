@@ -144,7 +144,7 @@ export default function Research() {
                       <Clock className="h-3 w-3 mr-1" />
                       In Progress
                     </Badge>
-                    <Badge variant="outline">Data Collection Phase</Badge>
+                    <Badge variant="outline">Analysis phase</Badge>
                   </div>
                 </CardHeader>
                 <CardContent>
