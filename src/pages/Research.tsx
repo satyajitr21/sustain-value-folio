@@ -131,6 +131,62 @@ export default function Research() {
                   </div>
                 </CardContent>
               </Card>
+
+              <Card className="shadow-academic-card">
+                <CardHeader>
+                  <div className="flex justify-between items-start">
+                    <div className="flex-1">
+                      <CardTitle className="text-xl font-serif text-academic-heading mb-2">
+                        Energy Saving Through Climate Education: Climate Sensitization in School for Mindful Consumption at Home
+                      </CardTitle>
+                      <div className="flex items-center gap-2 mb-3">
+                        <Badge variant="default">Working Paper</Badge>
+                        <Badge variant="secondary">Draft Stage</Badge>
+                      </div>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <div className="flex gap-3 pt-3">
+                    <Button size="sm" variant="outline">
+                      <Download className="h-4 w-4 mr-2" />
+                      Download Draft
+                    </Button>
+                    <Button size="sm" variant="ghost">
+                      <ExternalLink className="h-4 w-4 mr-2" />
+                      View Abstract
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-academic-card">
+                <CardHeader>
+                  <div className="flex justify-between items-start">
+                    <div className="flex-1">
+                      <CardTitle className="text-xl font-serif text-academic-heading mb-2">
+                        Population Control for Sustainable Development – Navigating Operational Challenges in India's Family Planning Program Through ASHAs
+                      </CardTitle>
+                      <div className="flex items-center gap-2 mb-3">
+                        <Badge variant="default">Working Paper</Badge>
+                        <Badge variant="secondary">Draft Stage</Badge>
+                      </div>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <div className="flex gap-3 pt-3">
+                    <Button size="sm" variant="outline">
+                      <Download className="h-4 w-4 mr-2" />
+                      Download Draft
+                    </Button>
+                    <Button size="sm" variant="ghost">
+                      <ExternalLink className="h-4 w-4 mr-2" />
+                      View Abstract
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
             </TabsContent>
 
             <TabsContent value="progress" className="space-y-6 mt-8">
@@ -150,6 +206,106 @@ export default function Research() {
                 <CardContent>
                   <div className="text-academic-body text-sm">
                     <strong>Expected Completion:</strong> Q4 2025
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-academic-card">
+                <CardHeader>
+                  <CardTitle className="text-xl font-serif text-academic-heading mb-2">
+                    Optimizing Policy Levers in Dual Alcohol Markets: A Stylized Model of Taxation, Adulteration, and Enforcement
+                  </CardTitle>
+                  <div className="flex items-center gap-2 mb-3">
+                    <Badge variant="secondary">
+                      <Clock className="h-3 w-3 mr-1" />
+                      In Progress
+                    </Badge>
+                    <Badge variant="outline">Modeling phase</Badge>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <div className="text-academic-body text-sm">
+                    <strong>Expected Completion:</strong> Q2 2025
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-academic-card">
+                <CardHeader>
+                  <CardTitle className="text-xl font-serif text-academic-heading mb-2">
+                    (Teaching case study) Operational excellence at Agoda - The Human-AI Conundrum
+                  </CardTitle>
+                  <div className="flex items-center gap-2 mb-3">
+                    <Badge variant="secondary">
+                      <Clock className="h-3 w-3 mr-1" />
+                      In Progress
+                    </Badge>
+                    <Badge variant="outline">Case development</Badge>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <div className="text-academic-body text-sm">
+                    <strong>Expected Completion:</strong> Q3 2025
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-academic-card">
+                <CardHeader>
+                  <CardTitle className="text-xl font-serif text-academic-heading mb-2">
+                    Cost Optimization and Sensitivity Analysis in Solid Waste Management : A Case Study
+                  </CardTitle>
+                  <div className="flex items-center gap-2 mb-3">
+                    <Badge variant="secondary">
+                      <Clock className="h-3 w-3 mr-1" />
+                      In Progress
+                    </Badge>
+                    <Badge variant="outline">Data collection</Badge>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <div className="text-academic-body text-sm">
+                    <strong>Expected Completion:</strong> Q2 2025
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-academic-card">
+                <CardHeader>
+                  <CardTitle className="text-xl font-serif text-academic-heading mb-2">
+                    Human AI Collaboration and the Moderating Role of Systematic Thinking
+                  </CardTitle>
+                  <div className="flex items-center gap-2 mb-3">
+                    <Badge variant="secondary">
+                      <Clock className="h-3 w-3 mr-1" />
+                      In Progress
+                    </Badge>
+                    <Badge variant="outline">Literature review</Badge>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <div className="text-academic-body text-sm">
+                    <strong>Expected Completion:</strong> Q4 2025
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-academic-card">
+                <CardHeader>
+                  <CardTitle className="text-xl font-serif text-academic-heading mb-2">
+                    Balancing Efficiency, Fairness, and Equity in Deceased Organ Allocation - A Stylized Analysis
+                  </CardTitle>
+                  <div className="flex items-center gap-2 mb-3">
+                    <Badge variant="secondary">
+                      <Clock className="h-3 w-3 mr-1" />
+                      In Progress
+                    </Badge>
+                    <Badge variant="outline">Model development</Badge>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <div className="text-academic-body text-sm">
+                    <strong>Expected Completion:</strong> Q3 2025
                   </div>
                 </CardContent>
               </Card>
