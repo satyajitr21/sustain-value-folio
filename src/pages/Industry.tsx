@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Building, Calendar, MapPin, TrendingUp, Users2, Briefcase } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Building, Calendar, MapPin, TrendingUp, Users2, Briefcase, Quote, ExternalLink } from 'lucide-react';
 
 export default function Industry() {
   return (
@@ -281,6 +282,111 @@ export default function Industry() {
               background strengthens my ability to conduct research that is both 
               academically rigorous and practically relevant.
             </p>
+          </div>
+        </section>
+
+        {/* Testimonials Section */}
+        <section className="mt-16">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-serif font-bold text-academic-heading mb-4">
+              Professional Testimonials
+            </h2>
+            <p className="text-lg text-academic-body max-w-3xl mx-auto">
+              Recommendations from colleagues and partners highlighting collaborative excellence and professional impact.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {/* Testimonial 1 */}
+            <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <Quote className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                  <div>
+                    <p className="text-academic-body leading-relaxed mb-4">
+                      "Satyajit was part of our banking and financial services technology and IT services team as a senior analyst, where he worked on several research projects helping enterprises and suppliers optimize, manage, and enable services delivery. In addition to being a quick learner and strong problem solver, Satyajit is a team player who seamlessly collaborates with his team and clients. Satyajit brings a strong degree of ownership and accountability to all his projects. He inspired the team with his home gardening skills and his positive outlook to challenges in life. Wishing him all the luck with his further studies."
+                    </p>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-primary rounded-full"></div>
+                      <p className="font-semibold text-academic-subheading">Ronak Doshi</p>
+                    </div>
+                    <p className="text-sm text-academic-body">Partner at Everest Group</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Testimonial 2 */}
+            <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <Quote className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                  <div>
+                    <p className="text-academic-body leading-relaxed mb-4">
+                      "I worked with Satyajit during his time with Everest Group. It was an absolute pleasure to work with him on various initiatives. He brings great diligence and analytical rigor to problem statements and is able to manage different activities in complex projects. He is collaborative and seeks to take the team along with him as well."
+                    </p>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-primary rounded-full"></div>
+                      <p className="font-semibold text-academic-subheading">Nitish Mittal</p>
+                    </div>
+                    <p className="text-sm text-academic-body">Partner at Everest Group</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Testimonial 3 */}
+            <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <Quote className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                  <div>
+                    <p className="text-academic-body leading-relaxed mb-4">
+                      "Satya is a well connected professional that always takes the time to support anyone is his network. Soft skills which he possess, like patience, communication, and a willingness to learn, makes him different from others. He has a very impressive background and profile, I recommend Satya as an expert to connect with and consider for anything appropriate."
+                    </p>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-primary rounded-full"></div>
+                      <p className="font-semibold text-academic-subheading">Vinod Babu</p>
+                    </div>
+                    <p className="text-sm text-academic-body">Head of FUSO Technical Field Service and Warranty</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Testimonial 4 */}
+            <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <Quote className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                  <div>
+                    <p className="text-academic-body leading-relaxed mb-4">
+                      "I have known Satyajit since he started his professional career at Daimler India, just after his graduation. I always admired his dedication towards whatever he does. With his natural ability to take prompt decisions and handle complex situations, he would be a real asset for any organization. The best part is his humble character and never thinking twice when needed to walk an extra mile for his team. Wish him all the best for his journey."
+                    </p>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-primary rounded-full"></div>
+                      <p className="font-semibold text-academic-subheading">Amar Jagtap</p>
+                    </div>
+                    <p className="text-sm text-academic-body">Senior Manager at (Daimler) Mitsubishi Fuso Truck and Bus Corporation</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Read More Link */}
+          <div className="text-center mt-8">
+            <Button variant="outline" asChild>
+              <a 
+                href="https://www.linkedin.com/in/satyajit-roy/details/recommendations/?detailScreenTabIndex=0" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2"
+              >
+                Read more testimonials here
+                <ExternalLink className="h-4 w-4" />
+              </a>
+            </Button>
           </div>
         </section>
       </div>
