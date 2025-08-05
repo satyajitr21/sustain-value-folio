@@ -117,7 +117,7 @@ export default function Research() {
                       </CardTitle>
                       <div className="flex items-center gap-2 mb-3">
                         <Badge variant="default">Working Paper</Badge>
-                        <Badge variant="outline">Revision Stage</Badge>
+                        <Badge variant="outline">Manuscript Refinement stage</Badge>
                       </div>
                     </div>
                   </div>
