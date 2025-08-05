@@ -16,8 +16,7 @@ export default function Research() {
           <p className="text-lg text-academic-body max-w-4xl mx-auto leading-relaxed">
             My research contributes to sustainable operations management through rigorous 
             academic inquiry and practical applications. I focus on developing frameworks 
-            that balance environmental, social, and economic objectives in value chains.
-            The views expressed here are my own and do not reflect the views of any institution or organization I am affiliated with.
+            that balance environmental, social, and economic objectives in value chains.The views expressed here are my own and do not reflect the views of any institution or organization I am affiliated with.
           </p>
         </div>
 
