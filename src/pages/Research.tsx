@@ -141,7 +141,7 @@ export default function Research() {
                       </CardTitle>
                       <div className="flex items-center gap-2 mb-3">
                         <Badge variant="default">Working Paper</Badge>
-                        <Badge variant="secondary">Draft Stage</Badge>
+                        <Badge variant="secondary">Under review</Badge>
                       </div>
                     </div>
                   </div>
@@ -169,7 +169,7 @@ export default function Research() {
                       </CardTitle>
                       <div className="flex items-center gap-2 mb-3">
                         <Badge variant="default">Working Paper</Badge>
-                        <Badge variant="secondary">Draft Stage</Badge>
+                        <Badge variant="secondary">Under review</Badge>
                       </div>
                     </div>
                   </div>
@@ -225,7 +225,7 @@ export default function Research() {
                 </CardHeader>
                 <CardContent>
                   <div className="text-academic-body text-sm">
-                    <strong>Expected Completion:</strong> Q2 2025
+                    <strong>Expected Completion:</strong> Q2 2026
                   </div>
                 </CardContent>
               </Card>
@@ -245,7 +245,7 @@ export default function Research() {
                 </CardHeader>
                 <CardContent>
                   <div className="text-academic-body text-sm">
-                    <strong>Expected Completion:</strong> Q3 2025
+                    <strong>Expected Completion:</strong> Q4 2025
                   </div>
                 </CardContent>
               </Card>
@@ -265,7 +265,7 @@ export default function Research() {
                 </CardHeader>
                 <CardContent>
                   <div className="text-academic-body text-sm">
-                    <strong>Expected Completion:</strong> Q2 2025
+                    <strong>Expected Completion:</strong> Q1 2026
                   </div>
                 </CardContent>
               </Card>
@@ -280,12 +280,12 @@ export default function Research() {
                       <Clock className="h-3 w-3 mr-1" />
                       In Progress
                     </Badge>
-                    <Badge variant="outline">Literature review</Badge>
+                    <Badge variant="outline">Experiment Design and IRB Approval</Badge>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <div className="text-academic-body text-sm">
-                    <strong>Expected Completion:</strong> Q4 2025
+                    <strong>Expected Completion:</strong> Q4 2026
                   </div>
                 </CardContent>
               </Card>
@@ -305,7 +305,7 @@ export default function Research() {
                 </CardHeader>
                 <CardContent>
                   <div className="text-academic-body text-sm">
-                    <strong>Expected Completion:</strong> Q3 2025
+                    <strong>Expected Completion:</strong> Q4 2026
                   </div>
                 </CardContent>
               </Card>
