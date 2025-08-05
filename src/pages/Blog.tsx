@@ -473,8 +473,7 @@ export default function Blog() {
                           <Button variant="ghost" size="sm" asChild>
                             <a href="https://auto.economictimes.indiatimes.com/news/commercial-vehicle/financing-the-electric-vehicle-revolution-addressing-challenges-in-india/121815514" target="_blank" rel="noopener noreferrer">
                               Read more on ET Auto <ExternalLink className="ml-1 h-3 w-3" />
-                             </a>
-                            <ArrowRight className="ml-1 h-3 w-3" />
+                            </a>
                           </Button>
                         ) : post.id === 4 ? (
                           <Button variant="ghost" size="sm" asChild>
