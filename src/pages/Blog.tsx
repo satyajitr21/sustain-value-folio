@@ -203,6 +203,11 @@ export default function Blog() {
             Reflections on sustainability, academia, teaching, and research. 
             A space for informal thoughts and insights from my academic journey.
           </p>
+          <div className="mt-8 max-w-4xl mx-auto">
+            <p className="text-sm text-academic-body/80 italic border-l-2 border-academic-primary/30 pl-4 py-2 bg-academic-primary/5 rounded-r-md">
+              <strong>Disclaimer:</strong> The views expressed here are my own and do not reflect the views of any institution or organization I am affiliated with.
+            </p>
+          </div>
         </div>
 
         {/* Featured Post */}
