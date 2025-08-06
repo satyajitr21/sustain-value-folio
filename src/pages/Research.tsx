@@ -343,25 +343,20 @@ export default function Research() {
               <Card className="shadow-academic-card">
                 <CardHeader>
                   <CardTitle className="text-xl font-serif text-academic-heading mb-2">
-                    Sustainable Supply Chain Management: A Case Study of Green Manufacturing
+                    The evolving semiconductor industry: Post-COVID challenges for automakers
                   </CardTitle>
                   <div className="flex items-center gap-2 mb-3">
                     <Badge variant="default">Published Case Study</Badge>
-                    <Badge variant="outline">Teaching Case</Badge>
+                    <Badge variant="outline">Harvard Business Publishing</Badge>
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-academic-body text-sm leading-relaxed mb-4">
-                    A comprehensive case study examining the implementation of sustainable practices in manufacturing operations, focusing on environmental impact reduction and cost optimization strategies.
-                  </p>
                   <div className="flex gap-3">
-                    <Button size="sm" variant="outline">
-                      <Download className="h-4 w-4 mr-2" />
-                      Download Case
-                    </Button>
-                    <Button size="sm" variant="ghost">
-                      <ExternalLink className="h-4 w-4 mr-2" />
-                      Teaching Notes
+                    <Button size="sm" variant="outline" asChild>
+                      <a href="https://hbsp.harvard.edu/product/IMB993-PDF-ENG" target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="h-4 w-4 mr-2" />
+                        See here
+                      </a>
                     </Button>
                   </div>
                 </CardContent>
@@ -370,25 +365,42 @@ export default function Research() {
               <Card className="shadow-academic-card">
                 <CardHeader>
                   <CardTitle className="text-xl font-serif text-academic-heading mb-2">
-                    Digital Transformation in Healthcare Operations: Lessons from COVID-19
+                    Saahas Zero Waste: Breaking the spell of fast fashion with circularity
                   </CardTitle>
                   <div className="flex items-center gap-2 mb-3">
                     <Badge variant="default">Published Case Study</Badge>
-                    <Badge variant="outline">Research Case</Badge>
+                    <Badge variant="outline">Harvard Business Publishing</Badge>
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-academic-body text-sm leading-relaxed mb-4">
-                    An in-depth analysis of how healthcare systems adapted their operations during the pandemic, highlighting digital solutions and operational innovations.
-                  </p>
                   <div className="flex gap-3">
-                    <Button size="sm" variant="outline">
-                      <Download className="h-4 w-4 mr-2" />
-                      Download Case
+                    <Button size="sm" variant="outline" asChild>
+                      <a href="https://hbsp.harvard.edu/product/IM013B-PDF-ENG" target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="h-4 w-4 mr-2" />
+                        See here
+                      </a>
                     </Button>
-                    <Button size="sm" variant="ghost">
-                      <ExternalLink className="h-4 w-4 mr-2" />
-                      View Abstract
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-academic-card">
+                <CardHeader>
+                  <CardTitle className="text-xl font-serif text-academic-heading mb-2">
+                    Business Model innovation at Log9
+                  </CardTitle>
+                  <div className="flex items-center gap-2 mb-3">
+                    <Badge variant="default">Published Case Study</Badge>
+                    <Badge variant="outline">Harvard Business Publishing</Badge>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <div className="flex gap-3">
+                    <Button size="sm" variant="outline" asChild>
+                      <a href="https://hbsp.harvard.edu/product/IM053B-PDF-ENG" target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="h-4 w-4 mr-2" />
+                        See here
+                      </a>
                     </Button>
                   </div>
                 </CardContent>
