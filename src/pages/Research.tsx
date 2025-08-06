@@ -71,10 +71,11 @@ export default function Research() {
           </h2>
 
           <Tabs defaultValue="working" className="w-full">
-            <TabsList className="grid w-full grid-cols-3">
+            <TabsList className="grid w-full grid-cols-4">
               <TabsTrigger value="working">Working Papers</TabsTrigger>
               <TabsTrigger value="progress">Work in Progress</TabsTrigger>
               <TabsTrigger value="published">Published Papers</TabsTrigger>
+              <TabsTrigger value="case-studies">Published Case Studies</TabsTrigger>
             </TabsList>
 
             <TabsContent value="working" className="space-y-6 mt-8">
@@ -332,6 +333,62 @@ export default function Research() {
                         <ExternalLink className="h-4 w-4 mr-2" />
                         Full paper
                       </a>
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+            </TabsContent>
+
+            <TabsContent value="case-studies" className="space-y-6 mt-8">
+              <Card className="shadow-academic-card">
+                <CardHeader>
+                  <CardTitle className="text-xl font-serif text-academic-heading mb-2">
+                    Sustainable Supply Chain Management: A Case Study of Green Manufacturing
+                  </CardTitle>
+                  <div className="flex items-center gap-2 mb-3">
+                    <Badge variant="default">Published Case Study</Badge>
+                    <Badge variant="outline">Teaching Case</Badge>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-academic-body text-sm leading-relaxed mb-4">
+                    A comprehensive case study examining the implementation of sustainable practices in manufacturing operations, focusing on environmental impact reduction and cost optimization strategies.
+                  </p>
+                  <div className="flex gap-3">
+                    <Button size="sm" variant="outline">
+                      <Download className="h-4 w-4 mr-2" />
+                      Download Case
+                    </Button>
+                    <Button size="sm" variant="ghost">
+                      <ExternalLink className="h-4 w-4 mr-2" />
+                      Teaching Notes
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-academic-card">
+                <CardHeader>
+                  <CardTitle className="text-xl font-serif text-academic-heading mb-2">
+                    Digital Transformation in Healthcare Operations: Lessons from COVID-19
+                  </CardTitle>
+                  <div className="flex items-center gap-2 mb-3">
+                    <Badge variant="default">Published Case Study</Badge>
+                    <Badge variant="outline">Research Case</Badge>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-academic-body text-sm leading-relaxed mb-4">
+                    An in-depth analysis of how healthcare systems adapted their operations during the pandemic, highlighting digital solutions and operational innovations.
+                  </p>
+                  <div className="flex gap-3">
+                    <Button size="sm" variant="outline">
+                      <Download className="h-4 w-4 mr-2" />
+                      Download Case
+                    </Button>
+                    <Button size="sm" variant="ghost">
+                      <ExternalLink className="h-4 w-4 mr-2" />
+                      View Abstract
                     </Button>
                   </div>
                 </CardContent>
