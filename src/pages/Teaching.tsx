@@ -354,11 +354,6 @@ export default function Teaching() {
             </div>
           </div>
           
-          <div className="mt-8 text-center">
-            <Button variant="outline" size="lg">
-              View Complete Teaching Portfolio
-            </Button>
-          </div>
         </section>
       </div>
     </div>
