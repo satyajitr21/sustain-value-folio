@@ -271,7 +271,7 @@ export default function Contact() {
                   <input
                     type="hidden"
                     name="_subject"
-                    value="New message from sustain-value-folio"
+                    value="New message from personal website"
                   />
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
