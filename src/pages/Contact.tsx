@@ -11,8 +11,41 @@ import {
   ExternalLink,
   Building
 } from 'lucide-react';
+import { useState } from 'react';
 
 export default function Contact() {
+  const [status, setStatus] = useState<"idle"|"sending"|"ok"|"err">("idle");
+  const [error, setError] = useState<string | null>(null);
+
+  async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setStatus("sending");
+    setError(null);
+
+    const form = e.currentTarget;
+    const data = new FormData(form);
+
+    try {
+      const r = await fetch("https://formspree.io/f/xovlyjbw", {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: data,
+      });
+
+      if (r.ok) {
+        form.reset();
+        setStatus("ok");
+      } else {
+        const j = await r.json().catch(() => ({}));
+        setError(j?.errors?.[0]?.message || "Submission failed. Please try again.");
+        setStatus("err");
+      }
+    } catch {
+      setError("Network error. Please try again.");
+      setStatus("err");
+    }
+  }
+  
   return (
     <div className="min-h-screen py-16 lg:py-24">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -174,106 +207,87 @@ export default function Contact() {
           </div>
 
           {/* Contact Form */}
-          <div>
-            <Card className="shadow-academic-card">
-              <CardHeader>
-                <CardTitle className="text-2xl font-serif text-academic-heading">
-                  Send a Message
-                </CardTitle>
-                <p className="text-academic-body">
-                  Use this form for quick inquiries. I typically respond within 24-48 hours.
-                </p>
-              </CardHeader>
-              <CardContent>
-                <form className="space-y-6">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div>
-                      <label className="block text-sm font-medium text-academic-subheading mb-2">
-                        First Name
-                      </label>
-                      <input 
-                        type="text" 
-                        className="w-full px-4 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
-                        placeholder="Your first name"
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-medium text-academic-subheading mb-2">
-                        Last Name
-                      </label>
-                      <input 
-                        type="text" 
-                        className="w-full px-4 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
-                        placeholder="Your last name"
-                      />
-                    </div>
-                  </div>
+           <form className="space-y-6" onSubmit={onSubmit}>
+      {/* spam honeypot */}
+      <input type="text" name="_gotcha" className="hidden" tabIndex={-1} autoComplete="off" />
 
-                  <div>
-                    <label className="block text-sm font-medium text-academic-subheading mb-2">
-                      Email Address
-                    </label>
-                    <input 
-                      type="email" 
-                      className="w-full px-4 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
-                      placeholder="your.email@example.com"
-                    />
-                  </div>
+      {/* optional: email subject seen in your inbox */}
+      <input type="hidden" name="_subject" value="New message from sustain-value-folio" />
 
-                  <div>
-                    <label className="block text-sm font-medium text-academic-subheading mb-2">
-                      Institution / Organization
-                    </label>
-                    <input 
-                      type="text" 
-                      className="w-full px-4 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
-                      placeholder="Your institution or organization"
-                    />
-                  </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div>
+          <label className="block text-sm font-medium text-academic-subheading mb-2">First Name</label>
+          <input name="firstName" required
+            className="w-full px-4 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+            placeholder="Your first name" />
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-academic-subheading mb-2">Last Name</label>
+          <input name="lastName" required
+            className="w-full px-4 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+            placeholder="Your last name" />
+        </div>
+      </div>
 
-                  <div>
-                    <label className="block text-sm font-medium text-academic-subheading mb-2">
-                      Subject
-                    </label>
-                    <select className="w-full px-4 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary">
-                      <option value="">Select a subject</option>
-                      <option value="research">Research Collaboration</option>
-                      <option value="speaking">Speaking Engagement</option>
-                      <option value="consulting">Industry Consulting</option>
-                      <option value="mentoring">Academic Mentoring</option>
-                      <option value="other">Other Inquiry</option>
-                    </select>
-                  </div>
+      <div>
+        <label className="block text-sm font-medium text-academic-subheading mb-2">Email Address</label>
+        <input name="email" type="email" required
+          className="w-full px-4 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+          placeholder="your@email.com" />
+      </div>
 
-                  <div>
-                    <label className="block text-sm font-medium text-academic-subheading mb-2">
-                      Message
-                    </label>
-                    <textarea 
-                      rows={6}
-                      className="w-full px-4 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
-                      placeholder="Please describe your inquiry in detail..."
-                    ></textarea>
-                  </div>
+      <div>
+        <label className="block text-sm font-medium text-academic-subheading mb-2">Institution / Organization</label>
+        <input name="organization"
+          className="w-full px-4 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+          placeholder="Your institution or organization" />
+      </div>
 
-                  <Button size="lg" className="w-full">
-                    <Send className="mr-2 h-5 w-5" />
-                    Send Message
-                  </Button>
-                </form>
-              </CardContent>
-            </Card>
+      <div>
+        <label className="block text-sm font-medium text-academic-subheading mb-2">Subject</label>
+        <select name="subject" required
+          className="w-full px-4 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary">
+          <option value="">Select a subject</option>
+          <option>Research Collaboration</option>
+          <option>Speaking Engagement</option>
+          <option>Industry Consulting</option>
+          <option>Academic Mentoring</option>
+          <option>Other Inquiry</option>
+        </select>
+      </div>
 
-            {/* Response Time */}
-            <div className="mt-6 bg-muted/30 rounded-lg p-4">
-              <h3 className="font-semibold text-academic-subheading mb-2">Response Time</h3>
-              <p className="text-academic-body text-sm leading-relaxed">
-                I aim to respond to all inquiries within 24-48 hours during business days. 
-                For urgent matters, please mention "URGENT" in your subject line. 
-                During conference travel or research field work, responses may take longer.
-              </p>
-            </div>
-          </div>
+      <div>
+        <label className="block text-sm font-medium text-academic-subheading mb-2">Message</label>
+        <textarea name="message" rows={6} required
+          className="w-full px-4 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+          placeholder="Please describe your inquiry in detail..." />
+      </div>
+
+      <Button size="lg" className="w-full" type="submit" disabled={status==="sending"}>
+        <Send className="mr-2 h-5 w-5" />
+        {status === "sending" ? "Sending..." : "Send Message"}
+      </Button>
+
+      {status === "ok" && (
+        <p className="text-green-600" role="status" aria-live="polite">
+          Thanks! Your message has been sent.
+        </p>
+      )}
+      {status === "err" && (
+        <p className="text-red-600" role="alert">
+          {error}
+        </p>
+      )}
+      {/* Response Time */}
+      <div className="mt-6 bg-muted/30 rounded-lg p-4">
+        <h3 className="font-semibold text-academic-subheading mb-2">Response Time</h3>
+        <p className="text-academic-body text-sm leading-relaxed">
+          I aim to respond to all inquiries within 24-48 hours during business days. 
+          For urgent matters, please mention "URGENT" in your subject line. 
+          During conference travel or research field work, responses may take longer.
+        </p>
+      </div>
+    </form>
         </div>
 
         {/* Office Hours */}
