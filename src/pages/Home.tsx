@@ -3,6 +3,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Link } from 'react-router-dom';
 import { ArrowRight, BookOpen, Users, Building, FileText } from 'lucide-react';
 import heroImage from '@/assets/hero-academic.jpg';
+import headshot from '@/assets/satya.png';
 
 export default function Home() {
   return (
@@ -48,7 +49,7 @@ export default function Home() {
             <div className="flex justify-center lg:justify-end">
               <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-2xl shadow-academic-elegant overflow-hidden">
                 <img 
-                  src="/lovable-uploads/5e4eaac0-0486-4177-bd7c-054e4f3f368d.png" 
+                  src={headshot}
                   alt="Satyajit - Doctoral Student" 
                   className="w-full h-full object-cover"
                 />
