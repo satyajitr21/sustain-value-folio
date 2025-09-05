@@ -162,7 +162,7 @@ export default function CV() {
                   <div className="space-y-3">
                     <div className="bg-muted/30 rounded-lg p-4">
                       <h4 className="font-medium text-academic-heading mb-1">
-                        "Electric vs Flex-Fuel Vehicles –The Impact of Government Policies on Automaker's Choice Between Green Technologies"
+                        "Driving Green: How Policies Shape Automakers' Choice Between Electric and Flex-Fuel Technologies"
                       </h4>
                       <p className="text-academic-body text-sm mb-2">
                         Manuscript under review
