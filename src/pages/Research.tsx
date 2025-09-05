@@ -84,8 +84,7 @@ export default function Research() {
                   <div className="flex justify-between items-start">
                     <div className="flex-1">
                       <CardTitle className="text-xl font-serif text-academic-heading mb-2">
-                        Electric vs Flex-Fuel Vehicles –The Impact of Government Policies on Automaker's Choice
-                        Between Green Technologies
+                        Driving Green: How Policies Shape Automakers' Choice Between Electric and Flex-Fuel Technologies
                       </CardTitle>
                       <div className="flex items-center gap-2 mb-3">
                         <Badge variant="default">Working Paper</Badge>
