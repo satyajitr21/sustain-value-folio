@@ -87,7 +87,7 @@ export function Footer() {
 
         <div className="border-t border-border mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-academic-caption text-sm">
-            © {new Date().getFullYear()} Academic Portfolio. All rights reserved.
+            © 2025 Satyajit Roy
           </p>
           <p className="text-academic-caption text-sm mt-2 sm:mt-0">
             Built for academic excellence and research impact.
