@@ -124,9 +124,9 @@ export default function Contact() {
                       Office
                     </h3>
                     <p className="text-academic-body">
-                      Room D-110, PhD students' cubicle
+                      Cubicle 129
                       <br />
-                      First floor, D block
+                      Second floor, Library Building
                       <br />
                       Available for meetings by appointment
                     </p>
