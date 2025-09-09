@@ -348,8 +348,14 @@ export default function Teaching() {
               <blockquote className="text-academic-body italic bg-card rounded-lg p-4 mb-3">
                 "Got to learn Excel from scratch. The pace could've been little slower. But I learned a lot from the instructor."
               </blockquote>
-              <blockquote className="text-academic-body italic bg-card rounded-lg p-4">
+              <blockquote className="text-academic-body italic bg-card rounded-lg p-4 mb-3">
                 "The faculty was very attentive to everyone's queries. But the course content was too much for this period"
+              </blockquote>
+              <blockquote className="text-academic-body italic bg-card rounded-lg p-4 mb-3">
+                "U have great potential to become a teacher that students need. Being a person from humanities background, maths was disaster for me. but ur class prompt us to speak , ask our doubts without any hesitation. and way u explain to us from the scratch is very good. Notion that these students know the things and skipping the steps was not found in ur class. keep on doing this . Go ahead with this same level of enthusiasm, dont loose it once u become a professor."
+              </blockquote>
+              <blockquote className="text-academic-body italic bg-card rounded-lg p-4">
+                "The instructor explained the math concepts really clearly and made them easy to follow. One small suggestion would be to give a few homework problems (which is not done in class) based on that day's lesson (other than excel solver)-it would help us practice and understand the concepts even better."
               </blockquote>
             </div>
           </div>
