@@ -84,7 +84,7 @@ export default function Teaching() {
                             <br />8 sessions | 79 participants | 4.67/5 rating (47 respondents)</li>
                           <li>• <strong>Linear Algebra and Optimization</strong> (PhD and PreDoc preparatory, 2025)
                             <br />2 sessions | 41 participants | 4.54/5 rating (19 respondents)</li>
-                          <li>• <strong>Mathematics for Economics – Optimisation and Matrices</strong> (Pre-Doctoral course)
+                          <li>• <strong>Mathematics for Economics – Optimisation and Matrices</strong> (Pre-Doctoral course, 2025)
                             <br />5 sessions | 12 participants | 4.52/5 rating (12 respondents)</li>
                           <li>• <strong>Introduction to Operations Management</strong> (Foundations for undergraduates, 2025)
                             <br />1 session | 74 participants | 4.5/5 rating (54 respondents)</li>
