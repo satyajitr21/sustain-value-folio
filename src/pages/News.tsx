@@ -179,6 +179,30 @@ export default function News() {
               <CardContent className="p-6">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <GraduationCap className="h-6 w-6 text-primary" />
+                  </div>
+                  
+                  <div className="flex-1">
+                    <div className="flex items-center justify-between mb-1">
+                      <h3 className="font-semibold text-academic-heading">
+                        PhD Open House at IIM Bangalore
+                      </h3>
+                      <Badge variant="outline">September 13, 2025</Badge>
+                    </div>
+                    <p className="text-academic-body text-sm">
+                      Speaking to future researchers and academicians at the PhD open house at IIM Bangalore campus.
+                      <br />
+                      <span className="text-academic-caption">Time: 11 AM</span>
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            
+            <Card className="shadow-academic-card">
+              <CardContent className="p-6">
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Presentation className="h-6 w-6 text-primary" />
                   </div>
                   
