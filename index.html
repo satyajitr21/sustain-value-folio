@@ -6,7 +6,24 @@
     <title>Satyajit Roy | PhD Scholar, IIM Bangalore | Sustainable Value Chains</title>
     <meta name="description" content="Official website of Satyajit Roy, PhD Scholar at IIM Bangalore, researching environmentally and socially sustainable value chains." />
     <meta name="author" content="Satyajit Roy" />
+    <!-- Add Firebase Analytics script here -->
+<script type="module">
+  import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js';
+  import { getAnalytics } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-analytics.js';
 
+  const firebaseConfig = {
+    apiKey: "AIzaSyA-OBQm_DnizoMrsX7uu5SnvrMnK4XDdvI",
+  authDomain: "satyajit-roy-website.firebaseapp.com",
+  projectId: "satyajit-roy-website",
+  storageBucket: "satyajit-roy-website.firebasestorage.app",
+  messagingSenderId: "1025155327804",
+  appId: "1:1025155327804:web:b9f7cbdbfd3591708fe039",
+    measurementId: "G-Z39BBRD3KZ"
+  };
+// Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
     <!-- Google Fonts for Academic Typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
