@@ -31,6 +31,14 @@
   const analytics = getAnalytics(app);
 
   console.log("New Firebase project with v12.2.1 initialized!");
+
+  // Add these test events
+  logEvent(analytics, 'page_view');
+  logEvent(analytics, 'test_event', {
+    page_title: document.title
+  });
+  
+  console.log("Test events sent!");
 </script>
     <!-- Google Fonts for Academic Typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
