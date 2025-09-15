@@ -1,3 +1,6 @@
+import { useEffect } from 'react';
+import { analytics } from './firebase.js';
+import { logEvent } from 'firebase/analytics';
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
