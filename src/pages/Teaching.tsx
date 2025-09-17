@@ -102,6 +102,10 @@ export default function Teaching() {
                         <Badge variant="secondary">Operations Management</Badge>
                         <Badge variant="secondary">Mathematics</Badge>
                       </div>
+                      
+                      <p className="text-sm text-academic-body italic mt-4 pt-4 border-t border-border/20">
+                        Student feedback is collected anonymously by the program office and is not self-collected or self-reported.
+                      </p>
                     </div>
                   </div>
                 </div>
