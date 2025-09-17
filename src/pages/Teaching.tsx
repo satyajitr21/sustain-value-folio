@@ -28,11 +28,14 @@ export default function Teaching() {
               </CardTitle>
             </CardHeader>
             <CardContent className="text-center">
+              <p className="text-lg text-academic-body leading-relaxed max-w-4xl mx-auto mb-4">
+                As a teacher, my objective is to first show why my topic (whatever I am teaching) matters, then make it intuitively understandable for everyone, regardless of their background and experience. The next level of detailing follows based on the audience.
+              </p>
+              <p className="text-lg text-academic-body leading-relaxed max-w-4xl mx-auto mb-4">
+                My approach combines academic content with real-world applications, encouraging students to connect theory with practice while developing their analytical and communication capabilities.
+              </p>
               <p className="text-lg text-academic-body leading-relaxed max-w-4xl mx-auto">
-                I believe in fostering critical thinking and practical problem-solving skills 
-                through interactive learning experiences. My approach combines rigorous academic 
-                content with real-world applications, encouraging students to connect theory 
-                with practice while developing their analytical and communication capabilities.
+                In this Gen-AI era, I do not resist Gen-Zs using AI tools; rather, I prefer to guide students to use them responsibly to enhance their learning, not bypass their own reasoning.
               </p>
             </CardContent>
           </Card>
