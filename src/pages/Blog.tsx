@@ -9,6 +9,50 @@ import { useState } from 'react';
 
 const blogPosts = [
   {
+    id: 5,
+    title: "Saving Tokens, Losing Courtesy? The (Plausible) Spillover of Prompt Efficiency on Human Interactions",
+    excerpt: "A few days back, I was attending a session where the speaker talked about the downside of being extra polite in our input prompts while using AI agents. This got me thinking about how our increasingly optimized interactions with AI might subtly reshape our everyday manners.",
+    fullContent: `
+A few days back, I was attending a session where the speaker talked about the downside of being extra polite in our input prompts while using AI agents. Googling about it, I found an intriguing article on AI Katana titled "Why OpenAI Spends Millions on Your 'Please' and 'Thank You'" (<a href="https://www.aikatana.com/p/why-openai-spends-millions-on-your-please-and-thank-you" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Read here</a>). It got me thinking about how our increasingly optimized interactions with AI might subtly reshape our everyday manners – not just with machines, but with each other.
+
+**The Cost of Courtesy in the AI Era**
+
+Let's start with the basics: every interaction with large language models (LLMs) like those powering ChatGPT or Grok is processed in "tokens" – small units akin to word fragments. Adding polite phrases such as "please," "thank you," or "sorry" increases the token count in your prompt, which in turn ramps up computational demands. For companies building applications on these models, this translates to higher API costs, as providers charge based on tokens processed. For example, OpenAI's GPT-5 model charged $1.25/million tokens of input prompt (<a href="https://openai.com/api/pricing/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Read here about OpenAI's pricing</a>). While a single extra word is negligible, handling millions of queries at enterprise scale can add up to significant expenses, echoing the article's point about OpenAI's "tens of millions" in electricity bills from user politeness.
+
+**Training for Brevity: The Push to Ditch Politeness**
+
+To curb these costs, firms are likely to encourage or even train employees and users to strip away unnecessary pleasantries (e.g., Could you please give me the list of top 10 drug manufacturers in India? vs List the top 10 drug manufacturers in India). Prompt engineering guidelines already advise treating AI like a "command-line interface" rather than a colleague, avoiding fluff to preserve context and efficiency. As AI agents become ubiquitous in workplaces and more and more companies start training their employees on prompt engineering for operational efficiency, this concise, no-frills style could become the norm, prioritizing speed and savings over social niceties.
+
+**Habit Formation in the Age of AI**
+
+Humans are creatures of habit, and repeated behaviours wire our brains accordingly. If we're conditioned daily to interact with AI in an abrupt, utilitarian manner – omitting "please" or "thank you" for optimization, it could reinforce a more direct, less empathetic communication style. Research on moral spillover in human-AI interactions suggests that how we treat machines influences our broader ethical and social patterns, as these systems become extensions of our cognitive processes. With AI agents growing more authoritative (e.g., making decisions or providing directives), this habit loop might strengthen, normalizing curtness as efficient rather than rude.
+
+**The Spillover Effect: From Bots to Humans**
+
+This is where it gets concerning: what starts as cost-saving with AI could bleed into human interactions. Studies show that objectifying or depersonalized exchanges with AI can lead to harsher judgments of others or reduced empathy in real-life scenarios. For instance, if employees spend hours barking commands at chatbots, they might unconsciously carry that tone into emails, meetings, or customer calls. Over time, this "politeness erosion" could subtly degrade workplace culture or even broader social dynamics, especially among younger generations growing up with AI companions. It's not inevitable, but the psychological "seesaw effect" in AI design, balancing personality with performance, highlights how tech shapes us back.
+
+**The Counterargument**
+
+There are also views that politeness in AI prompts enhances response quality by mirroring human-like collaboration and improving outputs (<a href="https://www.forbes.com/sites/lanceeliot/2024/05/18/hard-evidence-that-please-and-thank-you-in-prompt-engineering-counts-when-using-generative-ai/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">read here</a> and <a href="https://www.forbes.com/sites/lanceeliot/2024/05/18/hard-evidence-that-please-and-thank-you-in-prompt-engineering-counts-when-using-generative-ai/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">here</a>). But at the end of the day, "money matters"; especially for enterprise applications used by millions of users and might be adding billions of tokens in "please" and "thank you", daily. Moreover, empirical evidence shows politeness yields inconsistent benefits, often negligible on factual queries, and can distract from core instructions, diluting prompt effectiveness without guaranteeing superior results. In cost-sensitive environments, brevity may outweigh courtesy.
+
+However, on a personal level, we can consciously practice balanced interactions, polite enough to maintain humanity, but efficient enough to respect costs. Broader education on AI literacy could also help users understand these trade-offs, promoting designs that prioritize ethical user experiences.
+
+**Worth Exploring**
+
+This raises intriguing unknowns: Will generational differences amplify the spillover, with AI-native kids viewing politeness as optional? How might cultural variations (e.g., in high-context societies like Japan) resist or adapt to this trend? And if AI becomes truly sentient-like, could enforced brevity backfire, creating "resentful" systems or widening human-AI divides? 
+
+These are just thoughts; I do not have answers to or well-thought-out opinions on any of these.
+
+**Disclaimer:** The thoughts are personal. My knowledge of the AI ecosystem is limited; I'm drawing from articles, studies, and observations, not exhaustive expertise. I'd love to hear your thoughts, counterarguments, or additional insights in the comments. Also, I sought Grok's help to draft parts of the article.
+`,
+    date: "2025-09-27",
+    readTime: "7 min read",
+    category: "AI Ethics",
+    featured: true,
+    likes: 0,
+    comments: 0
+  },
+  {
     id: 1,
     title: "The Shifting Sands of Sickness: Will Consumerization Reshape Indian Primary Healthcare?",
     excerpt: "Last month, I was attending AYUSHMAT 2025, An annual healthcare summit at IIM Bangalore. In one of the panel discussions, Mr. Vaibhav Tewari emphasized an interesting trend - the consumerization of healthcare, a shift driven by evolving patient expectations and technological advancements.",
