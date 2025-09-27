@@ -92,7 +92,7 @@ The consumerization of healthcare, while a significant disruptor, ultimately hol
     date: "2025-08-02",
     readTime: "8 min read",
     category: "Healthcare",
-    featured: true,
+    featured: false,
     likes: 2,
     comments: 0
   },
