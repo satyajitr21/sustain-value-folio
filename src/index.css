@@ -147,4 +147,19 @@ All colors MUST be HSL for proper theming
   .transition-gentle {
     transition: var(--transition-gentle);
   }
+
+  /* Article link styling */
+  .prose a,
+  .text-academic-body a {
+    color: hsl(var(--primary));
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: var(--transition-gentle);
+  }
+
+  .prose a:hover,
+  .text-academic-body a:hover {
+    color: hsl(var(--primary-glow));
+    text-decoration: none;
+  }
 }

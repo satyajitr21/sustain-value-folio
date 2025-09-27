@@ -306,7 +306,7 @@ export default function Blog() {
                   </Button>
                 </div>
                 
-                {showFullPost && (
+                 {showFullPost && (
                   <div className="mt-8">
                     <div className="prose prose-lg max-w-none">
                       <div className="text-academic-body leading-relaxed space-y-6">
@@ -320,9 +320,7 @@ export default function Blog() {
                             );
                           }
                           return paragraph.trim() && (
-                            <p key={index} className="text-academic-body leading-relaxed">
-                              {paragraph}
-                            </p>
+                            <p key={index} className="text-academic-body leading-relaxed" dangerouslySetInnerHTML={{ __html: paragraph }} />
                           );
                         })}
                       </div>
