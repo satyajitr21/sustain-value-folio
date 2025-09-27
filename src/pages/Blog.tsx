@@ -516,6 +516,15 @@ export default function Blog() {
                             {expandedPost === post.id ? 'Show Less' : 'Read More'} 
                             <ArrowRight className="ml-1 h-3 w-3" />
                           </Button>
+                        ) : post.id === 1 ? (
+                          <Button 
+                            variant="ghost" 
+                            size="sm" 
+                            onClick={() => setExpandedPost(expandedPost === post.id ? null : post.id)}
+                          >
+                            {expandedPost === post.id ? 'Show Less' : 'Read More'} 
+                            <ArrowRight className="ml-1 h-3 w-3" />
+                          </Button>
                         ) : post.id === 3 ? (
                           <Button variant="ghost" size="sm" asChild>
                             <a href="https://auto.economictimes.indiatimes.com/news/commercial-vehicle/financing-the-electric-vehicle-revolution-addressing-challenges-in-india/121815514" target="_blank" rel="noopener noreferrer">
@@ -537,16 +546,41 @@ export default function Blog() {
                        )}
                     </div>
                     
-                    {/* Full content for AI Sustainability post */}
-                    {post.id === 2 && expandedPost === post.id && (
-                      <div className="mt-6 pt-6 border-t border-border">
-                        <div className="prose prose-lg max-w-none text-academic-body">
-                          <div className="whitespace-pre-wrap">
-                            {post.fullContent}
-                          </div>
-                        </div>
-                      </div>
-                    )}
+                     {/* Full content for AI Sustainability post */}
+                     {post.id === 2 && expandedPost === post.id && (
+                       <div className="mt-6 pt-6 border-t border-border">
+                         <div className="prose prose-lg max-w-none text-academic-body">
+                           <div className="whitespace-pre-wrap">
+                             {post.fullContent}
+                           </div>
+                         </div>
+                       </div>
+                     )}
+                     
+                     {/* Full content for Healthcare post */}
+                     {post.id === 1 && expandedPost === post.id && (
+                       <div className="mt-6 pt-6 border-t border-border">
+                         <div className="prose prose-lg max-w-none text-academic-body">
+                           <div className="space-y-6">
+                             {post.fullContent?.split('\n\n').map((paragraph, index) => {
+                               if (paragraph.startsWith('**') && paragraph.endsWith('**')) {
+                                 const heading = paragraph.replace(/\*\*/g, '');
+                                 return (
+                                   <h3 key={index} className="text-xl font-serif font-bold text-academic-heading mt-8 mb-4">
+                                     {heading}
+                                   </h3>
+                                 );
+                               }
+                               return paragraph.trim() && (
+                                 <p key={index} className="text-academic-body leading-relaxed">
+                                   {paragraph}
+                                 </p>
+                               );
+                             })}
+                           </div>
+                         </div>
+                       </div>
+                     )}
                  </CardContent>
               </Card>
             ))}
