@@ -33,7 +33,7 @@ This is where it gets concerning: what starts as cost-saving with AI could bleed
 
 **The Counterargument**
 
-There are also views that politeness in AI prompts enhances response quality by mirroring human-like collaboration and improving outputs (<a href="https://www.forbes.com/sites/lanceeliot/2024/05/18/hard-evidence-that-please-and-thank-you-in-prompt-engineering-counts-when-using-generative-ai/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">read here</a> and <a href="https://www.forbes.com/sites/lanceeliot/2024/05/18/hard-evidence-that-please-and-thank-you-in-prompt-engineering-counts-when-using-generative-ai/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">here</a>). But at the end of the day, "money matters"; especially for enterprise applications used by millions of users and might be adding billions of tokens in "please" and "thank you", daily. Moreover, empirical evidence shows politeness yields inconsistent benefits, often negligible on factual queries, and can distract from core instructions, diluting prompt effectiveness without guaranteeing superior results. In cost-sensitive environments, brevity may outweigh courtesy.
+There are also views that politeness in AI prompts enhances response quality by mirroring human-like collaboration and improving outputs (<a href="https://www.forbes.com/sites/lanceeliot/2024/05/18/hard-evidence-that-please-and-thank-you-in-prompt-engineering-counts-when-using-generative-ai/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline"> Read here</a> and <a href="https://www.microsoft.com/en-us/worklab/why-using-a-polite-tone-with-ai-matters" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">here</a>). But at the end of the day, "money matters"; especially for enterprise applications used by millions of users and might be adding billions of tokens in "please" and "thank you", daily. Moreover, empirical evidence shows politeness yields inconsistent benefits, often negligible on factual queries, and can distract from core instructions, diluting prompt effectiveness without guaranteeing superior results. In cost-sensitive environments, brevity may outweigh courtesy.
 
 However, on a personal level, we can consciously practice balanced interactions, polite enough to maintain humanity, but efficient enough to respect costs. Broader education on AI literacy could also help users understand these trade-offs, promoting designs that prioritize ethical user experiences.
 
@@ -43,7 +43,7 @@ This raises intriguing unknowns: Will generational differences amplify the spill
 
 These are just thoughts; I do not have answers to or well-thought-out opinions on any of these.
 
-**Disclaimer:** The thoughts are personal. My knowledge of the AI ecosystem is limited; I'm drawing from articles, studies, and observations, not exhaustive expertise. I'd love to hear your thoughts, counterarguments, or additional insights in the comments. Also, I sought Grok's help to draft parts of the article.
+**Disclaimer** The thoughts are personal. My knowledge of the AI ecosystem is limited; I'm drawing from articles, studies, and observations, not exhaustive expertise. I'd love to hear your thoughts, counterarguments, or additional insights in the comments. Also, I sought Grok's help to draft parts of the article.
 `,
     date: "2025-09-27",
     readTime: "7 min read",
