@@ -98,6 +98,30 @@ export default function BeyondTheDesk() {
 "আমরাও আছি, আমরাও মানুষ, আমাদেরও সংজ্ঞা হয়"।`}
             </div>
           </div>
+
+          <div className="bg-card rounded-lg p-8 shadow-sm border border-border">
+            <h2 className="text-2xl font-serif font-semibold text-academic-heading mb-6 text-center">
+              বিনিময় প্রথা
+            </h2>
+            <div className="text-academic-body leading-relaxed whitespace-pre-line text-lg">
+              {`সব ই বিনিময় প্রথা
+কেউ টাকার বিনিময়ে বেঁচে 
+নিজের শরীর
+আর কেউ খুশির বিনিময়ে
+স্বেচ্ছায় একসাথে শুয়ে পড়ে
+টাকা টা মাধ্যম হলেই 
+শরীর টা " বেঁচা " হয়ে গেলো ?
+আর অন্যটা ?
+একটা ব্যবসা ,
+আর একটা সহবাস 
+একটা অপরাধ 
+আর একটা দায়িত্ব ?
+শুধু বিনিময়ের মাধ্যম দিয়েই 
+বিচার হয়ে গেলো ?
+কে সতী আর
+কে নষ্টা ?`}
+            </div>
+          </div>
         </div>
       </div>
     </div>
