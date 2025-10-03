@@ -1,3 +1,5 @@
+import poetPortrait from "@/assets/poet-portrait.png";
+
 export default function BeyondTheDesk() {
   return (
     <div className="min-h-screen bg-background py-12 px-4 sm:px-6 lg:px-8">
@@ -12,11 +14,16 @@ export default function BeyondTheDesk() {
         
         {/* Poetry Section */}
         <div className="space-y-8">
-          <div className="bg-card rounded-lg p-8 shadow-sm border border-border">
-            <h2 className="text-2xl font-serif font-semibold text-academic-heading mb-6 text-center">
-              অবাক কবি
-            </h2>
-            <div className="text-academic-body leading-relaxed whitespace-pre-line text-lg">
+          <div className="relative bg-card rounded-lg p-8 shadow-sm border border-border overflow-hidden">
+            <div 
+              className="absolute inset-0 bg-center bg-cover opacity-10"
+              style={{ backgroundImage: `url(${poetPortrait})` }}
+            />
+            <div className="relative z-10">
+              <h2 className="text-2xl font-serif font-semibold text-academic-heading mb-6 text-center">
+                অবাক কবি
+              </h2>
+              <div className="text-academic-body leading-relaxed whitespace-pre-line text-lg">
               {`কী করে পারলে কবি?
 তোমার কবিতায় এত মানুষকে ঠাই দিতে
 কোথা থেকে পেলে এত আকাশ?
@@ -43,6 +50,7 @@ export default function BeyondTheDesk() {
 সে শুধু শোভা পাওয়ার জন্য,
 তোমাকে আশ্রয় দেওয়ার জন্য নয়;
 তুমি সেখানেই সুখে থাকো কবি।`}
+              </div>
             </div>
           </div>
 
