@@ -14,6 +14,7 @@ const navigationItems = [
   { name: 'Blog', href: '/blog' },
   { name: 'Updates', href: '/news' },
   { name: 'Contact', href: '/contact' },
+  { name: 'Beyond the Desk', href: '/beyond-the-desk' },
 ];
 
 export function Navigation() {

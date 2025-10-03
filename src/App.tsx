@@ -17,6 +17,7 @@ import CV from "./pages/CV";
 import Blog from "./pages/Blog";
 import News from "./pages/News";
 import Contact from "./pages/Contact";
+import BeyondTheDesk from "./pages/BeyondTheDesk";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -40,6 +41,7 @@ const App = () => (
               <Route path="/blog" element={<Blog />} />
               <Route path="/news" element={<News />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/beyond-the-desk" element={<BeyondTheDesk />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
