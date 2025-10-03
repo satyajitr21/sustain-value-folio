@@ -2,8 +2,8 @@ export default function BeyondTheDesk() {
   return (
     <div className="min-h-screen bg-background py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-serif font-bold text-academic-heading mb-8">
-          Beyond the Desk
+        <h1 className="text-4xl font-serif font-bold text-academic-heading mb-8 text-center">
+          Me and Myself
         </h1>
         
         <p className="text-lg text-academic-body italic leading-relaxed mb-12">
