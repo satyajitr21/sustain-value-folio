@@ -1,5 +1,6 @@
 import poetPortrait from "@/assets/poet-portrait.png";
 import workerPortrait from "@/assets/worker-portrait.png";
+import silhouettePortrait from "@/assets/silhouette-portrait.png";
 
 export default function BeyondTheDesk() {
   return (
@@ -114,11 +115,16 @@ export default function BeyondTheDesk() {
             </div>
           </div>
 
-          <div className="bg-card rounded-lg p-8 shadow-sm border border-border">
-            <h2 className="text-2xl font-serif font-semibold text-academic-heading mb-6 text-center">
-              বিনিময় প্রথা
-            </h2>
-            <div className="text-academic-body leading-relaxed whitespace-pre-line text-lg">
+          <div className="relative bg-card rounded-lg p-8 shadow-sm border border-border overflow-hidden">
+            <div 
+              className="absolute inset-0 bg-center bg-cover opacity-10"
+              style={{ backgroundImage: `url(${silhouettePortrait})` }}
+            />
+            <div className="relative z-10">
+              <h2 className="text-2xl font-serif font-semibold text-academic-heading mb-6 text-center">
+                বিনিময় প্রথা
+              </h2>
+              <div className="text-academic-body leading-relaxed whitespace-pre-line text-lg text-center">
               {`সব ই বিনিময় প্রথা
 কেউ টাকার বিনিময়ে বেঁচে 
 নিজের শরীর
@@ -135,6 +141,7 @@ export default function BeyondTheDesk() {
 বিচার হয়ে গেলো ?
 কে সতী আর
 কে নষ্টা ?`}
+              </div>
             </div>
           </div>
         </div>
