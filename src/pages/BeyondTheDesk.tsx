@@ -2,6 +2,7 @@ import poetPortrait from "@/assets/poet-portrait.png";
 import workerPortrait from "@/assets/worker-portrait.png";
 import silhouettePortrait from "@/assets/silhouette-portrait.png";
 import eyePortrait from "@/assets/eye-portrait.png";
+import jibananandaPortrait from "@/assets/jibanananda-portrait.png";
 
 export default function BeyondTheDesk() {
   return (
@@ -190,11 +191,16 @@ export default function BeyondTheDesk() {
             </div>
           </div>
 
-          <div className="bg-card rounded-lg p-8 shadow-sm border border-border">
-            <h2 className="text-2xl font-serif font-semibold text-academic-heading mb-6 text-center">
-              জীবনানন্দ
-            </h2>
-            <div className="text-academic-body leading-relaxed whitespace-pre-line text-lg text-center">
+          <div className="relative bg-card rounded-lg p-8 shadow-sm border border-border overflow-hidden">
+            <div 
+              className="absolute inset-0 bg-center bg-cover opacity-10"
+              style={{ backgroundImage: `url(${jibananandaPortrait})` }}
+            />
+            <div className="relative z-10">
+              <h2 className="text-2xl font-serif font-semibold text-academic-heading mb-6 text-center">
+                জীবনানন্দ
+              </h2>
+              <div className="text-academic-body leading-relaxed whitespace-pre-line text-lg text-center">
               {`তুমি কোথায় চলে গেলে জীবনানন্দ ?
 তোমার চোখে বাংলাকে  দেখতে শিখেছি , তুমিই চিনিয়েছো বাংলার গ্রাম ।
 কখনো কখনো ভোরের বেলায় তোমার সেই দোয়েল পাখি দেখতে পাই;  
@@ -216,6 +222,7 @@ export default function BeyondTheDesk() {
 আর একবার ফিরে এসো তুমি জীবনানন্দ । 
 তোমার চোখে গ্রাম দেখেছি ,
 খুব সাধ তোমার চোখে একবার কলকাতা দেখি ।`}
+              </div>
             </div>
           </div>
         </div>
