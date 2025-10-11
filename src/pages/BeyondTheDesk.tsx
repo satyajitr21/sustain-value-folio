@@ -1,4 +1,5 @@
 import poetPortrait from "@/assets/poet-portrait.png";
+import workerPortrait from "@/assets/worker-portrait.png";
 
 export default function BeyondTheDesk() {
   return (
@@ -54,11 +55,16 @@ export default function BeyondTheDesk() {
             </div>
           </div>
 
-          <div className="bg-card rounded-lg p-8 shadow-sm border border-border">
-            <h2 className="text-2xl font-serif font-semibold text-academic-heading mb-6 text-center">
-              তাহাদের কথা
-            </h2>
-            <div className="text-academic-body leading-relaxed whitespace-pre-line text-lg">
+          <div className="relative bg-card rounded-lg p-8 shadow-sm border border-border overflow-hidden">
+            <div 
+              className="absolute inset-0 bg-center bg-cover opacity-10"
+              style={{ backgroundImage: `url(${workerPortrait})` }}
+            />
+            <div className="relative z-10">
+              <h2 className="text-2xl font-serif font-semibold text-academic-heading mb-6 text-center">
+                তাহাদের কথা
+              </h2>
+              <div className="text-academic-body leading-relaxed whitespace-pre-line text-lg">
               {`"তাহা"রা?
 কারা?
 "তাহা"রা তাহারাই।
@@ -104,6 +110,7 @@ export default function BeyondTheDesk() {
 কোনও একদিন।
 নয়তো তারা নিজেরাই, নিজেরাই একদিন বলবে-
 "আমরাও আছি, আমরাও মানুষ, আমাদেরও সংজ্ঞা হয়"।`}
+              </div>
             </div>
           </div>
 
