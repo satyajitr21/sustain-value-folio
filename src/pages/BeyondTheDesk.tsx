@@ -64,7 +64,7 @@ export default function BeyondTheDesk() {
               <h2 className="text-2xl font-serif font-semibold text-academic-heading mb-6 text-center">
                 তাহাদের কথা
               </h2>
-              <div className="text-academic-body leading-relaxed whitespace-pre-line text-lg">
+              <div className="text-academic-body leading-relaxed whitespace-pre-line text-lg text-center">
               {`"তাহা"রা?
 কারা?
 "তাহা"রা তাহারাই।
