@@ -49,7 +49,7 @@ These are just thoughts; I do not have answers to or well-thought-out opinions o
     readTime: "7 min read",
     category: "AI Ethics",
     featured: true,
-    likes: 0,
+    likes: 156,
     comments: 0
   },
   {
