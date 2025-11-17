@@ -88,7 +88,7 @@ export default function Research() {
                       </CardTitle>
                       <div className="flex items-center gap-2 mb-3">
                         <Badge variant="default">Working Paper</Badge>
-                        <Badge variant="secondary">Under Review</Badge>
+                        <Badge variant="secondary">Reject & Resubmit at European Journal of Operations Research</Badge>
                       </div>
                     </div>
                   </div>
