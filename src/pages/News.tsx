@@ -252,6 +252,28 @@ export default function News() {
                   <div className="flex-1">
                     <div className="flex items-center justify-between mb-1">
                       <h3 className="font-semibold text-academic-heading">
+                        IIM Calcutta – Chicago Booth India Quantitative Marketing Conference 2025
+                      </h3>
+                      <Badge variant="outline">14-15 December 2025</Badge>
+                    </div>
+                    <p className="text-academic-body text-sm">
+                      Presenting my paper on business models for commercial EVs with battery life uncertainty.
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            
+            <Card className="shadow-academic-card">
+              <CardContent className="p-6">
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Presentation className="h-6 w-6 text-primary" />
+                  </div>
+                  
+                  <div className="flex-1">
+                    <div className="flex items-center justify-between mb-1">
+                      <h3 className="font-semibold text-academic-heading">
                         POMS India Annual conference 2025
                       </h3>
                       <Badge variant="outline">13-16 December 2025</Badge>
