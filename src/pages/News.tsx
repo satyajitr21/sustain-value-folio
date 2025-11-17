@@ -5,6 +5,15 @@ import { Calendar, Award, BookOpen, Users, Presentation, GraduationCap } from 'l
 const newsItems = [
   {
     id: 1,
+    date: "2025-12-14",
+    type: "conference",
+    title: "Paper accepted for IIM Calcutta – Chicago Booth India Quantitative Marketing Conference 2025",
+    description: "My paper titled \"Business Models for Commercial EVs with Battery Life Uncertainty: Linking Customer Effort, Profitability, and Sustainability\" got accepted for the IIM Calcutta – Chicago Booth India Quantitative Marketing Conference 2025.",
+    icon: Presentation,
+    category: "Conference"
+  },
+  {
+    id: 2,
     date: "2025-10-01",
     type: "award",
     title: "Received the Wipro Sustainability Scholar award for 2025-26",
@@ -13,7 +22,7 @@ const newsItems = [
     category: "Award"
   },
   {
-    id: 2,
+    id: 3,
     date: "2025-09-25",
     type: "conference",
     title: "Paper accepted for 22nd ANZAM Operations, Supply Chain and Services Management Symposium",
@@ -22,7 +31,7 @@ const newsItems = [
     category: "Conference"
   },
   {
-    id: 3,
+    id: 4,
     date: "2025-08-11",
     type: "conference",
     title: "Paper accepted for 19th ISDSI-Global Conference 2025",
@@ -31,7 +40,7 @@ const newsItems = [
     category: "Conference"
   },
   {
-    id: 4,
+    id: 5,
     date: "2025-08-04",
     type: "conference",
     title: "Paper accepted for 2025 Decision Sciences Institute Annual Conference",
@@ -40,7 +49,7 @@ const newsItems = [
     category: "Conference"
   },
   {
-    id: 5,
+    id: 6,
     date: "2025-06-17",
     type: "conference",
     title: "Paper accepted for 85th Academy of Management Annual Meeting",
@@ -53,7 +62,7 @@ const newsItems = [
     category: "Conference"
   },
   {
-    id: 6,
+    id: 7,
     date: "2025-06-13",
     type: "research",
     title: "Co-authored article published by ET Auto",
@@ -66,7 +75,7 @@ const newsItems = [
     category: "Publication"
   },
   {
-    id: 7,
+    id: 8,
     date: "2025-06-07",
     type: "research",
     title: "Co-authored article published by ET Auto",
@@ -79,7 +88,7 @@ const newsItems = [
     category: "Publication"
   },
   {
-    id: 8,
+    id: 9,
     date: "2025-05-08",
     type: "conference",
     title: "Presented at 35th Annual POMS Conference in Atlanta",
@@ -88,7 +97,7 @@ const newsItems = [
     category: "Conference"
   },
   {
-    id: 9,
+    id: 10,
     date: "2025-04-24",
     type: "conference",
     title: "Served as chair at International Sustainability Conference",
@@ -97,7 +106,7 @@ const newsItems = [
     category: "Conference"
   },
   {
-    id: 10,
+    id: 11,
     date: "2025-01-01",
     type: "research",
     title: "Teaching case study published by Harvard Business Publishing",
@@ -110,7 +119,7 @@ const newsItems = [
     category: "Publication"
   },
   {
-    id: 11,
+    id: 12,
     date: "2024-12-04",
     type: "conference",
     title: "Second best doctoral research paper award at POMS Indian International",
