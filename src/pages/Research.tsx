@@ -141,7 +141,7 @@ export default function Research() {
                       </CardTitle>
                       <div className="flex items-center gap-2 mb-3">
                         <Badge variant="default">Working Paper</Badge>
-                        <Badge variant="secondary">Under review</Badge>
+                        <Badge variant="secondary">Revise & Resubmit at IIMB Management Review</Badge>
                       </div>
                     </div>
                   </div>
@@ -169,7 +169,7 @@ export default function Research() {
                       </CardTitle>
                       <div className="flex items-center gap-2 mb-3">
                         <Badge variant="default">Working Paper</Badge>
-                        <Badge variant="secondary">Under review</Badge>
+                        <Badge variant="secondary">Accepted at Indian Journal of Economics</Badge>
                       </div>
                     </div>
                   </div>
