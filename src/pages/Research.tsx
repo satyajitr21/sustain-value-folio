@@ -71,11 +71,12 @@ export default function Research() {
           </h2>
 
           <Tabs defaultValue="working" className="w-full">
-            <TabsList className="grid w-full grid-cols-4">
+            <TabsList className="grid w-full grid-cols-5">
               <TabsTrigger value="working">Working Papers</TabsTrigger>
               <TabsTrigger value="progress">Work in Progress</TabsTrigger>
               <TabsTrigger value="published">Published Papers</TabsTrigger>
               <TabsTrigger value="case-studies">Published Case Studies</TabsTrigger>
+              <TabsTrigger value="articles">Newspaper & Magazine Articles</TabsTrigger>
             </TabsList>
 
             <TabsContent value="working" className="space-y-6 mt-8">
@@ -403,6 +404,56 @@ export default function Research() {
                     </Button>
                   </div>
                 </CardContent>
+              </Card>
+            </TabsContent>
+
+            <TabsContent value="articles" className="space-y-6 mt-8">
+              <Card className="shadow-academic-card">
+                <CardHeader>
+                  <CardTitle className="text-xl font-serif text-academic-heading mb-2">
+                    The long road to greener mobility runs through the finance corridors
+                  </CardTitle>
+                  <div className="flex items-center gap-2 mb-3">
+                    <Badge variant="default">ET Auto</Badge>
+                    <Badge variant="outline">Jun 13, 2025</Badge>
+                  </div>
+                </CardHeader>
+              </Card>
+
+              <Card className="shadow-academic-card">
+                <CardHeader>
+                  <CardTitle className="text-xl font-serif text-academic-heading mb-2">
+                    Why leasing dominates India's commercial EV market
+                  </CardTitle>
+                  <div className="flex items-center gap-2 mb-3">
+                    <Badge variant="default">Autocar Professional</Badge>
+                    <Badge variant="outline">Jun 07, 2025</Badge>
+                  </div>
+                </CardHeader>
+              </Card>
+
+              <Card className="shadow-academic-card">
+                <CardHeader>
+                  <CardTitle className="text-xl font-serif text-academic-heading mb-2">
+                    Can children make parents adopt more sustainable lifestyles? What is the role of New Education Policy?
+                  </CardTitle>
+                  <div className="flex items-center gap-2 mb-3">
+                    <Badge variant="default">Times of India</Badge>
+                    <Badge variant="outline">February 28, 2023</Badge>
+                  </div>
+                </CardHeader>
+              </Card>
+
+              <Card className="shadow-academic-card">
+                <CardHeader>
+                  <CardTitle className="text-xl font-serif text-academic-heading mb-2">
+                    Nuclear Energy As A Gateway To An Economical And Environmentally Sustainable Future
+                  </CardTitle>
+                  <div className="flex items-center gap-2 mb-3">
+                    <Badge variant="default">Swarajya</Badge>
+                    <Badge variant="outline">May 11, 2022</Badge>
+                  </div>
+                </CardHeader>
               </Card>
             </TabsContent>
           </Tabs>
