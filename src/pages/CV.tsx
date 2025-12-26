@@ -354,6 +354,26 @@ export default function CV() {
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
                   <div>
+                    <h3 className="font-semibold text-academic-subheading">Best Paper Award at the IRMA Doctoral Colloquium in Management and Development 2025</h3>
+                    <p className="text-academic-body">IRMA</p>
+                  </div>
+                  <div className="text-right">
+                    <Badge variant="default">2025</Badge>
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-between">
+                  <div>
+                    <h3 className="font-semibold text-academic-subheading">Wipro Sustainability Fellowship 2025-2026</h3>
+                    <p className="text-academic-body">IIM Bangalore</p>
+                  </div>
+                  <div className="text-right">
+                    <Badge variant="default">2025-26</Badge>
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-between">
+                  <div>
                     <h3 className="font-semibold text-academic-subheading">Institute Gold Medal for highest CGPA</h3>
                     <p className="text-academic-body">NIT Durgapur, Mechanical Engineering</p>
                   </div>
