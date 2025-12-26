@@ -155,6 +155,30 @@ export default function CV() {
                       <Badge variant="default">Published</Badge>
                     </div>
                   </div>
+                  
+                  <div className="bg-muted/30 rounded-lg p-4 mb-4">
+                    <h4 className="font-medium text-academic-heading mb-1">
+                      "Incentive (mis)Alignment in India's Deceased Organ Donation Value Chain"
+                    </h4>
+                    <p className="text-academic-body text-sm mb-2">
+                      <em>Economic and Political Weekly</em> (Forthcoming)
+                    </p>
+                    <div className="flex gap-2">
+                      <Badge variant="default">Forthcoming</Badge>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-muted/30 rounded-lg p-4 mb-4">
+                    <h4 className="font-medium text-academic-heading mb-1">
+                      "Population Control for Sustainable Development – Navigating Operational Challenges in India's Family Planning Program Through ASHAs"
+                    </h4>
+                    <p className="text-academic-body text-sm mb-2">
+                      <em>Indian Journal of Economics</em> (2025), with Dutta, B.
+                    </p>
+                    <div className="flex gap-2">
+                      <Badge variant="default">Published</Badge>
+                    </div>
+                  </div>
                 </div>
 
                 <div>
@@ -165,11 +189,24 @@ export default function CV() {
                         "Driving Green: How Policies Shape Automakers' Choice Between Electric and Flex-Fuel Technologies"
                       </h4>
                       <p className="text-academic-body text-sm mb-2">
-                        Manuscript under review
+                        Reject & Resubmit at European Journal of Operations Research
                       </p>
                       <div className="flex gap-2">
                         <Badge variant="secondary">Working Paper</Badge>
-                        <Badge variant="outline">Under Review</Badge>
+                        <Badge variant="outline">R&R at EJOR</Badge>
+                      </div>
+                    </div>
+                    
+                    <div className="bg-muted/30 rounded-lg p-4">
+                      <h4 className="font-medium text-academic-heading mb-1">
+                        "Energy Saving Through Climate Education: Climate Sensitization in School for Mindful Consumption at Home"
+                      </h4>
+                      <p className="text-academic-body text-sm mb-2">
+                        Revise & Resubmit at IIMB Management Review
+                      </p>
+                      <div className="flex gap-2">
+                        <Badge variant="secondary">Working Paper</Badge>
+                        <Badge variant="outline">R&R at IIMB MR</Badge>
                       </div>
                     </div>
                     
@@ -188,14 +225,14 @@ export default function CV() {
 
                     <div className="bg-muted/30 rounded-lg p-4">
                       <h4 className="font-medium text-academic-heading mb-1">
-                        "Population Control for Sustainable Development – Navigating Operational Challenges in India's Family Planning Program Through ASHAs"
+                        "Business Models for Commercial EVs with Battery Life Uncertainty"
                       </h4>
                       <p className="text-academic-body text-sm mb-2">
-                        Under review
+                        Linking Customer Effort, Profitability, and Sustainability (Manuscript preparation)
                       </p>
                       <div className="flex gap-2">
                         <Badge variant="secondary">Working Paper</Badge>
-                        <Badge variant="outline">Under Review</Badge>
+                        <Badge variant="outline">In Preparation</Badge>
                       </div>
                     </div>
                   </div>
@@ -223,20 +260,85 @@ export default function CV() {
                       </p>
                       <Badge variant="default">Published</Badge>
                     </div>
+                    
+                    <div className="bg-muted/30 rounded-lg p-4">
+                      <h4 className="font-medium text-academic-heading mb-1">
+                        "Business Model innovation at Log9"
+                      </h4>
+                      <p className="text-academic-body text-sm mb-2">
+                        Harvard Business Publication, with Sreelata Jonnalagedda
+                      </p>
+                      <Badge variant="default">Published</Badge>
+                    </div>
                   </div>
                 </div>
                 
                 <div>
                   <h3 className="font-semibold text-academic-subheading mb-3">Conference Proceedings</h3>
-                  <div className="bg-muted/30 rounded-lg p-4">
-                    <h4 className="font-medium text-academic-heading mb-1">
-                      "Coordination under constraints in a pro-social supply chain – India's deceased-donation program"
-                    </h4>
-                    <p className="text-academic-body text-sm mb-2">
-                      <em>AOM Annual Meeting Proceedings</em> (2025)
-                    </p>
-                    <div className="flex gap-2">
-                      <Badge variant="default">Published</Badge>
+                  <div className="space-y-3">
+                    <div className="bg-muted/30 rounded-lg p-4">
+                      <h4 className="font-medium text-academic-heading mb-1">
+                        "Coordination under constraints in a pro-social supply chain – India's deceased-donation program"
+                      </h4>
+                      <p className="text-academic-body text-sm mb-2">
+                        <em>AOM Annual Meeting Proceedings</em> (2025)
+                      </p>
+                      <div className="flex gap-2">
+                        <Badge variant="default">Published</Badge>
+                      </div>
+                    </div>
+                    
+                    <div className="bg-muted/30 rounded-lg p-4">
+                      <h4 className="font-medium text-academic-heading mb-1">
+                        "A performance review of the cadaveric organ donation program in an Indian State"
+                      </h4>
+                      <p className="text-academic-body text-sm mb-2">
+                        <em>Proceedings of TTS Congress</em> (2024), Transplantation 108(9S)
+                      </p>
+                      <div className="flex gap-2">
+                        <Badge variant="default">Published</Badge>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div>
+                  <h3 className="font-semibold text-academic-subheading mb-3">Newspaper & Magazine Articles</h3>
+                  <div className="space-y-3">
+                    <div className="bg-muted/30 rounded-lg p-4">
+                      <h4 className="font-medium text-academic-heading mb-1">
+                        "The long road to greener mobility runs through the finance corridors"
+                      </h4>
+                      <p className="text-academic-body text-sm mb-2">
+                        <em>ET Auto</em> (Jun 13, 2025), with Jonnalagedda, S.
+                      </p>
+                    </div>
+                    
+                    <div className="bg-muted/30 rounded-lg p-4">
+                      <h4 className="font-medium text-academic-heading mb-1">
+                        "Why leasing dominates India's commercial EV market"
+                      </h4>
+                      <p className="text-academic-body text-sm mb-2">
+                        <em>Autocar Professional</em> (Jun 07, 2025), with Jonnalagedda, S.
+                      </p>
+                    </div>
+                    
+                    <div className="bg-muted/30 rounded-lg p-4">
+                      <h4 className="font-medium text-academic-heading mb-1">
+                        "Can children make parents adopt more sustainable lifestyles? What is the role of New Education Policy?"
+                      </h4>
+                      <p className="text-academic-body text-sm mb-2">
+                        <em>Times of India</em> (Feb 28, 2023), with Saranga, H. and Mukherjee, K.
+                      </p>
+                    </div>
+                    
+                    <div className="bg-muted/30 rounded-lg p-4">
+                      <h4 className="font-medium text-academic-heading mb-1">
+                        "Nuclear Energy As A Gateway To An Economical And Environmentally Sustainable Future"
+                      </h4>
+                      <p className="text-academic-body text-sm mb-2">
+                        <em>Swarajya</em> (May 11, 2022)
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -429,6 +531,16 @@ export default function CV() {
                   </div>
                   <div className="text-right">
                     <Badge variant="default">2018-20</Badge>
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-between">
+                  <div>
+                    <h3 className="font-semibold text-academic-subheading">NITI Aayog LiFE Campaign - Top 75 Ideas</h3>
+                    <p className="text-academic-body">Research idea on children-led responsible consumption recognized from over 2500 submissions</p>
+                  </div>
+                  <div className="text-right">
+                    <Badge variant="default">2023</Badge>
                   </div>
                 </div>
               </div>
