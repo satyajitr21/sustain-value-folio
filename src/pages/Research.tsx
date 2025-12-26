@@ -316,6 +316,18 @@ export default function Research() {
               <Card className="shadow-academic-card">
                 <CardHeader>
                   <CardTitle className="text-xl font-serif text-academic-heading mb-2">
+                    Incentive (mis)Alignment in India's Deceased Organ Donation Value Chain
+                  </CardTitle>
+                  <div className="flex items-center gap-2 mb-3">
+                    <Badge variant="default">Published</Badge>
+                    <Badge variant="secondary">Accepted at EPW</Badge>
+                  </div>
+                </CardHeader>
+              </Card>
+
+              <Card className="shadow-academic-card">
+                <CardHeader>
+                  <CardTitle className="text-xl font-serif text-academic-heading mb-2">
                     Charting a sustainable future: Transformative policies for India's energy, agriculture, and transport sectors
                   </CardTitle>
                   <div className="flex items-center gap-2 mb-3">
