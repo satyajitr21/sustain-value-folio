@@ -488,6 +488,9 @@ export default function Research() {
             <div>
               <h3 className="font-semibold text-academic-subheading mb-4">Academic Recognition</h3>
               <ul className="text-academic-body space-y-2">
+                <li>• Best Paper Award at the IRMA Doctoral Colloquium in Management and Development 2025</li>
+                <li>• Wipro Sustainability Fellowship 2025-2026</li>
+                <li>• Herbalife Sustainable Supply Chain Fellowship 2024-2025</li>
                 <li>• Second-best Doctoral Paper Award at POMS India International Conference (2024)</li>
                 <li>• IIM Bangalore Doctoral Student Research Paper Award (2024)</li>
               </ul>
