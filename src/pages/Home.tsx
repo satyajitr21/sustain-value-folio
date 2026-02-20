@@ -23,13 +23,16 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl lg:text-5xl font-serif font-bold text-academic-heading mb-6 leading-tight">
-                Doctoral Student in<br />
-                <span className="text-primary">Operations Management</span>
+                Learner and Teacher of<br />
+                <span className="text-primary">Operations and Supply Chain Management</span>
               </h1>
               
-              <p className="text-xl text-academic-body mb-8 leading-relaxed">
-                Researching socially and environmentally sustainable value chains at IIM Bangalore. 
-                Hoping to contribute to - and occasionally nudge - the conversation between research and practice.
+              <p className="text-xl text-academic-body mb-4 leading-relaxed">
+                Completed PhD from IIM Bangalore. Thesis title: <em>Essays on Environmentally and Socially Sustainable Value Chains</em>.
+              </p>
+
+              <p className="text-xl font-semibold text-academic-heading mb-8">
+                Looking for academic positions within India
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
