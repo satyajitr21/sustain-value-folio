@@ -4,6 +4,24 @@ import { Calendar, Award, BookOpen, Users, Presentation, GraduationCap } from 'l
 
 const newsItems = [
   {
+    id: 17,
+    date: "2026-03-01",
+    type: "career",
+    title: "Serving as Visiting Faculty at T.A. Pai Management Institute, Bengaluru",
+    description: "Currently serving as a visiting faculty at T.A. Pai Management Institute (TAPMI), Bengaluru.",
+    icon: GraduationCap,
+    category: "Career"
+  },
+  {
+    id: 16,
+    date: "2026-02-18",
+    type: "milestone",
+    title: "Completed PhD from IIM Bangalore",
+    description: "Successfully completed my PhD from the Indian Institute of Management Bangalore. Thesis title: Essays on Environmentally and Socially Sustainable Value Chains.",
+    icon: GraduationCap,
+    category: "Milestone"
+  },
+  {
     id: 1,
     date: "2025-12-24",
     type: "award",
