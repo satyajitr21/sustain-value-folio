@@ -32,7 +32,7 @@ export default function Home() {
               </p>
 
               <p className="text-xl font-semibold text-academic-heading mb-8">
-                Looking for academic positions within India
+                Assistant Professor at Masters' Union School of Business
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
