@@ -39,8 +39,8 @@ export default function Education() {
                         Production and Operations Management
                       </h3>
                     </div>
-                    <Badge variant="default" className="self-start sm:self-center mt-2 sm:mt-0">
-                      Current
+                    <Badge variant="outline" className="self-start sm:self-center mt-2 sm:mt-0">
+                      Completed
                     </Badge>
                   </div>
                   
@@ -51,7 +51,7 @@ export default function Education() {
                     </div>
                     <div className="flex items-center">
                       <Calendar className="h-4 w-4 mr-2" />
-                      <span>2021 - Expected 2026</span>
+                      <span>Jul'21 – Feb'26</span>
                     </div>
                   </div>
                   
