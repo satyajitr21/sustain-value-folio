@@ -86,10 +86,10 @@ export default function Contact() {
                       Academic Email
                     </h3>
                     <a
-                      href="mailto:satyajit.roy21@iimb.ac.in"
+                      href="mailto:satyajit.roy21@alumni.iimb.ac.in"
                       className="text-academic-body hover:text-primary transition-academic mb-2 block"
                     >
-                      satyajit.roy21@iimb.ac.in
+                      satyajit.roy21@alumni.iimb.ac.in
                     </a>
                     <Badge variant="secondary">Primary Contact</Badge>
                   </div>

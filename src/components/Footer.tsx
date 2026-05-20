@@ -57,11 +57,11 @@ export function Footer() {
             </h3>
             <div className="flex flex-col space-y-3">
               <a 
-                href="mailto:satyajit.roy21@iimb.ac.in" 
+                href="mailto:satyajit.roy21@alumni.iimb.ac.in" 
                 className="flex items-center text-academic-body hover:text-primary transition-academic text-sm"
               >
                 <Mail className="h-4 w-4 mr-2" />
-                satyajit.roy21@iimb.ac.in
+                satyajit.roy21@alumni.iimb.ac.in
               </a>
               <a 
                 href="https://www.linkedin.com/in/satyajit-roy/" 
