@@ -5,10 +5,10 @@ import { Calendar, Award, BookOpen, Users, Presentation, GraduationCap } from 'l
 const newsItems = [
   {
     id: 17,
-    date: "2026-03-01",
+    date: "2026-04-30",
     type: "career",
-    title: "Serving as Visiting Faculty at T.A. Pai Management Institute, Bengaluru",
-    description: "Currently serving as a visiting faculty at T.A. Pai Management Institute (TAPMI), Bengaluru.",
+    title: "Completed Visiting Faculty at T.A. Pai Management Institute, Bengaluru",
+    description: "Served as visiting faculty at T.A. Pai Management Institute (TAPMI), Bengaluru from Jan – Apr' 2026.",
     icon: GraduationCap,
     category: "Career"
   },
