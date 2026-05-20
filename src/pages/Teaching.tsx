@@ -48,6 +48,55 @@ export default function Teaching() {
           </h2>
 
           <div className="space-y-6">
+            {/* Visiting Faculty */}
+            <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic">
+              <CardContent className="p-8">
+                <div className="flex flex-col lg:flex-row lg:items-start gap-6">
+                  <div className="flex-shrink-0">
+                    <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center">
+                      <Award className="h-8 w-8 text-primary" />
+                    </div>
+                  </div>
+                  
+                  <div className="flex-1">
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
+                      <div>
+                        <h3 className="text-xl font-serif font-bold text-academic-heading">
+                          Visiting Faculty
+                        </h3>
+                        <p className="text-lg text-primary font-medium mt-1">
+                          T.A. Pai Management Institute, Bengaluru
+                        </p>
+                      </div>
+                      <div className="flex items-center text-academic-body mt-2 sm:mt-0">
+                        <Calendar className="h-4 w-4 mr-2" />
+                        <span>Jan – Apr' 2026</span>
+                      </div>
+                    </div>
+                    
+                    <div className="space-y-4">
+                      <p className="text-academic-body leading-relaxed">
+                        Taught Fundamentals of Supply Chain Management across three sections with a total class strength of 180 students.
+                      </p>
+                      
+                      <div>
+                        <h4 className="font-semibold text-academic-subheading mb-2">Course Details</h4>
+                        <ul className="text-academic-body space-y-2 ml-4">
+                          <li>• <strong>Subject:</strong> Fundamentals of Supply Chain Management</li>
+                          <li>• <strong>Class Strength:</strong> 60 students × 3 sections</li>
+                          <li>• <strong>Rating:</strong> 4.91/5 (33 responses)</li>
+                        </ul>
+                      </div>
+
+                      <div className="flex flex-wrap gap-2">
+                        <Badge variant="secondary">Supply Chain Management</Badge>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
             {/* Course Instructor */}
             <Card className="shadow-academic-card hover:shadow-academic-elegant transition-academic">
               <CardContent className="p-8">
